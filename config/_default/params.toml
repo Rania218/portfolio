@@ -19,7 +19,7 @@ subtitle = "Currently pursuing a Master’s degree in Computer Engineering and S
 [sidebar.avatar]
 enabled = true
 local = true
-src = "img/rania.png"
+src = "img/rania.jpg"
 
 [article]
 headingAnchor = false
