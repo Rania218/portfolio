@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MQTT on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/mqtt/</link><description>Recent content in MQTT on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/mqtt/index.xml" rel="self" type="application/rss+xml"/><item><title>Système Domotique Intelligent</title><link>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/iotrap2CIRCUIT.png" alt="Featured image of post Système Domotique Intelligent" />&lt;h2 id="objectif">Objectif
+&lt;/h2>&lt;p>L’objectif de ce projet est de concevoir et de simuler un système domotique intelligent permettant la surveillance et le contrôle à distance de différents paramètres environnementaux. Ce système utilise un microcontrôleur ESP32 pour la collecte de données à partir de capteurs (température, humidité, lumière, mouvement) et leur transmission à des plateformes cloud via les protocoles MQTT et HTTP.MQTT est utilisé pour l’envoi des données vers une interface sur Node-RED qui permet d’afficher les valeurs en temps réel et de contrôler certains composants à distance, tandis que HTTP est utilisé pour l’envoi des données vers ThingSpeak.&lt;/p>
+&lt;h2 id="wokwi">Wokwi
+&lt;/h2>&lt;p>Wokwi a été utilisé pour la simulation du système, permettant l’intégration des composants suivants :&lt;/p>
+&lt;p>— Capteur DHT22 : Surveillance de la température et de l’humidité avec activation d’un ventilateur (LED bleue) si la température dépasse 30°C, activation d’un buzzer au-delà de 45°C, et activation d’un déshumidificateur (LED verte) si l’humidité excède 70&lt;/p>
+&lt;p>— Capteur PIR : Détection de mouvement avec affichage sur un LCD I2C.&lt;/p>
+&lt;p>— Capteur LDR : Mesure de l’intensité lumineuse et allumage automatique d’une LED si la luminosité est inférieure à 500 lux.&lt;/p>
+&lt;p>— Servo moteur : Simulation d’une pompe à eau, contrôlable via un &amp;ldquo;slider&amp;rdquo; depuis Node-RED.&lt;/p>
+&lt;p>— LED Neopixel : Simulation d’un système d’éclairage RGB, contrôlable via un &amp;ldquo;color picker&amp;rdquo; depuis Node-RED.&lt;/p>
+&lt;h2 id="nodered">NodeRED
+&lt;/h2>&lt;p>Envoi des données via MQTT : J’ai utilisé le serveur public HiveMQ pour la transmission des valeurs des capteurs vers Node-RED pour un traitement et un affichage en temps réel.&lt;/p>
+&lt;p>— Affichage en temps réel : Données de température, d’humidité et de luminosité (sous forme de jauges et graphiques), et détection de mouvement (notification d’alerte popup).&lt;/p>
+&lt;p>— Contrôle des composants :&lt;/p>
+&lt;p>— Activation/désactivation de la LED (même LED utilisé quand la luminosité est inférieure à 500 lux) via un switch.&lt;/p>
+&lt;p>— Contrôle du servo-moteur à l’aide d’un slider.&lt;/p>
+&lt;p>— Modification de la couleur de la LED Neopixel via un &amp;ldquo;color picker&amp;rdquo;.&lt;/p>
+&lt;p>— Stockage des données : Utilisation d’un noeud &amp;ldquo;write file&amp;rdquo; pour enregistrer les valeurs captées avec un timestamp dans un fichier dataiot.txt.&lt;/p>
+&lt;h2 id="thingspeak">Thingspeak
+&lt;/h2>&lt;p>Un channel &amp;ldquo;Système Domotique Intelligent&amp;rdquo; a été créé sur ThingSpeak pour recevoir les données via le protocole HTTP et les afficher sous forme de graphiques.
+Quatre fields ont été créés dans le channel, permettant le stockage des données respectivement pour la température, l’humidité, la détection de mouvement et l’éclairage.
+Les valeurs envoyées sont mises à jour en temps réel pour un suivi précis des paramètres environnementaux.&lt;/p>
+&lt;h2 id="result">Result
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot.png"
+width="542"
+height="568"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_816cdd32f06763c1.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_4c171c0b3162fa94.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="95"
+data-flex-basis="229px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1.png"
+width="647"
+height="915"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_507bfdd70917ce4c.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_e6d09e591c63dc2f.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+>&lt;/p>
+&lt;h2 id="project-demo-video">Project Demo Video
+&lt;/h2>&lt;video controls width="700">
+&lt;source src="https://Rania218.github.io/portfolio/markdown-syntax/video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+&lt;/video></description></item></channel></rss>

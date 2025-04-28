@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vuforia on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/vuforia/</link><description>Recent content in Vuforia on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/vuforia/index.xml" rel="self" type="application/rss+xml"/><item><title>Watches&amp;Glasses</title><link>https://Rania218.github.io/portfolio/p/watchesglasses/</link><pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/watchesglasses/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/watchesglasses/watchesglasses.jpg" alt="Featured image of post Watches&amp;Glasses" />&lt;h2 id="detailed-description">Detailed description
+&lt;/h2>&lt;p>I’m happy to share the Watches&amp;amp;Glasses project I worked on with ABDELHAMID MAATAOUI.&lt;/p>
+&lt;p>Watches&amp;amp;Glasses is a mobile commerce (M-commerce) application for selling watches and glasses, integrating augmented reality (AR) to enhance the shopping experience by allowing users to &amp;ldquo;try on&amp;rdquo; products virtually before purchasing. The project aimed to increase customer confidence in online purchases and minimize return rates.&lt;/p>
+&lt;p>Technologies Used:&lt;/p>
+&lt;p>-Blender: Created and optimized 3D models of watches and glasses for AR visualization.&lt;/p>
+&lt;p>-Unity &amp;amp; Vuforia: Implemented the AR functionality, using Vuforia within Unity to allow users to overlay products in real-time.&lt;/p>
+&lt;p>-Android Studio (Java, XML): Developed the mobile app interface, ensuring a smooth, user-friendly experience.&lt;/p>
+&lt;p>-Firebase: Integrated Firebase for real-time database management, user authentication, and analytics.&lt;/p>
+&lt;p>-JSON: Managed data exchange between the app and server, ensuring fast and efficient data handling.&lt;/p>
+&lt;h2 id="inline-math">Inline math
+&lt;/h2>&lt;p>This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="block-math">Block math
+&lt;/h2>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+$$&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="results">Results
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/watchesglasses/wg2.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/watchesglasses/wg2_hu_70a16b27ddb2c225.jpg 480w, https://Rania218.github.io/portfolio/p/watchesglasses/wg2_hu_aaf5dfab296b473d.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/watchesglasses/wg3.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/watchesglasses/wg3_hu_17995ec61a95cc5a.jpg 480w, https://Rania218.github.io/portfolio/p/watchesglasses/wg3_hu_8f37a00d3fc18593.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/watchesglasses/wg1.jpg"
+width="359"
+height="720"
+srcset="https://Rania218.github.io/portfolio/p/watchesglasses/wg1_hu_d63edd0670008372.jpg 480w, https://Rania218.github.io/portfolio/p/watchesglasses/wg1_hu_36edb6474f31bee9.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="49"
+data-flex-basis="119px"
+>&lt;/p></description></item></channel></rss>

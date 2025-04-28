@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rania Moutee</title><link>https://Rania218.github.io/portfolio/</link><description>Recent content on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/index.xml" rel="self" type="application/rss+xml"/><item><title>Rania Moutee</title><link>https://Rania218.github.io/portfolio/p/hello-world/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/hello-world/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/hello-world/coverr.png" alt="Featured image of post Rania Moutee" />&lt;p>Currently pursuing a Master’s degree in Computer Engineering and Systems Security at Mohamed V University, my name&amp;rsquo;s Rania Moutee, a 21-year-old student passionate about building secure, innovative, and scalable digital solutions. With a strong foundation in programming, data analysis, computer networks, and systems design, I bring a versatile technical skill set to every project I undertake.
+Previously, I earned my Bachelor&amp;rsquo;s degree in Mathematical and Computer Sciences from the Faculty of Sciences in Rabat, where I also contributed to GoVirtual — the university&amp;rsquo;s first virtual reality club — enhancing my expertise in emerging technologies.
+Fluent in both English and French, I have successfully delivered projects in areas such as e-commerce platforms and mobile application development. I am now focused on further expanding my knowledge in cybersecurity and advanced system engineering, driven by a commitment to continuous learning, innovation, and excellence.&lt;/p></description></item><item><title>Analyse des performances des réseaux 5G</title><link>https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/</link><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/5g4netanim.png" alt="Featured image of post Analyse des performances des réseaux 5G" />&lt;h2 id="detailed-description">Detailed description
+&lt;/h2>&lt;p>Dans le cadre du module Réseaux Sans Fil, j’ai eu le plaisir de réaliser ce projet avec mon binôme nouhaila bakhalq. Nous avons exploré les performances des réseaux 5G et leurs perspectives d’évolution vers la 6G.&lt;/p>
+&lt;p>📌 Partie théorique :
+L’étude met en avant les caractéristiques avancées de la 5G, telles que le network slicing, le massive MIMO et le beamforming, qui améliorent la vitesse, la latence et la densité de connexion. Elle analyse également les innovations qui façonneront la 6G, notamment la communication THz, l’intelligence artificielle et l’intégration des satellites.&lt;/p>
+&lt;p>🔬 Partie pratique :
+Les simulations jouent un rôle clé dans l’analyse et l’optimisation des réseaux de télécommunications. Elles permettent d’évaluer les performances, d’anticiper les défis et d’optimiser les architectures avant leur déploiement réel.
+Dans ce projet, une simulation sur NS-3 a été mise en place pour observer le comportement des réseaux 5G dans différents scénarios. En faisant varier les temps de simulation (1s, 1.5s, 2s), l’impact sur le débit de transmission des nœuds et les performances globales du réseau a été analysé.&lt;/p>
+&lt;p>Pour une meilleure interprétation des résultats, NetAnim a permis de visualiser l’échange de données entre les nœuds, tandis que TraceMetrics a extrait des métriques détaillées sur les performances du réseau. Enfin, l’analyse des variations de débit a été réalisée à l’aide de Gnuplot, permettant une représentation graphique des résultats.&lt;/p>
+&lt;p>📊 Principaux résultats :&lt;/p>
+&lt;p>✅ Une diminution progressive du débit avec l’augmentation du numéro de nœud&lt;/p>
+&lt;p>✅ Un impact modéré du temps de simulation sur les performances globales&lt;/p>
+&lt;p>✅ Une optimisation nécessaire pour éviter la congestion des nœuds éloignés&lt;/p>
+&lt;p>Cette étude met en évidence l’importance des simulations dans la compréhension et l’amélioration des performances des réseaux mobiles. Elles constituent un outil essentiel pour anticiper les évolutions futures vers la 6G.&lt;/p>
+&lt;h2 id="result">Result
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique.png"
+width="1055"
+height="687"
+srcset="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique_hu_4998b882acd36ed7.png 480w, https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique_hu_3a9469ff9adeb75a.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="153"
+data-flex-basis="368px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres.png"
+width="503"
+height="687"
+srcset="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres_hu_94f611820e9c275a.png 480w, https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres_hu_4f2ee91c9abd79a7.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="73"
+data-flex-basis="175px"
+>&lt;/p></description></item><item><title>Création d’un VPN OpenVPN Client-to-Site</title><link>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/shcema.png" alt="Featured image of post Création d’un VPN OpenVPN Client-to-Site" />&lt;h2 id="project-description">Project Description
+&lt;/h2>&lt;p>Ce projet consiste à mettre en place une solution permettant un accès externe sécurisé
+au réseau de l’entreprise via une connexion VPN OpenVPN. Cette solution reposera sur
+un pare-feu pfSense, déployé sous VMware. L’architecture du projet est la suivante :&lt;/p>
+&lt;p>— Une machine virtuelle pfSense, avec :&lt;/p>
+&lt;ol>
+&lt;li>Une interface WAN (192.168.1.1) du réseau 192.168.1.0/24, connectée à Internet.&lt;/li>
+&lt;li>Une interface LAN (192.168.200.1) représentant le réseau interne de l’entreprise
+(192.168.200.0/24)&lt;/li>
+&lt;/ol>
+&lt;p>— Une machine virtuelle Windows 11 UEFI (192.168.200.2) simulant un poste de
+travail au sein de l’entreprise.&lt;/p>
+&lt;p>— Une autre machine virtuelle Windows 11, située hors du réseau de l’entreprise (côté
+Internet), qui tentera de se connecter au réseau interne via le VPN OpenVPN.&lt;/p>
+&lt;p>— La connexion VPN s’établira à travers un tunnel sécurisé utilisant le réseau
+10.10.10.0/24, permettant l’accès aux fichiers de la machine virtuelle interne
+ainsi que son contrôle à distance.&lt;/p>
+&lt;p>Cette architecture vise à garantir un accès sécurisé aux ressources internes tout en
+assurant un contrôle et un échange de données fiables entre les utilisateurs distants et le
+réseau de l’entreprise.&lt;/p>
+&lt;h2 id="result">Result
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1.png"
+width="502"
+height="377"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1_hu_2f0dcc90820271ce.png 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1_hu_108beff89ab100e3.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="319px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2.png"
+width="488"
+height="178"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2_hu_db8071ff612421b.png 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2_hu_55834722e0f13c28.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="274"
+data-flex-basis="657px"
+>&lt;/p>
+&lt;h2 id="youtube-video">YouTube video
+&lt;/h2>&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/0qwALOOvUik"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div></description></item><item><title>Système Domotique Intelligent</title><link>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/iotrap2CIRCUIT.png" alt="Featured image of post Système Domotique Intelligent" />&lt;h2 id="objectif">Objectif
+&lt;/h2>&lt;p>L’objectif de ce projet est de concevoir et de simuler un système domotique intelligent permettant la surveillance et le contrôle à distance de différents paramètres environnementaux. Ce système utilise un microcontrôleur ESP32 pour la collecte de données à partir de capteurs (température, humidité, lumière, mouvement) et leur transmission à des plateformes cloud via les protocoles MQTT et HTTP.MQTT est utilisé pour l’envoi des données vers une interface sur Node-RED qui permet d’afficher les valeurs en temps réel et de contrôler certains composants à distance, tandis que HTTP est utilisé pour l’envoi des données vers ThingSpeak.&lt;/p>
+&lt;h2 id="wokwi">Wokwi
+&lt;/h2>&lt;p>Wokwi a été utilisé pour la simulation du système, permettant l’intégration des composants suivants :&lt;/p>
+&lt;p>— Capteur DHT22 : Surveillance de la température et de l’humidité avec activation d’un ventilateur (LED bleue) si la température dépasse 30°C, activation d’un buzzer au-delà de 45°C, et activation d’un déshumidificateur (LED verte) si l’humidité excède 70&lt;/p>
+&lt;p>— Capteur PIR : Détection de mouvement avec affichage sur un LCD I2C.&lt;/p>
+&lt;p>— Capteur LDR : Mesure de l’intensité lumineuse et allumage automatique d’une LED si la luminosité est inférieure à 500 lux.&lt;/p>
+&lt;p>— Servo moteur : Simulation d’une pompe à eau, contrôlable via un &amp;ldquo;slider&amp;rdquo; depuis Node-RED.&lt;/p>
+&lt;p>— LED Neopixel : Simulation d’un système d’éclairage RGB, contrôlable via un &amp;ldquo;color picker&amp;rdquo; depuis Node-RED.&lt;/p>
+&lt;h2 id="nodered">NodeRED
+&lt;/h2>&lt;p>Envoi des données via MQTT : J’ai utilisé le serveur public HiveMQ pour la transmission des valeurs des capteurs vers Node-RED pour un traitement et un affichage en temps réel.&lt;/p>
+&lt;p>— Affichage en temps réel : Données de température, d’humidité et de luminosité (sous forme de jauges et graphiques), et détection de mouvement (notification d’alerte popup).&lt;/p>
+&lt;p>— Contrôle des composants :&lt;/p>
+&lt;p>— Activation/désactivation de la LED (même LED utilisé quand la luminosité est inférieure à 500 lux) via un switch.&lt;/p>
+&lt;p>— Contrôle du servo-moteur à l’aide d’un slider.&lt;/p>
+&lt;p>— Modification de la couleur de la LED Neopixel via un &amp;ldquo;color picker&amp;rdquo;.&lt;/p>
+&lt;p>— Stockage des données : Utilisation d’un noeud &amp;ldquo;write file&amp;rdquo; pour enregistrer les valeurs captées avec un timestamp dans un fichier dataiot.txt.&lt;/p>
+&lt;h2 id="thingspeak">Thingspeak
+&lt;/h2>&lt;p>Un channel &amp;ldquo;Système Domotique Intelligent&amp;rdquo; a été créé sur ThingSpeak pour recevoir les données via le protocole HTTP et les afficher sous forme de graphiques.
+Quatre fields ont été créés dans le channel, permettant le stockage des données respectivement pour la température, l’humidité, la détection de mouvement et l’éclairage.
+Les valeurs envoyées sont mises à jour en temps réel pour un suivi précis des paramètres environnementaux.&lt;/p>
+&lt;h2 id="result">Result
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot.png"
+width="542"
+height="568"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_816cdd32f06763c1.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_4c171c0b3162fa94.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="95"
+data-flex-basis="229px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1.png"
+width="647"
+height="915"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_507bfdd70917ce4c.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_e6d09e591c63dc2f.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+>&lt;/p>
+&lt;h2 id="project-demo-video">Project Demo Video
+&lt;/h2>&lt;video controls width="700">
+&lt;source src="https://Rania218.github.io/portfolio/markdown-syntax/video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+&lt;/video></description></item><item><title>Watches&amp;Glasses</title><link>https://Rania218.github.io/portfolio/p/watchesglasses/</link><pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/watchesglasses/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/watchesglasses/watchesglasses.jpg" alt="Featured image of post Watches&amp;Glasses" />&lt;h2 id="detailed-description">Detailed description
+&lt;/h2>&lt;p>I’m happy to share the Watches&amp;amp;Glasses project I worked on with ABDELHAMID MAATAOUI.&lt;/p>
+&lt;p>Watches&amp;amp;Glasses is a mobile commerce (M-commerce) application for selling watches and glasses, integrating augmented reality (AR) to enhance the shopping experience by allowing users to &amp;ldquo;try on&amp;rdquo; products virtually before purchasing. The project aimed to increase customer confidence in online purchases and minimize return rates.&lt;/p>
+&lt;p>Technologies Used:&lt;/p>
+&lt;p>-Blender: Created and optimized 3D models of watches and glasses for AR visualization.&lt;/p>
+&lt;p>-Unity &amp;amp; Vuforia: Implemented the AR functionality, using Vuforia within Unity to allow users to overlay products in real-time.&lt;/p>
+&lt;p>-Android Studio (Java, XML): Developed the mobile app interface, ensuring a smooth, user-friendly experience.&lt;/p>
+&lt;p>-Firebase: Integrated Firebase for real-time database management, user authentication, and analytics.&lt;/p>
+&lt;p>-JSON: Managed data exchange between the app and server, ensuring fast and efficient data handling.&lt;/p>
+&lt;h2 id="inline-math">Inline math
+&lt;/h2>&lt;p>This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="block-math">Block math
+&lt;/h2>$$
+\varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+$$&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+$$&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$$
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="results">Results
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/watchesglasses/wg2.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/watchesglasses/wg2_hu_70a16b27ddb2c225.jpg 480w, https://Rania218.github.io/portfolio/p/watchesglasses/wg2_hu_aaf5dfab296b473d.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/watchesglasses/wg3.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/watchesglasses/wg3_hu_17995ec61a95cc5a.jpg 480w, https://Rania218.github.io/portfolio/p/watchesglasses/wg3_hu_8f37a00d3fc18593.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/watchesglasses/wg1.jpg"
+width="359"
+height="720"
+srcset="https://Rania218.github.io/portfolio/p/watchesglasses/wg1_hu_d63edd0670008372.jpg 480w, https://Rania218.github.io/portfolio/p/watchesglasses/wg1_hu_36edb6474f31bee9.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="49"
+data-flex-basis="119px"
+>&lt;/p></description></item><item><title>Archives</title><link>https://Rania218.github.io/portfolio/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/archives/</guid><description/></item><item><title>Links</title><link>https://Rania218.github.io/portfolio/links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/links/</guid><description>&lt;p>To use this feature, add &lt;code>links&lt;/code> section to frontmatter.&lt;/p>
+&lt;p>This page&amp;rsquo;s frontmatter:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">links&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">GitHub is the world&amp;#39;s largest software development platform.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.com&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">title&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">description&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">website&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">https://www.typescriptlang.org&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ts-logo-128.jpg&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>image&lt;/code> field accepts both local and external images.&lt;/p></description></item><item><title>Search</title><link>https://Rania218.github.io/portfolio/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/search/</guid><description/></item></channel></rss>
