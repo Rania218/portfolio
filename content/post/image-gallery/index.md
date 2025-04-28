@@ -2,7 +2,7 @@
 title: Analyse des performances des réseaux 5G à travers des simulations sur NS-3 et perspectives d’évolution vers la 6G
 description: Create beautiful interactive image gallery using Markdown
 date: 2025-02-26 00:00:00+0000
-image: projetres.png
+image: 5g4netanim.png 
 ---
 
 Dans le cadre du module Réseaux Sans Fil, j’ai eu le plaisir de réaliser ce projet avec mon binôme nouhaila bakhalq. Nous avons exploré les performances des réseaux 5G et leurs perspectives d’évolution vers la 6G.
@@ -31,5 +31,5 @@ Cette étude met en évidence l’importance des simulations dans la compréhens
 
 ## Result
 
-![Image 1](5g4netanim.png) ![Image 2](Gaphique.png)
+![Image 1](projetres.png) ![Image 2](Gaphique.png)
 
