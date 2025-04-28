@@ -20,19 +20,30 @@ L’objectif de ce projet est de concevoir et de simuler un système domotique i
 
 ## Wokwi
 Wokwi a été utilisé pour la simulation du système, permettant l’intégration des composants suivants :
+
 — Capteur DHT22 : Surveillance de la température et de l’humidité avec activation d’un ventilateur (LED bleue) si la température dépasse 30°C, activation d’un buzzer au-delà de 45°C, et activation d’un déshumidificateur (LED verte) si l’humidité excède 70
+
 — Capteur PIR : Détection de mouvement avec affichage sur un LCD I2C.
+
 — Capteur LDR : Mesure de l’intensité lumineuse et allumage automatique d’une LED si la luminosité est inférieure à 500 lux.
+
 — Servo moteur : Simulation d’une pompe à eau, contrôlable via un "slider" depuis Node-RED.
+
 — LED Neopixel : Simulation d’un système d’éclairage RGB, contrôlable via un "color picker" depuis Node-RED.
 
 ## NodeRED
 Envoi des données via MQTT : J’ai utilisé le serveur public HiveMQ pour la transmission des valeurs des capteurs vers Node-RED pour un traitement et un affichage en temps réel.
+
 — Affichage en temps réel : Données de température, d’humidité et de luminosité (sous forme de jauges et graphiques), et détection de mouvement (notification d’alerte popup).
+
 — Contrôle des composants :
+
 — Activation/désactivation de la LED (même LED utilisé quand la luminosité est inférieure à 500 lux) via un switch.
+
 — Contrôle du servo-moteur à l’aide d’un slider.
+
 — Modification de la couleur de la LED Neopixel via un "color picker".
+
 — Stockage des données : Utilisation d’un noeud "write file" pour enregistrer les valeurs captées avec un timestamp dans un fichier dataiot.txt.
 
 ## Thingspeak
