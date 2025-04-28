@@ -4,7 +4,7 @@ description: Analyse des performances des réseaux 5G à travers des simulations
 date: 2025-02-26 00:00:00+0000
 image: 5g4netanim.png 
 Categories: 
- -Projects
+ - Projects
 tags: 
   - Réseaux Sans Fil
   - réseaux 5G

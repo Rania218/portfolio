@@ -5,7 +5,7 @@ date: 2024-08-24 00:00:00+0000
 math: true
 image: watchesglasses.jpg
 Categories: 
- -Projects
+     - Projects
 tags: 
   - Watches&Glasses
   - mobile commerce
@@ -59,3 +59,5 @@ $$
 $$
 ```
 ## Results
+
+![Image 1](wg2.jpg) ![Image 2](wg3.jpg) ![Image 3](wg1.jpg)
