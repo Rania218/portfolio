@@ -3,7 +3,7 @@ title: Rania Moutee
 description: Welcome to my Portfolio
 slug: hello-world
 date: 2025-03-06 00:00:00+0000
-image: coverr.jpg
+image: coverr.png
 categories:
     - Bio
 tags:
