@@ -1,7 +1,7 @@
 ---
 title: Watches&Glasses
 description: A try-On mobile commerce (M-commerce) application for selling watches and glasses
-date: 2023-08-24 00:00:00+0000
+date: 2024-08-24 00:00:00+0000
 math: true
 image: watchesglasses.jpg
 Categories: -Projects

@@ -1,150 +1,48 @@
 ---
-title: Markdown Syntax Guide
-date: 2023-09-07
-description: Sample article showcasing basic Markdown syntax and formatting for HTML elements.
+title: Système Domotique Intelligent
+date: 2025-01-07
+image: iotrap2CIRCUIT.png
 tags: 
-    - markdown
-    - css
-    - html
-    - themes
+    - IOT
+    - Domotique
+    - MQTT
+    - HTTP
+    - HiveMQ
+    - Wokwi
+    - NodeRED
+    - THingspeak
 categories:
-    - themes
-    - syntax
+    - Projects
+    - IOT
 ---
+## Objectif
+L’objectif de ce projet est de concevoir et de simuler un système domotique intelligent permettant la surveillance et le contrôle à distance de différents paramètres environnementaux. Ce système utilise un microcontrôleur ESP32 pour la collecte de données à partir de capteurs (température, humidité, lumière, mouvement) et leur transmission à des plateformes cloud via les protocoles MQTT et HTTP.MQTT est utilisé pour l’envoi des données vers une interface sur Node-RED qui permet d’afficher les valeurs en temps réel et de contrôler certains composants à distance, tandis que HTTP est utilisé pour l’envoi des données vers ThingSpeak.
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+## Wokwi
+Wokwi a été utilisé pour la simulation du système, permettant l’intégration des composants suivants :
+— Capteur DHT22 : Surveillance de la température et de l’humidité avec activation d’un ventilateur (LED bleue) si la température dépasse 30°C, activation d’un buzzer au-delà de 45°C, et activation d’un déshumidificateur (LED verte) si l’humidité excède 70
+— Capteur PIR : Détection de mouvement avec affichage sur un LCD I2C.
+— Capteur LDR : Mesure de l’intensité lumineuse et allumage automatique d’une LED si la luminosité est inférieure à 500 lux.
+— Servo moteur : Simulation d’une pompe à eau, contrôlable via un "slider" depuis Node-RED.
+— LED Neopixel : Simulation d’un système d’éclairage RGB, contrôlable via un "color picker" depuis Node-RED.
 
-<!--more-->
+## NodeRED
+Envoi des données via MQTT : J’ai utilisé le serveur public HiveMQ pour la transmission des valeurs des capteurs vers Node-RED pour un traitement et un affichage en temps réel.
+— Affichage en temps réel : Données de température, d’humidité et de luminosité (sous forme de jauges et graphiques), et détection de mouvement (notification d’alerte popup).
+— Contrôle des composants :
+— Activation/désactivation de la LED (même LED utilisé quand la luminosité est inférieure à 500 lux) via un switch.
+— Contrôle du servo-moteur à l’aide d’un slider.
+— Modification de la couleur de la LED Neopixel via un "color picker".
+— Stockage des données : Utilisation d’un noeud "write file" pour enregistrer les valeurs captées avec un timestamp dans un fichier dataiot.txt.
 
-## Headings
+## Thingspeak
+Un channel "Système Domotique Intelligent" a été créé sur ThingSpeak pour recevoir les données via le protocole HTTP et les afficher sous forme de graphiques. 
+Quatre fields ont été créés dans le channel, permettant le stockage des données respectivement pour la température, l’humidité, la détection de mouvement et l’éclairage.
+Les valeurs envoyées sont mises à jour en temps réel pour un suivi précis des paramètres environnementaux.
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+## Project Demo Video
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
-
-## Paragraph
-
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
-
-## Blockquotes
-
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
-
-### Blockquote without attribution
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
-
-### Blockquote with attribution
-
-> Don't communicate by sharing memory, share memory by communicating.<br>
-> — <cite>Rob Pike[^1]</cite>
-
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
-
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
-
-### Inline Markdown within tables
-
-| Italics   | Bold     | Code   |
-| --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
-
-| A                                                        | B                                                                                                             | C                                                                                                                                    | D                                                 | E                                                          | F                                                                    |
-|----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------------|
-| Lorem ipsum dolor sit amet, consectetur adipiscing elit. | Phasellus ultricies, sapien non euismod aliquam, dui ligula tincidunt odio, at accumsan nulla sapien eget ex. | Proin eleifend dictum ipsum, non euismod ipsum pulvinar et. Vivamus sollicitudin, quam in pulvinar aliquam, metus elit pretium purus | Proin sit amet velit nec enim imperdiet vehicula. | Ut bibendum vestibulum quam, eu egestas turpis gravida nec | Sed scelerisque nec turpis vel viverra. Vivamus vitae pretium sapien |
-
-## Code Blocks
-### Code block with backticks
-
-```html
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-
-### Code block indented with four spaces
-
-    <!doctype html>
-    <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
-
-### Diff code block
-
-```diff
-[dependencies.bevy]
-git = "https://github.com/bevyengine/bevy"
-rev = "11f52b8c72fc3a568e8bb4a4cd1f3eb025ac2e13"
-- features = ["dynamic"]
-+ features = ["jpeg", "dynamic"]
-```
-
-### One line code block
-
-```html
-<p>A paragraph</p>
-```
-
-## List Types
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-* List item
-* Another item
-* And another item
-
-### Nested list
-
-* Fruit
-  * Apple
-  * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
-
-## Other Elements — abbr, sub, sup, kbd, mark
-
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
-
-H<sub>2</sub>O
-
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
-
-Press <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Delete</kbd> to end the session.
-
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+<video controls width="700">
+  <source src="/markdown-syntax/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
