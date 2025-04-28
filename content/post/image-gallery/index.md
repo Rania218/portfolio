@@ -1,10 +1,10 @@
 ---
-title: Analyse des performances des réseaux 5G à travers des simulations sur NS-3 et perspectives d’évolution vers la 6G
-description: Create beautiful interactive image gallery using Markdown
+title: Analyse des performances des réseaux 5G 
+description: Analyse des performances des réseaux 5G à travers des simulations sur NS-3 et perspectives d’évolution vers la 6G
 date: 2025-02-26 00:00:00+0000
 image: 5g4netanim.png 
 ---
-
+## Detailed description
 Dans le cadre du module Réseaux Sans Fil, j’ai eu le plaisir de réaliser ce projet avec mon binôme nouhaila bakhalq. Nous avons exploré les performances des réseaux 5G et leurs perspectives d’évolution vers la 6G.
 
 📌 Partie théorique :
@@ -23,13 +23,7 @@ Pour une meilleure interprétation des résultats, NetAnim a permis de visualise
 Cette étude met en évidence l’importance des simulations dans la compréhension et l’amélioration des performances des réseaux mobiles. Elles constituent un outil essentiel pour anticiper les évolutions futures vers la 6G. 
 
 
-## Syntax
-
-```markdown
-![Image 1](1.jpg) ![Image 2](2.jpg)
-```
-
 ## Result
 
-![Image 1](projetres.png) ![Image 2](Gaphique.png)
+![Image 1](Graphique.png) ![Image 2](projetres.png)
 
