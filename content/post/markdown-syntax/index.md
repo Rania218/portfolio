@@ -39,6 +39,9 @@ Envoi des données via MQTT : J’ai utilisé le serveur public HiveMQ pour la t
 Un channel "Système Domotique Intelligent" a été créé sur ThingSpeak pour recevoir les données via le protocole HTTP et les afficher sous forme de graphiques. 
 Quatre fields ont été créés dans le channel, permettant le stockage des données respectivement pour la température, l’humidité, la détection de mouvement et l’éclairage.
 Les valeurs envoyées sont mises à jour en temps réel pour un suivi précis des paramètres environnementaux.
+## Result
+
+![Image 1](resiot.png) ![Image 2](resiot1.png)
 
 ## Project Demo Video
 

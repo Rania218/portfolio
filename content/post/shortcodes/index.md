@@ -1,42 +1,40 @@
 ---
-title: Shortcodes
-description: Useful shortcodes that can be used in Markdown
-date: 2023-08-25 00:00:00+0000
-image: cover.jpg
+title: Création d’un VPN OpenVPN Client-to-Site
+description: Création d’un VPN OpenVPN Client-to-Site sur pfSense:Sécurisation et Accessibilité du Réseau
+date: 2025-02-25 00:00:00+0000
+image: shcema.png
+Categories: 
+ - Projects
+tags:
+ - VPN
+ - OpenVPN
+ - pfSense
+ - Client-to-Site
+ - Sécurité des réseaux
 ---
 
-For more details, check out the [documentation](https://stack.jimmycai.com/writing/shortcodes).
-
-## Bilibili video
-
-{{< bilibili "BV1d4411N7zD" >}}
-
-## Tencent video
-
-{{< tencent "g0014r3khdw" >}}
-
+## Project Description
+Ce projet consiste à mettre en place une solution permettant un accès externe sécurisé
+au réseau de l’entreprise via une connexion VPN OpenVPN. Cette solution reposera sur
+un pare-feu pfSense, déployé sous VMware. L’architecture du projet est la suivante :
+— Une machine virtuelle pfSense, avec :
+1. Une interface WAN (192.168.1.1) du réseau 192.168.1.0/24, connectée à Internet.
+2. Une interface LAN (192.168.200.1) représentant le réseau interne de l’entreprise
+(192.168.200.0/24)
+— Une machine virtuelle Windows 11 UEFI (192.168.200.2) simulant un poste de
+travail au sein de l’entreprise.
+— Une autre machine virtuelle Windows 11, située hors du réseau de l’entreprise (côté
+Internet), qui tentera de se connecter au réseau interne via le VPN OpenVPN.
+— La connexion VPN s’établira à travers un tunnel sécurisé utilisant le réseau
+10.10.10.0/24, permettant l’accès aux fichiers de la machine virtuelle interne
+ainsi que son contrôle à distance.
+Cette architecture vise à garantir un accès sécurisé aux ressources internes tout en
+assurant un contrôle et un échange de données fiables entre les utilisateurs distants et le
+réseau de l’entreprise.
 ## YouTube video
 
 {{< youtube "0qwALOOvUik" >}}
 
-## Generic video file
+## Result
 
-{{< video "https://www.w3schools.com/tags/movie.mp4" >}}
-
-## Gist
-
-{{< gist CaiJimmy e2751a943de10b2a5b3a8a6c2120cb86 >}}
-
-## GitLab
-
-{{< gitlab 2589724 >}}
-
-## Quote
-
-{{< quote author="A famous person" source="The book they wrote" url="https://en.wikipedia.org/wiki/Book">}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-{{< /quote >}}
-
------
-
-> Photo by [Codioful](https://unsplash.com/@codioful) on [Unsplash](https://unsplash.com/photos/WDSN62Qdxuk)
+![Image 1](vpn1.png) ![Image 2](vpn2.png)

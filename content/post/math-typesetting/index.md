@@ -4,7 +4,8 @@ description: A try-On mobile commerce (M-commerce) application for selling watch
 date: 2024-08-24 00:00:00+0000
 math: true
 image: watchesglasses.jpg
-Categories: -Projects
+Categories: 
+ -Projects
 tags: 
   - Watches&Glasses
   - mobile commerce

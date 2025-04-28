@@ -3,7 +3,8 @@ title: Analyse des performances des réseaux 5G
 description: Analyse des performances des réseaux 5G à travers des simulations sur NS-3 et perspectives d’évolution vers la 6G
 date: 2025-02-26 00:00:00+0000
 image: 5g4netanim.png 
-Categories: -Projects
+Categories: 
+ -Projects
 tags: 
   - Réseaux Sans Fil
   - réseaux 5G
