@@ -3,6 +3,17 @@ title: Analyse des performances des réseaux 5G
 description: Analyse des performances des réseaux 5G à travers des simulations sur NS-3 et perspectives d’évolution vers la 6G
 date: 2025-02-26 00:00:00+0000
 image: 5g4netanim.png 
+Categories: -Projects
+tags: 
+  - Réseaux Sans Fil
+  - réseaux 5G
+  - NetAnim
+  - 6G
+  - Network Slicing
+  - Massive MIMO
+  - Beamforming
+
+           
 ---
 ## Detailed description
 Dans le cadre du module Réseaux Sans Fil, j’ai eu le plaisir de réaliser ce projet avec mon binôme nouhaila bakhalq. Nous avons exploré les performances des réseaux 5G et leurs perspectives d’évolution vers la 6G.

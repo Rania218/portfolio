@@ -1,9 +1,22 @@
 ---
 title: Watches&Glasses
-description: Math typesetting using KaTeX
+description: A try-On mobile commerce (M-commerce) application for selling watches and glasses
 date: 2023-08-24 00:00:00+0000
 math: true
+image: watchesglasses.jpg
+Categories: -Projects
+tags: 
+  - Watches&Glasses
+  - mobile commerce
+  - Augmented reality
+  - AR
+  - Blender
+  - Unity 3D
+  - Android Studio
+  - Vuforia
+  - Firebase
 ---
+## Detailed description
 
 I’m happy to share the Watches&Glasses project I worked on with ABDELHAMID MAATAOUI.
 
@@ -44,3 +57,4 @@ $$
     f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 $$
 ```
+## Results
