@@ -1,7 +1,7 @@
 ---
 title: "Système de contrôle de sécurité pour la conduite autonome sur autoroute"
 description: 
-date: 2025-05-7T20:14:08Z
+date: 2025-05-7
 image: schema.png
 Categories: 
      - Projects
