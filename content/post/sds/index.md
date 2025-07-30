@@ -5,11 +5,7 @@ date: 2025-01-28T20:14:08Z
 image: sds.png
 Categories: 
      - Projects
-math: 
-license: 
-hidden: false
-comments: true
-draft: true
+
 ---
 ## Contexte du projet
 
