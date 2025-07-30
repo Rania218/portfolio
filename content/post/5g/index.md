@@ -9,7 +9,6 @@ tags:
   - Réseaux Sans Fil
   - réseaux 5G
   - NetAnim
-  - 6G
   - Network Slicing
   - Massive MIMO
   - Beamforming
