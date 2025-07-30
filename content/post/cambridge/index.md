@@ -23,7 +23,7 @@ categories:
 
 Ce certificat atteste d’un très bon niveau en anglais général (niveau B2) acquis dès 2019, avec une mention *Pass With Distinction*. Il est reconnu internationalement comme preuve de compétence linguistique, tant à l’écrit qu’à l’oral.
 
-Depuis l’obtention de ce diplôme, mon niveau d’anglais a continué à progresser grâce à mes études, projets techniques et expériences professionnelles en environnement bilingue (français/anglais).
+Depuis, **mon niveau a nettement évolué**, notamment parce que **je lis souvent en anglais**, aussi bien des **romans** que des **articles techniques**, ce qui m’a permis d’enrichir mon vocabulaire et de gagner en aisance, à l’écrit comme à l’oral.
 
 *Correspond au niveau B2 du Cadre Européen Commun de Référence pour les Langues (CECRL).*
 ![Diplome](Cambridge.png)
