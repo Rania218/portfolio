@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/java/</link><description>Recent content in Java on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001</title><link>https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/yuften.png" alt="Featured image of post Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Dans le cadre de mon stage de Master 1 en cybersécurité chez &lt;strong>Yuften Services&lt;/strong>, je développe un &lt;strong>assistant logiciel de génération de rapports d’audit et de pentest&lt;/strong>, destiné à automatiser la documentation technique tout en intégrant une évaluation de conformité selon &lt;strong>ISO/IEC 27001&lt;/strong>. Ce projet s’inscrit dans une logique GRC (Gouvernance, Risques et Conformité), en soutenant les processus d’audit, de traçabilité et de suivi des mesures de sécurité.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;ul>
+&lt;li>Concevoir un assistant automatisé capable de générer des rapports complets et structurés à chaque étape d’une campagne de test d’intrusion.&lt;/li>
+&lt;li>Intégrer une &lt;strong>cartographie des exigences ISO/IEC 27001&lt;/strong> en lien avec les constats techniques observés lors des audits.&lt;/li>
+&lt;li>Fournir une &lt;strong>visualisation des écarts et niveaux de conformité&lt;/strong> via un tableau de bord Power BI.&lt;/li>
+&lt;li>Renforcer les capacités internes de Yuften Services en matière de GRC, en particulier dans la formalisation des livrables d’audit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="architecture-du-projet">Architecture du projet
+&lt;/h2>&lt;p>L’assistant repose sur les composants suivants :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Un moteur Java connecté à un LLM&lt;/strong> (via OpenRouter API), chargé de générer automatiquement le contenu des rapports de pentest.&lt;/li>
+&lt;li>Un &lt;strong>module d’évaluation ISO 27001&lt;/strong>, basé sur un tableau de correspondance entre les vulnérabilités et les contrôles de la norme (Annexe A).&lt;/li>
+&lt;li>Un &lt;strong>formulaire interactif&lt;/strong>, utilisé par les auditeurs pour alimenter les résultats techniques.&lt;/li>
+&lt;li>Un tableau de bord &lt;strong>Power BI&lt;/strong>, centralisant :
+&lt;ul>
+&lt;li>La couverture des contrôles ISO&lt;/li>
+&lt;li>Le suivi des vulnérabilités identifiées&lt;/li>
+&lt;li>L’état d’avancement des recommandations&lt;/li>
+&lt;li>L’exposition aux risques organisationnels&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-utilisées">Technologies utilisées
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Java&lt;/strong> (Spring Boot) : logique d’assistant, traitement des données.&lt;/li>
+&lt;li>&lt;strong>OpenRouter API / LLM&lt;/strong> : génération intelligente de contenu technique.&lt;/li>
+&lt;li>&lt;strong>ISO/IEC 27001&lt;/strong> : structure de conformité et axes d’analyse.&lt;/li>
+&lt;li>&lt;strong>Power BI&lt;/strong> : visualisation des indicateurs de conformité et de risque.&lt;/li>
+&lt;li>&lt;strong>Excel/JSON&lt;/strong> : support structuré des données (vulnérabilités, contrôles, plans d’action).&lt;/li>
+&lt;/ul>
+&lt;h2 id="avancement-actuel">Avancement actuel
+&lt;/h2>&lt;ul>
+&lt;li>Le moteur Java est fonctionnel pour générer automatiquement les sections de rapport (introduction, méthodes, vulnérabilités, recommandations).&lt;/li>
+&lt;li>La cartographie avec les exigences ISO est en cours d’intégration, avec plusieurs contrôles déjà couverts (A.5, A.6, A.8&amp;hellip;).&lt;/li>
+&lt;li>Le tableau de bord Power BI est opérationnel pour afficher les niveaux de conformité et l’état des actions.&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat-attendu">Résultat attendu
+&lt;/h2>&lt;p>Ce projet permet à Yuften Services de :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Améliorer la productivité et la qualité des audits techniques&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Standardiser les livrables&lt;/strong>, en s’alignant sur les exigences normatives.&lt;/li>
+&lt;li>&lt;strong>Valoriser une approche GRC&lt;/strong> auprès des clients professionnels.&lt;/li>
+&lt;li>&lt;strong>Appuyer les décisions de sécurité&lt;/strong> grâce à une visualisation claire des écarts et des priorités.&lt;/li>
+&lt;/ul>
+&lt;p>C’est un projet à fort impact qui me permet de croiser les domaines de la &lt;strong>cybersécurité offensive, de la gouvernance et de l’audit&lt;/strong>, tout en appliquant mes compétences techniques dans un contexte réel.&lt;/p></description></item><item><title>Projet de fin d'études de licence:Watches &amp; Glasses</title><link>https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/</link><pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/watchesglasses.jpg" alt="Featured image of post Projet de fin d'études de licence:Watches &amp; Glasses" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a été réalisé en 2024 dans le cadre de mon &lt;strong>projet de fin d’études de licence en Sciences Mathématiques et Informatiques&lt;/strong>, à la Faculté des Sciences de Rabat. Il s’inscrit dans la thématique du &lt;strong>commerce mobile (M-commerce)&lt;/strong>, avec une orientation forte vers l’innovation technologique par l’usage de la &lt;strong>réalité augmentée (AR)&lt;/strong>.&lt;/p>
+&lt;p>L’application mobile développée, intitulée &lt;em>Watches &amp;amp; Glasses&lt;/em>, permet aux utilisateurs d’essayer virtuellement des montres et des lunettes avant de les acheter en ligne. L’objectif était de &lt;strong>renforcer la confiance des clients&lt;/strong> dans l’achat de produits à distance, tout en &lt;strong>réduisant le taux de retour&lt;/strong> grâce à une visualisation précise et personnalisée des articles.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;ul>
+&lt;li>Concevoir une application mobile intuitive dédiée à la vente de montres et de lunettes.&lt;/li>
+&lt;li>Intégrer une couche de réalité augmentée pour simuler l’essayage virtuel des produits.&lt;/li>
+&lt;li>Mettre en place une &lt;strong>infrastructure de données sécurisée et réactive&lt;/strong> via Firebase.&lt;/li>
+&lt;li>Améliorer l’expérience utilisateur et la fiabilité du parcours d’achat.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-utilisées">Technologies utilisées
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Blender&lt;/strong> : conception et optimisation des modèles 3D des montres et lunettes.&lt;/li>
+&lt;li>&lt;strong>Unity&lt;/strong> + &lt;strong>Vuforia&lt;/strong> : intégration de la réalité augmentée pour permettre l’affichage en temps réel des produits sur l’utilisateur via caméra.&lt;/li>
+&lt;li>&lt;strong>Android Studio&lt;/strong> (Java, XML) : développement de l’interface mobile et des fonctionnalités natives.&lt;/li>
+&lt;li>&lt;strong>Firebase&lt;/strong> : gestion de la base de données en temps réel, &lt;strong>authentification des utilisateurs&lt;/strong> et suivi analytique.&lt;/li>
+&lt;li>&lt;strong>JSON&lt;/strong> : format d’échange des données entre l’application et le back-end.&lt;/li>
+&lt;/ul>
+&lt;h2 id="fonctionnalités-développées">Fonctionnalités développées
+&lt;/h2>&lt;ul>
+&lt;li>Catalogue d’articles (montres, lunettes) avec images et informations détaillées.&lt;/li>
+&lt;li>Essayage en réalité augmentée via caméra frontale (overlay dynamique des modèles 3D).&lt;/li>
+&lt;li>Authentification et création de compte utilisateur avec Firebase Auth.&lt;/li>
+&lt;li>Système de panier et simulation de commande.&lt;/li>
+&lt;li>Enregistrement et suivi des actions utilisateur via Firebase Analytics.&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>L’application &lt;em>Watches &amp;amp; Glasses&lt;/em> offre une interface fluide et moderne, combinant &lt;strong>visualisation immersive&lt;/strong> et &lt;strong>fonctionnalités de commerce en ligne classiques&lt;/strong>. Le rendu AR est stable et précis, et les tests ont montré une forte appréciation de l’expérience utilisateur en conditions réelles. Ce projet a été une &lt;strong>expérience fondatrice&lt;/strong> dans ma formation, à la croisée de l’expérience utilisateur, du développement mobile et des technologies interactives.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2_hu_70a16b27ddb2c225.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2_hu_aaf5dfab296b473d.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3_hu_17995ec61a95cc5a.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3_hu_8f37a00d3fc18593.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1.jpg"
+width="359"
+height="720"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1_hu_d63edd0670008372.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1_hu_36edb6474f31bee9.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="49"
+data-flex-basis="119px"
+>&lt;/p></description></item></channel></rss>
