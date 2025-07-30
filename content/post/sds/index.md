@@ -1,7 +1,7 @@
 ---
 title: "Système Distribué Intelligent pour l’Agriculture de la Betterave"
 description: 
-date: 2025-02-28T20:14:08Z
+date: 2025-01-28T20:14:08Z
 image: sds.png
 Categories: 
      - Projects
