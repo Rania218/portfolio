@@ -1,6 +1,6 @@
 ---
 title: Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001
-description: Stage de fin d'année
+description: Stage de fin d'année (en cours)
 date: 2025-07-01
 image: yuften.png
 tags: 
