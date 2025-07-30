@@ -1,6 +1,6 @@
 ---
 title: Système Domotique Intelligent
-date: 2025-01-07
+date: 2025-01-15
 image: iotrap2CIRCUIT.png
 tags: 
     - IOT
