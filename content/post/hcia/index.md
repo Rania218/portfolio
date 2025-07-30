@@ -11,7 +11,6 @@ tags:
   - VPN
   - PKI
   - IPS
-  - AAA
 categories:
   - Certifications
 ---
