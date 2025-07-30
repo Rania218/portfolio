@@ -1,5 +1,5 @@
 ---
-title: Watches&Glasses
+title: Watches & Glasses
 description: A try-On mobile commerce (M-commerce) application for selling watches and glasses
 date: 2024-08-24 00:00:00+0000
 math: true
@@ -9,8 +9,8 @@ Categories:
 tags: 
   - Watches&Glasses
   - mobile commerce
-  - Augmented reality
-  - AR
+  - Réalité augmentée
+  - Java
   - Blender
   - Unity 3D
   - Android Studio
@@ -35,35 +35,7 @@ Technologies Used:
 
 -JSON: Managed data exchange between the app and server, ensuring fast and efficient data handling.
 
-## Inline math
 
-This is an inline mathematical expression: $\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
-
-```markdown
-$\varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887…$
-```
-
-## Block math
-
-$$
-    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$
-
-```markdown
-$$
-    \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } 
-$$
-```
-
-$$
-    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-$$
-
-```markdown
-$$
-    f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-$$
-```
 ## Results
 
 ![Image 1](wg2.jpg) ![Image 2](wg3.jpg) ![Image 3](wg1.jpg)
