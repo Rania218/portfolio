@@ -23,7 +23,7 @@ Je m'appelle Rania Moutee, étudiante de 22 ans en Master en Ingénierie Informa
 
 Curieuse et passionnée par les technologies sécurisées et innovantes, je m’oriente vers la cybersécurité, avec un intérêt particulier pour les problématiques d’audit, de conformité, de sécurité réseau et de systèmes critiques.
 
-J’ai obtenu une licence en Mathématiques et Informatique à la Faculté des Sciences de Rabat, où j’ai également participé à la création de GoVirtual, le premier club universitaire de réalité virtuelle — une expérience qui m’a permis de développer un esprit collaboratif et une sensibilité aux technologies émergentes.
+J’ai obtenu une licence en sciences Mathématiques et Informatique à la Faculté des Sciences de Rabat, où j’ai également participé à la création de GoVirtual, le premier club universitaire de réalité virtuelle — une expérience qui m’a permis de développer un esprit collaboratif et une sensibilité aux technologies émergentes.
 
 Mes projets personnels et académiques m’ont permis d’acquérir des compétences solides en virtualisation, sécurité des systèmes, modélisation formelle, gestion des risques et outils d’audit.
 
