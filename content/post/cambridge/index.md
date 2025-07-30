@@ -6,6 +6,7 @@ tags:
   - Anglais
 categories:
     - Langues
+    - Certifications
 ---
 ## Cambridge English Level 1 Certificate (Preliminary English Test – B2)
 

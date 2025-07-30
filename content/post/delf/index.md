@@ -6,6 +6,7 @@ tags:
   - Français
 categories:
     - Langues
+    - Certifications
 ---
 ## Diplôme d’Études en Langue Française (DELF B2)
 
