@@ -1,5 +1,5 @@
 ---
-title: Mini-audit ISO/IEC 27001 dans une PME fictive : Creativ’Com
+title: Mini-audit ISO/IEC 27001 dans une PME fictive:Creativ’Com
 date: 2025-06-15
 image: iotrap2CIRCUIT.png
 tags: 
