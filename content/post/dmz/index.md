@@ -59,5 +59,4 @@ L’environnement mis en place permet une séparation nette entre les zones publ
 Le projet a également permis de valider le fonctionnement des services, les règles de sécurité appliquées, ainsi que la communication contrôlée entre les composants du datacenter.
 
 ## Schéma de l’architecture
-![Architecture système du projet](arch.png)  
-![Architecture réseau simulée](arch_cloud.png)
+![Architecture système du projet](arch.png)  ![Architecture réseau simulée](arch_cloud.png)

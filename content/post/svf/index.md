@@ -62,5 +62,4 @@ Le modèle constitue une base fiable pour étendre cette logique à des scénari
 
 ## Visualisation
 
-![Architecture logique](scheam.png)  
-![Simulation ProB](projet_svf_6.png)
+![Architecture logique](schema.png)  ![Simulation ProB](svf.png)
