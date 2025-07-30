@@ -2,7 +2,7 @@
 title: Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001
 description: Stage de fin d'année
 date: 2025-07-01
-image: iotrap2CIRCUIT.png
+image: yften.jpeg
 tags: 
   - Pentest
   - GRC
