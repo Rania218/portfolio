@@ -7,17 +7,22 @@ image: card1.png
 categories:
   - Loisirs
 ---
+## Contexte
 
-J’ai obtenu ma **ceinture noire (1er Poom)** de **Tae Kwon Do** en **2014**, délivrée par le **Kukkiwon – World Taekwondo Headquarters**, après plusieurs années d'entraînement rigoureux et d'évaluations officielles.
+Parallèlement à mon parcours académique, j’ai également pratiqué le **Tae Kwon Do**, une discipline martiale coréenne exigeante, dans laquelle j’ai obtenu ma **ceinture noire en 2014**, reconnue par le Kukkiwon (World Taekwondo Headquarters). Cette certification atteste d’un long processus d’apprentissage basé sur la rigueur, la technique et l’endurance.
 
-Cette expérience a fortement contribué à structurer ma personnalité et à développer des qualités aujourd’hui recherchées dans le domaine de la **cybersécurité**, notamment en **gouvernance**, **audit des SI** et **gestion des risques** :
+## Ce que cette pratique m’a apporté
+
+La pratique du Tae Kwon Do a fortement contribué à structurer ma personnalité et m’a permis de développer de solides compétences personnelles alignées avec les qualités attendues dans le domaine de la cybersécurité :
 
 - **Discipline** : capacité à suivre une méthodologie stricte et à respecter les règles dans des contextes exigeants.
 - **Maîtrise de soi** : gestion du stress et prise de décision réfléchie, y compris sous pression.
 - **Persévérance** : volonté d’atteindre ses objectifs même face aux difficultés, qualité essentielle dans les environnements techniques.
 - **Éthique et rigueur** : respect des engagements, esprit de justice, sens du devoir.
 
-En 2011, j’ai également été distinguée pour mon comportement exemplaire en club, une reconnaissance qui reflète un engagement constant dans la durée.
+## Reconnaissance morale
+
+En 2011, j’ai reçu une **distinction d’exemplarité** de la part de mon centre d'entraînement, délivrée par la Fédération coréenne de Taekwondo. Ce certificat souligne mon comportement exemplaire, mon respect constant des valeurs morales et mon engagement au sein du groupe. Cette reconnaissance, bien que délivrée à un jeune âge, témoigne d’une éthique personnelle construite très tôt et toujours présente aujourd’hui dans mes démarches professionnelles.
 
 ---
 
