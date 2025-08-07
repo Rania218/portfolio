@@ -2,7 +2,7 @@
 title: Séminaire "Cybersecurity Trends & Solutions Insight"
 description: Participation au séminaire animé par Jeff Wang (Huawei) sur les tendances et solutions en cybersécurité
 date: 2025-02-04 00:00:00+0000
-image: sem6.jpg
+image: sem7.jpg
 categories:
   - Activités para-universitaires
 tags: 
@@ -48,7 +48,6 @@ Participer à ce type d’événements me permet de rester connectée aux **enje
 ## Galerie
 
 ![Image 1](sem1.jpg)
-
 ![Image 2](sem2.jpg)![Image 3](sem3.jpg)
 
 ![Image 4](sem4.jpg)![Image 5](sem5.jpg)
