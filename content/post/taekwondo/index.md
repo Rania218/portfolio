@@ -26,7 +26,7 @@ En 2011, j’ai reçu une **distinction d’exemplarité** de la part de mon cen
 
 ---
 
-### Attestations
+## Attestations
 
 ![Certificat officiel du Kukkiwon (2014)](tae2.png)
 
