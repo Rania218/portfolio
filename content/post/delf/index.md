@@ -1,6 +1,6 @@
 ---
-title: Diplôme de langue française
-date: 2020-06-15
+title: Diplôme d’Études en Langue Française
+date: 2020-01-20
 image: delf.png
 tags: 
   - Français

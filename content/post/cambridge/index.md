@@ -1,6 +1,6 @@
 ---
-title: Diplôme de langue anglaise
-date: 2019-06-15
+title: Diplôme de langue Anglaise
+date: 2019-08-01
 image: cambridge.png
 tags: 
   - Anglais
@@ -13,7 +13,7 @@ categories:
 - **Organisme :** Cambridge Assessment English (UK)
 - **Niveau validé :** Level 1* (équivalent **B2** – CECRL)
 - **Mention obtenue :** *Pass With Distinction*
-- **Date d'obtention :** Juin 2019
+- **Date d'obtention :** Août 2019
 - **Lieu d'examen :** Casablanca
 - **Score global :** 163 / 170
   - Reading : 170
@@ -28,4 +28,4 @@ Depuis, **mon niveau a nettement évolué**, notamment parce que **je lis souven
 
 *Correspond au niveau B2 du Cadre Européen Commun de Référence pour les Langues (CECRL).*
 
-![Diplome](Cambridge.png)
+![Diplome](cambridge.png)
