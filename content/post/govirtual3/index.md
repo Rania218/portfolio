@@ -2,7 +2,7 @@
 title: Atelier Innovation Virtuelle – Initiation à la création de jeux
 description: Atelier immersif pour initier les membres du club GoVirtual à la création de jeux en réalité virtuelle
 date: 2024-12-14
-image: gv3.6.jpg
+image: gv3.0.jpg
 Categories: 
  - Activités para-universitaires
 tags: 
@@ -34,6 +34,9 @@ Enfin, la rencontre et l’échange avec notre professeur mentor à la fin de l�
 ## Galerie
 
 ![Image 1](gv3.0.jpg) ![Image 2](gv3.1.jpg)
+
 ![Image 3](gv3.2.jpg) ![Image 4](gv3.3.jpg)
+
 ![Image 5](gv3.4.jpg) ![Image 6](gv3.5.jpg)
+
 ![Image 7](gv3.6.jpg)
