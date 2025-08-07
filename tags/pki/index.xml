@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PKI on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/pki/</link><description>Recent content in PKI on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/pki/index.xml" rel="self" type="application/rss+xml"/><item><title>Huawei HCIA – Security (en préparation)</title><link>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/hcia.png" alt="Featured image of post Huawei HCIA – Security (en préparation)" />&lt;h2 id="huawei-hcia--security-en-préparation">Huawei HCIA – Security (en préparation)
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Organisme :&lt;/strong> Huawei – Huawei Certified ICT Associate&lt;/li>
+&lt;li>&lt;strong>Certification :&lt;/strong> HCIA – Security&lt;/li>
+&lt;li>&lt;strong>Prévue pour :&lt;/strong> Octobre 2025&lt;/li>
+&lt;li>&lt;strong>Intégrée dans le programme :&lt;/strong> Master en Ingénierie Informatique et Sécurité des Systèmes (2I2S), Université Mohammed V – en partenariat avec Huawei Technologies&lt;/li>
+&lt;/ul>
+&lt;p>Cette certification constitue une composante intégrée à mon cursus de Master. Elle vise à renforcer les compétences techniques et conceptuelles en sécurité des réseaux, en mettant l’accent sur la configuration de firewalls, la prévention des intrusions, la cryptographie et les mécanismes de protection des communications.&lt;/p>
+&lt;h3 id="objectifs-de-la-certification">Objectifs de la certification
+&lt;/h3>&lt;ul>
+&lt;li>Comprendre les concepts fondamentaux de la sécurité des réseaux.&lt;/li>
+&lt;li>Identifier les menaces fréquentes pesant sur les réseaux d’entreprise.&lt;/li>
+&lt;li>Déployer et configurer les technologies de firewall, de NAT et de haute disponibilité.&lt;/li>
+&lt;li>Mettre en œuvre des politiques d’authentification des utilisateurs.&lt;/li>
+&lt;li>Appliquer les techniques de prévention des intrusions (IPS) et d’antivirus réseau.&lt;/li>
+&lt;li>Maîtriser les principes de chiffrement/déchiffrement, la cryptographie appliquée, les certificats PKI et les VPN.&lt;/li>
+&lt;/ul>
+&lt;h3 id="contenu-couvert">Contenu couvert
+&lt;/h3>&lt;p>&lt;strong>1. Introduction à la sécurité :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Définitions, enjeux actuels, normes (ISO, RFC, etc.)&lt;/li>
+&lt;li>Menaces réseau et mesures de prévention (zone, équipements, systèmes)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. Sécurité des réseaux :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Firewalls : inspection avec état, politiques de sécurité, zones&lt;/li>
+&lt;li>NAT : SNAT, DNAT, NAT bidirectionnel, ALG, scénarios réels&lt;/li>
+&lt;li>Haute disponibilité : principes, configuration de redondance (HRP, VRRP, VGMP)&lt;/li>
+&lt;li>Gestion des utilisateurs : AAA, authentification et accès&lt;/li>
+&lt;li>IPS/Antivirus : détection, prévention, déploiement de politiques&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. Chiffrement et sécurité des communications :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Cryptographie : symétrique, asymétrique, hachage, algorithmes usuels&lt;/li>
+&lt;li>Certificats : architecture PKI, fonctionnement, authentification&lt;/li>
+&lt;li>VPN : principes, types (IPSec, SSL…), configuration de base&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Cette certification est essentielle pour maîtriser les architectures de sécurité avancées et les bonnes pratiques de défense réseau. Elle complète mes acquis en audit, GRC et cybersécurité technique.&lt;/p></description></item></channel></rss>

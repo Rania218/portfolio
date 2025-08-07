@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network Slicing on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/network-slicing/</link><description>Recent content in Network Slicing on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/network-slicing/index.xml" rel="self" type="application/rss+xml"/><item><title>Analyse des performances des réseaux 5G</title><link>https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/</link><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/5g4netanim.png" alt="Featured image of post Analyse des performances des réseaux 5G" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a été réalisé dans le cadre du module Réseaux Sans Fil. Il a consisté à étudier les performances des réseaux 5G à travers une approche théorique et pratique, tout en explorant les perspectives d’évolution vers la prochaine génération de réseaux mobiles.&lt;/p>
+&lt;h2 id="partie-théorique">Partie théorique
+&lt;/h2>&lt;p>L’étude a porté sur les principales caractéristiques techniques de la 5G, notamment le &lt;strong>network slicing&lt;/strong>, le &lt;strong>massive MIMO&lt;/strong> et le &lt;strong>beamforming&lt;/strong>. Ces technologies permettent d’augmenter significativement le débit, de réduire la latence et de supporter une densité plus importante de terminaux connectés.&lt;/p>
+&lt;p>Une analyse prospective a également été menée sur les innovations envisagées pour la 6G, incluant la communication en &lt;strong>térahertz (THz)&lt;/strong>, l’intégration de l’&lt;strong>intelligence artificielle&lt;/strong> dans la gestion dynamique des ressources, ainsi que l’apport des &lt;strong>réseaux satellitaires&lt;/strong> pour l’extension de la couverture.&lt;/p>
+&lt;h2 id="partie-pratique">Partie pratique
+&lt;/h2>&lt;p>Le volet expérimental s’est appuyé sur le simulateur &lt;strong>NS-3&lt;/strong> afin de modéliser et observer le comportement d’un réseau 5G dans différents scénarios. En ajustant les durées de simulation (1s, 1,5s et 2s), les effets sur le &lt;strong>débit des nœuds&lt;/strong> et les &lt;strong>performances globales du réseau&lt;/strong> ont pu être mesurés.&lt;/p>
+&lt;p>Pour enrichir l’analyse :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>NetAnim&lt;/strong> a permis de visualiser les flux d’échange entre les nœuds.&lt;/li>
+&lt;li>&lt;strong>TraceMetrics&lt;/strong> a extrait des indicateurs de performance détaillés.&lt;/li>
+&lt;li>&lt;strong>Gnuplot&lt;/strong> a été utilisé pour générer des représentations graphiques exploitables.&lt;/li>
+&lt;/ul>
+&lt;h2 id="observations">Observations
+&lt;/h2>&lt;ul>
+&lt;li>Le débit diminue progressivement à mesure que le nombre de nœuds augmente.&lt;/li>
+&lt;li>Le temps de simulation a une influence modérée sur les performances globales.&lt;/li>
+&lt;li>Une attention particulière doit être portée à l’optimisation des paramètres réseau pour éviter la saturation des nœuds les plus éloignés.&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>Ce projet met en évidence l’utilité des outils de simulation pour évaluer, anticiper et adapter les choix techniques dans le cadre de déploiements de réseaux mobiles avancés. Il constitue également un exercice formateur dans la maîtrise des technologies associées à la 5G et à son évolution future.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique.png"
+width="1055"
+height="687"
+srcset="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique_hu_4998b882acd36ed7.png 480w, https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique_hu_3a9469ff9adeb75a.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="153"
+data-flex-basis="368px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres.png"
+width="503"
+height="687"
+srcset="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres_hu_94f611820e9c275a.png 480w, https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres_hu_4f2ee91c9abd79a7.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="73"
+data-flex-basis="175px"
+>&lt;/p></description></item></channel></rss>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Réalité Augmentée on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/r%C3%A9alit%C3%A9-augment%C3%A9e/</link><description>Recent content in Réalité Augmentée on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/r%C3%A9alit%C3%A9-augment%C3%A9e/index.xml" rel="self" type="application/rss+xml"/><item><title>Projet de fin d'études de licence:Watches &amp; Glasses</title><link>https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/</link><pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/watchesglasses.jpg" alt="Featured image of post Projet de fin d'études de licence:Watches &amp; Glasses" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a été réalisé en 2024 dans le cadre de mon &lt;strong>projet de fin d’études de licence en Sciences Mathématiques et Informatiques&lt;/strong>, à la Faculté des Sciences de Rabat. Il s’inscrit dans la thématique du &lt;strong>commerce mobile (M-commerce)&lt;/strong>, avec une orientation forte vers l’innovation technologique par l’usage de la &lt;strong>réalité augmentée (AR)&lt;/strong>.&lt;/p>
+&lt;p>L’application mobile développée, intitulée &lt;em>Watches &amp;amp; Glasses&lt;/em>, permet aux utilisateurs d’essayer virtuellement des montres et des lunettes avant de les acheter en ligne. L’objectif était de &lt;strong>renforcer la confiance des clients&lt;/strong> dans l’achat de produits à distance, tout en &lt;strong>réduisant le taux de retour&lt;/strong> grâce à une visualisation précise et personnalisée des articles.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;ul>
+&lt;li>Concevoir une application mobile intuitive dédiée à la vente de montres et de lunettes.&lt;/li>
+&lt;li>Intégrer une couche de réalité augmentée pour simuler l’essayage virtuel des produits.&lt;/li>
+&lt;li>Mettre en place une &lt;strong>infrastructure de données sécurisée et réactive&lt;/strong> via Firebase.&lt;/li>
+&lt;li>Améliorer l’expérience utilisateur et la fiabilité du parcours d’achat.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-utilisées">Technologies utilisées
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Blender&lt;/strong> : conception et optimisation des modèles 3D des montres et lunettes.&lt;/li>
+&lt;li>&lt;strong>Unity&lt;/strong> + &lt;strong>Vuforia&lt;/strong> : intégration de la réalité augmentée pour permettre l’affichage en temps réel des produits sur l’utilisateur via caméra.&lt;/li>
+&lt;li>&lt;strong>Android Studio&lt;/strong> (Java, XML) : développement de l’interface mobile et des fonctionnalités natives.&lt;/li>
+&lt;li>&lt;strong>Firebase&lt;/strong> : gestion de la base de données en temps réel, &lt;strong>authentification des utilisateurs&lt;/strong> et suivi analytique.&lt;/li>
+&lt;li>&lt;strong>JSON&lt;/strong> : format d’échange des données entre l’application et le back-end.&lt;/li>
+&lt;/ul>
+&lt;h2 id="fonctionnalités-développées">Fonctionnalités développées
+&lt;/h2>&lt;ul>
+&lt;li>Catalogue d’articles (montres, lunettes) avec images et informations détaillées.&lt;/li>
+&lt;li>Essayage en réalité augmentée via caméra frontale (overlay dynamique des modèles 3D).&lt;/li>
+&lt;li>Authentification et création de compte utilisateur avec Firebase Auth.&lt;/li>
+&lt;li>Système de panier et simulation de commande.&lt;/li>
+&lt;li>Enregistrement et suivi des actions utilisateur via Firebase Analytics.&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>L’application &lt;em>Watches &amp;amp; Glasses&lt;/em> offre une interface fluide et moderne, combinant &lt;strong>visualisation immersive&lt;/strong> et &lt;strong>fonctionnalités de commerce en ligne classiques&lt;/strong>. Le rendu AR est stable et précis, et les tests ont montré une forte appréciation de l’expérience utilisateur en conditions réelles. Ce projet a été une &lt;strong>expérience fondatrice&lt;/strong> dans ma formation, à la croisée de l’expérience utilisateur, du développement mobile et des technologies interactives.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2_hu_70a16b27ddb2c225.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2_hu_aaf5dfab296b473d.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3_hu_17995ec61a95cc5a.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3_hu_8f37a00d3fc18593.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1.jpg"
+width="359"
+height="720"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1_hu_d63edd0670008372.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1_hu_36edb6474f31bee9.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="49"
+data-flex-basis="119px"
+>&lt;/p></description></item></channel></rss>

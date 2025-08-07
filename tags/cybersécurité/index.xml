@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersécurité on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/cybers%C3%A9curit%C3%A9/</link><description>Recent content in Cybersécurité on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/cybers%C3%A9curit%C3%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Rania Moutee</title><link>https://Rania218.github.io/portfolio/p/hello-world/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/hello-world/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/hello-world/coverr.png" alt="Featured image of post Rania Moutee" />&lt;h2 id="à-propos">À propos
+&lt;/h2>&lt;p>Étudiante de 22 ans en Master en Ingénierie Informatique et Sécurité des Systèmes à l’Université Mohammed V de Rabat, en partenariat avec Huawei Technologies.&lt;/p>
+&lt;p>Curieuse et passionnée par les technologies sécurisées et innovantes, je m’oriente vers la cybersécurité, avec un intérêt particulier pour les problématiques d’audit, de conformité, de sécurité réseau et de systèmes critiques.&lt;/p>
+&lt;p>J’ai obtenu une licence en sciences Mathématiques et Informatique à la Faculté des Sciences de Rabat, où j’ai également participé à la création de &lt;strong>GoVirtual&lt;/strong>, le premier club universitaire de réalité virtuelle — une expérience qui m’a permis de développer un esprit collaboratif et une sensibilité aux technologies émergentes.&lt;/p>
+&lt;p>Mes projets personnels et académiques m’ont permis d’acquérir des compétences solides en virtualisation, sécurité des systèmes, modélisation formelle, gestion des risques et outils d’audit.&lt;/p>
+&lt;p>Actuellement en stage chez &lt;strong>Yuften Services&lt;/strong>, je travaille sur l’automatisation de la documentation d’une campagne de pentest via un assistant intelligent, couplée à une analyse ISO 27001.&lt;/p>
+&lt;p>Je suis aujourd’hui à la recherche d’un stage de fin d’études dans le domaine de la cybersécurité, et plus particulièrement en conseil, audit ou gouvernance de la sécurité. Je souhaite évoluer dans un environnement exigeant, où je pourrai continuer à apprendre, contribuer et innover.&lt;/p></description></item><item><title>Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001</title><link>https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/yuften.png" alt="Featured image of post Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Dans le cadre de mon stage de Master 1 en cybersécurité chez &lt;strong>Yuften Services&lt;/strong>, je développe un &lt;strong>assistant logiciel de génération de rapports d’audit et de pentest&lt;/strong>, destiné à automatiser la documentation technique tout en intégrant une évaluation de conformité selon &lt;strong>ISO/IEC 27001&lt;/strong>. Ce projet s’inscrit dans une logique GRC (Gouvernance, Risques et Conformité), en soutenant les processus d’audit, de traçabilité et de suivi des mesures de sécurité.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;ul>
+&lt;li>Concevoir un assistant automatisé capable de générer des rapports complets et structurés à chaque étape d’une campagne de test d’intrusion.&lt;/li>
+&lt;li>Intégrer une &lt;strong>cartographie des exigences ISO/IEC 27001&lt;/strong> en lien avec les constats techniques observés lors des audits.&lt;/li>
+&lt;li>Fournir une &lt;strong>visualisation des écarts et niveaux de conformité&lt;/strong> via un tableau de bord Power BI.&lt;/li>
+&lt;li>Renforcer les capacités internes de Yuften Services en matière de GRC, en particulier dans la formalisation des livrables d’audit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="architecture-du-projet">Architecture du projet
+&lt;/h2>&lt;p>L’assistant repose sur les composants suivants :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Un moteur Java connecté à un LLM&lt;/strong> (via OpenRouter API), chargé de générer automatiquement le contenu des rapports de pentest.&lt;/li>
+&lt;li>Un &lt;strong>module d’évaluation ISO 27001&lt;/strong>, basé sur un tableau de correspondance entre les vulnérabilités et les contrôles de la norme (Annexe A).&lt;/li>
+&lt;li>Un &lt;strong>formulaire interactif&lt;/strong>, utilisé par les auditeurs pour alimenter les résultats techniques.&lt;/li>
+&lt;li>Un tableau de bord &lt;strong>Power BI&lt;/strong>, centralisant :
+&lt;ul>
+&lt;li>La couverture des contrôles ISO&lt;/li>
+&lt;li>Le suivi des vulnérabilités identifiées&lt;/li>
+&lt;li>L’état d’avancement des recommandations&lt;/li>
+&lt;li>L’exposition aux risques organisationnels&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-utilisées">Technologies utilisées
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Java&lt;/strong> (Spring Boot) : logique d’assistant, traitement des données.&lt;/li>
+&lt;li>&lt;strong>OpenRouter API / LLM&lt;/strong> : génération intelligente de contenu technique.&lt;/li>
+&lt;li>&lt;strong>ISO/IEC 27001&lt;/strong> : structure de conformité et axes d’analyse.&lt;/li>
+&lt;li>&lt;strong>Power BI&lt;/strong> : visualisation des indicateurs de conformité et de risque.&lt;/li>
+&lt;li>&lt;strong>Excel/JSON&lt;/strong> : support structuré des données (vulnérabilités, contrôles, plans d’action).&lt;/li>
+&lt;/ul>
+&lt;h2 id="avancement-actuel">Avancement actuel
+&lt;/h2>&lt;ul>
+&lt;li>Le moteur Java est fonctionnel pour générer automatiquement les sections de rapport (introduction, méthodes, vulnérabilités, recommandations).&lt;/li>
+&lt;li>La cartographie avec les exigences ISO est en cours d’intégration, avec plusieurs contrôles déjà couverts (A.5, A.6, A.8&amp;hellip;).&lt;/li>
+&lt;li>Le tableau de bord Power BI est opérationnel pour afficher les niveaux de conformité et l’état des actions.&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat-attendu">Résultat attendu
+&lt;/h2>&lt;p>Ce projet permet à Yuften Services de :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Améliorer la productivité et la qualité des audits techniques&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Standardiser les livrables&lt;/strong>, en s’alignant sur les exigences normatives.&lt;/li>
+&lt;li>&lt;strong>Valoriser une approche GRC&lt;/strong> auprès des clients professionnels.&lt;/li>
+&lt;li>&lt;strong>Appuyer les décisions de sécurité&lt;/strong> grâce à une visualisation claire des écarts et des priorités.&lt;/li>
+&lt;/ul>
+&lt;p>C’est un projet à fort impact qui me permet de croiser les domaines de la &lt;strong>cybersécurité offensive, de la gouvernance et de l’audit&lt;/strong>, tout en appliquant mes compétences techniques dans un contexte réel.&lt;/p></description></item><item><title>Séminaire "Cybersecurity Trends &amp; Solutions Insight"</title><link>https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem7.jpg" alt="Featured image of post Séminaire "Cybersecurity Trends &amp; Solutions Insight"" />&lt;h2 id="contexte-de-lévénement">Contexte de l&amp;rsquo;événement
+&lt;/h2>&lt;p>Dans le cadre de mon programme de Master en cybersécurité, j’ai eu la chance d’assister au séminaire &lt;strong>&amp;ldquo;Cybersecurity Trends &amp;amp; Solutions Insight&amp;rdquo;&lt;/strong>, organisé en collaboration entre l’Université Mohammed V de Rabat et &lt;strong>Huawei&lt;/strong>. L&amp;rsquo;événement s’est tenu dans l’amphithéâtre Belmahi et a réuni plusieurs experts de la sécurité numérique.&lt;/p>
+&lt;h2 id="intervenants-et-thématiques">Intervenants et thématiques
+&lt;/h2>&lt;p>Parmi les intervenants phares :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>M. Jeff Wang&lt;/strong>, Directeur du département mondial de la cybersécurité et de la protection de la vie privée chez &lt;strong>Huawei Group&lt;/strong>, a partagé sa vision sur les enjeux de sécurité à l’ère du numérique.&lt;/li>
+&lt;li>&lt;strong>M. Youssef Ait Kaddour&lt;/strong>, Chief Cybersecurity Officer chez Huawei Maroc.&lt;/li>
+&lt;li>Le &lt;strong>Directeur Delivery &amp;amp; Service de Huawei Maroc&lt;/strong> est également intervenu pour discuter des défis opérationnels.&lt;/li>
+&lt;/ul>
+&lt;p>Les discussions ont porté sur :&lt;/p>
+&lt;ul>
+&lt;li>Les menaces émergentes en cybersécurité ;&lt;/li>
+&lt;li>La sécurisation des logiciels open-source ;&lt;/li>
+&lt;li>L’importance des &lt;strong>partenariats académiques-industrie&lt;/strong> ;&lt;/li>
+&lt;li>Les bonnes pratiques pour renforcer la protection des infrastructures critiques.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ce-que-cette-expérience-ma-apporté">Ce que cette expérience m’a apporté
+&lt;/h2>&lt;p>Cette conférence m’a permis de :&lt;/p>
+&lt;ul>
+&lt;li>Mieux comprendre &lt;strong>les tendances actuelles en cybersécurité&lt;/strong> à l’échelle internationale ;&lt;/li>
+&lt;li>Appréhender l’importance stratégique de la &lt;strong>gestion des vulnérabilités logicielles&lt;/strong> ;&lt;/li>
+&lt;li>Élargir mes connaissances sur &lt;strong>la gouvernance de la sécurité&lt;/strong> au sein des grands groupes ;&lt;/li>
+&lt;li>Me sensibiliser aux &lt;strong>standards internationaux en matière de protection de la vie privée&lt;/strong> ;&lt;/li>
+&lt;li>Renforcer ma culture professionnelle en assistant à des échanges entre experts.&lt;/li>
+&lt;/ul>
+&lt;h2 id="impact-personnel-et-professionnel">Impact personnel et professionnel
+&lt;/h2>&lt;p>Participer à ce type d’événements me permet de rester connectée aux &lt;strong>enjeux concrets du secteur&lt;/strong>, tout en affinant ma capacité à m’aligner avec les attentes des entreprises. Cela nourrit également mon esprit critique, mon sens de l’analyse stratégique et ma curiosité pour les innovations technologiques.&lt;/p>
+&lt;h2 id="galerie">Galerie
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1.jpg"
+width="904"
+height="1280"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1_hu_1cd56093c764200e.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1_hu_45ebb2114e006453.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+>
+&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2_hu_340ca443806be4f.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2_hu_91176128c753b3a4.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3.jpg"
+width="750"
+height="500"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3_hu_79fb22506b2e9f87.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3_hu_c1928698b02ec158.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4_hu_ddb6f1c4000911c8.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4_hu_199e1562b8537141.jpg 1024w"
+loading="lazy"
+alt="Image 4"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5.jpg"
+width="2750"
+height="3666"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5_hu_2b9a50cd0acb48a8.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5_hu_591d060c65ca6ce5.jpg 1024w"
+loading="lazy"
+alt="Image 5"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p></description></item><item><title>Huawei HCIA – Security (en préparation)</title><link>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/hcia.png" alt="Featured image of post Huawei HCIA – Security (en préparation)" />&lt;h2 id="huawei-hcia--security-en-préparation">Huawei HCIA – Security (en préparation)
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Organisme :&lt;/strong> Huawei – Huawei Certified ICT Associate&lt;/li>
+&lt;li>&lt;strong>Certification :&lt;/strong> HCIA – Security&lt;/li>
+&lt;li>&lt;strong>Prévue pour :&lt;/strong> Octobre 2025&lt;/li>
+&lt;li>&lt;strong>Intégrée dans le programme :&lt;/strong> Master en Ingénierie Informatique et Sécurité des Systèmes (2I2S), Université Mohammed V – en partenariat avec Huawei Technologies&lt;/li>
+&lt;/ul>
+&lt;p>Cette certification constitue une composante intégrée à mon cursus de Master. Elle vise à renforcer les compétences techniques et conceptuelles en sécurité des réseaux, en mettant l’accent sur la configuration de firewalls, la prévention des intrusions, la cryptographie et les mécanismes de protection des communications.&lt;/p>
+&lt;h3 id="objectifs-de-la-certification">Objectifs de la certification
+&lt;/h3>&lt;ul>
+&lt;li>Comprendre les concepts fondamentaux de la sécurité des réseaux.&lt;/li>
+&lt;li>Identifier les menaces fréquentes pesant sur les réseaux d’entreprise.&lt;/li>
+&lt;li>Déployer et configurer les technologies de firewall, de NAT et de haute disponibilité.&lt;/li>
+&lt;li>Mettre en œuvre des politiques d’authentification des utilisateurs.&lt;/li>
+&lt;li>Appliquer les techniques de prévention des intrusions (IPS) et d’antivirus réseau.&lt;/li>
+&lt;li>Maîtriser les principes de chiffrement/déchiffrement, la cryptographie appliquée, les certificats PKI et les VPN.&lt;/li>
+&lt;/ul>
+&lt;h3 id="contenu-couvert">Contenu couvert
+&lt;/h3>&lt;p>&lt;strong>1. Introduction à la sécurité :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Définitions, enjeux actuels, normes (ISO, RFC, etc.)&lt;/li>
+&lt;li>Menaces réseau et mesures de prévention (zone, équipements, systèmes)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. Sécurité des réseaux :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Firewalls : inspection avec état, politiques de sécurité, zones&lt;/li>
+&lt;li>NAT : SNAT, DNAT, NAT bidirectionnel, ALG, scénarios réels&lt;/li>
+&lt;li>Haute disponibilité : principes, configuration de redondance (HRP, VRRP, VGMP)&lt;/li>
+&lt;li>Gestion des utilisateurs : AAA, authentification et accès&lt;/li>
+&lt;li>IPS/Antivirus : détection, prévention, déploiement de politiques&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. Chiffrement et sécurité des communications :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Cryptographie : symétrique, asymétrique, hachage, algorithmes usuels&lt;/li>
+&lt;li>Certificats : architecture PKI, fonctionnement, authentification&lt;/li>
+&lt;li>VPN : principes, types (IPSec, SSL…), configuration de base&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Cette certification est essentielle pour maîtriser les architectures de sécurité avancées et les bonnes pratiques de défense réseau. Elle complète mes acquis en audit, GRC et cybersécurité technique.&lt;/p></description></item></channel></rss>

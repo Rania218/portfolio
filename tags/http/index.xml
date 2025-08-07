@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>HTTP on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/http/</link><description>Recent content in HTTP on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/http/index.xml" rel="self" type="application/rss+xml"/><item><title>Système Domotique Intelligent</title><link>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/iotrap2CIRCUIT.png" alt="Featured image of post Système Domotique Intelligent" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a pour objectif la conception et la simulation d’un système domotique capable de surveiller et de contrôler à distance différents paramètres environnementaux. Il repose sur un microcontrôleur &lt;strong>ESP32&lt;/strong>, qui centralise les données issues de capteurs et les transmet à des plateformes d’analyse en ligne via les protocoles &lt;strong>MQTT&lt;/strong> et &lt;strong>HTTP&lt;/strong>.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;p>L’architecture vise à associer la mesure en temps réel (température, humidité, luminosité, détection de mouvement) à des actions automatiques ou pilotées à distance (activation d’un ventilateur, éclairage, pompe à eau, etc.). L’intégration de plusieurs protocoles permet une meilleure fiabilité de la communication et une centralisation des données à des fins de visualisation ou d’archivage.&lt;/p>
+&lt;h2 id="simulation-avec-wokwi">Simulation avec Wokwi
+&lt;/h2>&lt;p>La plateforme &lt;strong>Wokwi&lt;/strong> a été utilisée pour simuler l’environnement physique du système, incluant les composants suivants :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Capteur DHT22&lt;/strong> : mesure température et humidité.&lt;/p>
+&lt;ul>
+&lt;li>Activation d’une LED bleue (ventilateur) si température &amp;gt; 30°C&lt;/li>
+&lt;li>Déclenchement d’un buzzer si température &amp;gt; 45°C&lt;/li>
+&lt;li>Activation d’une LED verte (déshumidificateur) si humidité &amp;gt; 70%&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Capteur PIR&lt;/strong> : détection de présence, avec affichage sur écran &lt;strong>LCD I2C&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Capteur LDR&lt;/strong> : mesure de luminosité.&lt;/p>
+&lt;ul>
+&lt;li>Allumage automatique d’une LED si l’éclairement est &amp;lt; 500 lux.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Servomoteur&lt;/strong> : simulation d’un système d’arrosage (pompe à eau), pilotable via un &lt;strong>slider Node-RED&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>LED Neopixel RGB&lt;/strong> : système d’éclairage coloré contrôlable à distance via une interface graphique.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="interface-node-red">Interface Node-RED
+&lt;/h2>&lt;p>La plateforme &lt;strong>Node-RED&lt;/strong> est utilisée pour le traitement des données envoyées via &lt;strong>MQTT&lt;/strong> (serveur HiveMQ) et leur visualisation :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Affichage en temps réel :&lt;/p>
+&lt;ul>
+&lt;li>Température, humidité, luminosité (jauges et graphiques)&lt;/li>
+&lt;li>Notification de détection de mouvement (alertes)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Contrôle à distance :&lt;/p>
+&lt;ul>
+&lt;li>Activation/désactivation d’une LED via interrupteur&lt;/li>
+&lt;li>Contrôle du servomoteur via curseur&lt;/li>
+&lt;li>Sélection de couleur pour la LED Neopixel via &amp;ldquo;color picker&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Archivage :&lt;/p>
+&lt;ul>
+&lt;li>Enregistrement local des données (timestamp, valeurs) dans un fichier &lt;code>dataiot.txt&lt;/code> via un nœud de type &lt;code>write file&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="intégration-avec-thingspeak">Intégration avec ThingSpeak
+&lt;/h2>&lt;p>Les données environnementales sont également envoyées vers la plateforme &lt;strong>ThingSpeak&lt;/strong> via &lt;strong>HTTP&lt;/strong>. Un canal dédié a été configuré avec 4 champs pour stocker :&lt;/p>
+&lt;ul>
+&lt;li>Température&lt;/li>
+&lt;li>Humidité&lt;/li>
+&lt;li>Présence détectée&lt;/li>
+&lt;li>Éclairage&lt;/li>
+&lt;/ul>
+&lt;p>Les courbes de suivi sont mises à jour en temps réel, offrant un aperçu global du comportement du système dans le temps.&lt;/p>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>Le système permet une surveillance continue et un contrôle précis à distance des composants simulés. La double transmission des données (MQTT + HTTP), associée à une interface graphique interactive, permet de valider une architecture complète, robuste et facilement extensible.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot.png"
+width="542"
+height="568"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_816cdd32f06763c1.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_4c171c0b3162fa94.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="95"
+data-flex-basis="229px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1.png"
+width="647"
+height="915"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_507bfdd70917ce4c.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_e6d09e591c63dc2f.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+>&lt;/p></description></item></channel></rss>

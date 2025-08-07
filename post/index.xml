@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Rania Moutee</title><link>https://Rania218.github.io/portfolio/post/</link><description>Recent content in Posts on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Rania Moutee</title><link>https://Rania218.github.io/portfolio/p/hello-world/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/hello-world/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/hello-world/coverr.png" alt="Featured image of post Rania Moutee" />&lt;h2 id="à-propos">À propos
+&lt;/h2>&lt;p>Étudiante de 22 ans en Master en Ingénierie Informatique et Sécurité des Systèmes à l’Université Mohammed V de Rabat, en partenariat avec Huawei Technologies.&lt;/p>
+&lt;p>Curieuse et passionnée par les technologies sécurisées et innovantes, je m’oriente vers la cybersécurité, avec un intérêt particulier pour les problématiques d’audit, de conformité, de sécurité réseau et de systèmes critiques.&lt;/p>
+&lt;p>J’ai obtenu une licence en sciences Mathématiques et Informatique à la Faculté des Sciences de Rabat, où j’ai également participé à la création de &lt;strong>GoVirtual&lt;/strong>, le premier club universitaire de réalité virtuelle — une expérience qui m’a permis de développer un esprit collaboratif et une sensibilité aux technologies émergentes.&lt;/p>
+&lt;p>Mes projets personnels et académiques m’ont permis d’acquérir des compétences solides en virtualisation, sécurité des systèmes, modélisation formelle, gestion des risques et outils d’audit.&lt;/p>
+&lt;p>Actuellement en stage chez &lt;strong>Yuften Services&lt;/strong>, je travaille sur l’automatisation de la documentation d’une campagne de pentest via un assistant intelligent, couplée à une analyse ISO 27001.&lt;/p>
+&lt;p>Je suis aujourd’hui à la recherche d’un stage de fin d’études dans le domaine de la cybersécurité, et plus particulièrement en conseil, audit ou gouvernance de la sécurité. Je souhaite évoluer dans un environnement exigeant, où je pourrai continuer à apprendre, contribuer et innover.&lt;/p></description></item><item><title>Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001</title><link>https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-documentation-pour-campagnes-de-pentest-grc-et-audit-iso-27001/yuften.png" alt="Featured image of post Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Dans le cadre de mon stage de Master 1 en cybersécurité chez &lt;strong>Yuften Services&lt;/strong>, je développe un &lt;strong>assistant logiciel de génération de rapports d’audit et de pentest&lt;/strong>, destiné à automatiser la documentation technique tout en intégrant une évaluation de conformité selon &lt;strong>ISO/IEC 27001&lt;/strong>. Ce projet s’inscrit dans une logique GRC (Gouvernance, Risques et Conformité), en soutenant les processus d’audit, de traçabilité et de suivi des mesures de sécurité.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;ul>
+&lt;li>Concevoir un assistant automatisé capable de générer des rapports complets et structurés à chaque étape d’une campagne de test d’intrusion.&lt;/li>
+&lt;li>Intégrer une &lt;strong>cartographie des exigences ISO/IEC 27001&lt;/strong> en lien avec les constats techniques observés lors des audits.&lt;/li>
+&lt;li>Fournir une &lt;strong>visualisation des écarts et niveaux de conformité&lt;/strong> via un tableau de bord Power BI.&lt;/li>
+&lt;li>Renforcer les capacités internes de Yuften Services en matière de GRC, en particulier dans la formalisation des livrables d’audit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="architecture-du-projet">Architecture du projet
+&lt;/h2>&lt;p>L’assistant repose sur les composants suivants :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Un moteur Java connecté à un LLM&lt;/strong> (via OpenRouter API), chargé de générer automatiquement le contenu des rapports de pentest.&lt;/li>
+&lt;li>Un &lt;strong>module d’évaluation ISO 27001&lt;/strong>, basé sur un tableau de correspondance entre les vulnérabilités et les contrôles de la norme (Annexe A).&lt;/li>
+&lt;li>Un &lt;strong>formulaire interactif&lt;/strong>, utilisé par les auditeurs pour alimenter les résultats techniques.&lt;/li>
+&lt;li>Un tableau de bord &lt;strong>Power BI&lt;/strong>, centralisant :
+&lt;ul>
+&lt;li>La couverture des contrôles ISO&lt;/li>
+&lt;li>Le suivi des vulnérabilités identifiées&lt;/li>
+&lt;li>L’état d’avancement des recommandations&lt;/li>
+&lt;li>L’exposition aux risques organisationnels&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-utilisées">Technologies utilisées
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Java&lt;/strong> (Spring Boot) : logique d’assistant, traitement des données.&lt;/li>
+&lt;li>&lt;strong>OpenRouter API / LLM&lt;/strong> : génération intelligente de contenu technique.&lt;/li>
+&lt;li>&lt;strong>ISO/IEC 27001&lt;/strong> : structure de conformité et axes d’analyse.&lt;/li>
+&lt;li>&lt;strong>Power BI&lt;/strong> : visualisation des indicateurs de conformité et de risque.&lt;/li>
+&lt;li>&lt;strong>Excel/JSON&lt;/strong> : support structuré des données (vulnérabilités, contrôles, plans d’action).&lt;/li>
+&lt;/ul>
+&lt;h2 id="avancement-actuel">Avancement actuel
+&lt;/h2>&lt;ul>
+&lt;li>Le moteur Java est fonctionnel pour générer automatiquement les sections de rapport (introduction, méthodes, vulnérabilités, recommandations).&lt;/li>
+&lt;li>La cartographie avec les exigences ISO est en cours d’intégration, avec plusieurs contrôles déjà couverts (A.5, A.6, A.8&amp;hellip;).&lt;/li>
+&lt;li>Le tableau de bord Power BI est opérationnel pour afficher les niveaux de conformité et l’état des actions.&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat-attendu">Résultat attendu
+&lt;/h2>&lt;p>Ce projet permet à Yuften Services de :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Améliorer la productivité et la qualité des audits techniques&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Standardiser les livrables&lt;/strong>, en s’alignant sur les exigences normatives.&lt;/li>
+&lt;li>&lt;strong>Valoriser une approche GRC&lt;/strong> auprès des clients professionnels.&lt;/li>
+&lt;li>&lt;strong>Appuyer les décisions de sécurité&lt;/strong> grâce à une visualisation claire des écarts et des priorités.&lt;/li>
+&lt;/ul>
+&lt;p>C’est un projet à fort impact qui me permet de croiser les domaines de la &lt;strong>cybersécurité offensive, de la gouvernance et de l’audit&lt;/strong>, tout en appliquant mes compétences techniques dans un contexte réel.&lt;/p></description></item><item><title>Mini-audit ISO/IEC 27001 dans une PME fictive:Creativ’Com</title><link>https://Rania218.github.io/portfolio/p/mini-audit-iso/iec-27001-dans-une-pme-fictivecreativcom/</link><pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/mini-audit-iso/iec-27001-dans-une-pme-fictivecreativcom/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/mini-audit-iso/iec-27001-dans-une-pme-fictivecreativcom/miniaudit.png" alt="Featured image of post Mini-audit ISO/IEC 27001 dans une PME fictive:Creativ’Com" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Dans le cadre de ma formation en cybersécurité, ce projet a consisté à réaliser un &lt;strong>mini-audit ISO/IEC 27001&lt;/strong> dans une &lt;strong>PME fictive nommée Creativ’Com&lt;/strong>, spécialisée dans la communication digitale. Ce travail m’a permis d’appliquer une démarche complète d’évaluation des risques et de conformité en sécurité de l’information, adaptée aux réalités d’une petite structure, souvent dépourvue de moyens techniques avancés.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;ul>
+&lt;li>Évaluer la maturité cybersécurité d’une PME dans une logique d’audit simplifié.&lt;/li>
+&lt;li>Identifier les écarts de conformité avec la norme ISO/IEC 27001.&lt;/li>
+&lt;li>Proposer des recommandations concrètes et hiérarchisées.&lt;/li>
+&lt;li>Construire un plan d’action progressif, réaliste et adapté à un contexte PME.&lt;/li>
+&lt;/ul>
+&lt;h2 id="démarche-adoptée">Démarche adoptée
+&lt;/h2>&lt;p>L’audit a été structuré autour des étapes suivantes :&lt;/p>
+&lt;ul>
+&lt;li>Définition du périmètre, analyse du contexte organisationnel.&lt;/li>
+&lt;li>Identification des actifs critiques (données, équipements, utilisateurs).&lt;/li>
+&lt;li>Évaluation des menaces et des vulnérabilités.&lt;/li>
+&lt;li>Analyse des pratiques existantes selon des contrôles ISO 27001 ciblés.&lt;/li>
+&lt;li>Formulation de recommandations et construction d’un plan d’action priorisé.&lt;/li>
+&lt;/ul>
+&lt;h2 id="focus-entreprise--creativcom">Focus entreprise : Creativ’Com
+&lt;/h2>&lt;p>Creativ’Com est une PME fictive de 25 salariés basée à Rabat. Son infrastructure informatique est hybride : serveur NAS local, services cloud (Google Workspace, CRM SaaS), VPN pour les télétravailleurs. Elle gère des données sensibles (clients, RH, finances), sans politique de sécurité formalisée.&lt;/p>
+&lt;h2 id="constats-principaux">Constats principaux
+&lt;/h2>&lt;ul>
+&lt;li>Aucune charte de sécurité ni sensibilisation du personnel.&lt;/li>
+&lt;li>Accès VPN sans MFA, postes mal supervisés, mots de passe faibles.&lt;/li>
+&lt;li>Sauvegardes présentes mais non testées ; pas de PRA.&lt;/li>
+&lt;li>Aucune gestion formelle des incidents ou des tiers.&lt;/li>
+&lt;li>Non-conformité RGPD (pas de registre ni référent).&lt;/li>
+&lt;/ul>
+&lt;h2 id="recommandations-clés">Recommandations clés
+&lt;/h2>&lt;ul>
+&lt;li>Définir une politique de sécurité formelle.&lt;/li>
+&lt;li>Activer l’authentification multifactorielle sur les services critiques.&lt;/li>
+&lt;li>Organiser des sessions de sensibilisation à la cybersécurité.&lt;/li>
+&lt;li>Documenter et tester régulièrement les sauvegardes.&lt;/li>
+&lt;li>Mettre en place un registre RGPD et désigner un référent interne.&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>Ce mini-audit a permis de formaliser un &lt;strong>état des lieux de maturité SSI&lt;/strong>, en s’appuyant sur des extraits ciblés de l’annexe A de la norme ISO/IEC 27001. Un tableau de bord synthétique (Excel + version Power BI) a été conçu pour visualiser les écarts, prioriser les actions et guider la PME dans une démarche d’amélioration continue réaliste et structurée.&lt;/p>
+&lt;p>Ce projet a renforcé mes compétences en &lt;strong>audit, GRC, évaluation des risques&lt;/strong>, et m’a permis de démontrer ma capacité à transposer une norme complexe à un contexte opérationnel concret.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2></description></item><item><title>Création d’une DMZ virtuelle avec Proxmox</title><link>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/</link><pubDate>Sat, 24 May 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/arch.png" alt="Featured image of post Création d’une DMZ virtuelle avec Proxmox" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet s’inscrit dans le cadre du module Cloud Computing et Virtualisation. Il consiste à concevoir un &lt;strong>mini-datacenter virtualisé&lt;/strong> incluant une zone démilitarisée (DMZ) fonctionnelle et isolée, hébergeant des services web et base de données, le tout administré par un pare-feu pfSense.&lt;/p>
+&lt;p>L’environnement a été entièrement déployé dans &lt;strong>Proxmox&lt;/strong>, hébergé à l’intérieur de VMware Workstation, avec une configuration réseau structurée en trois sous-réseaux distincts.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;p>L’objectif est de reproduire une architecture réaliste dans laquelle :&lt;/p>
+&lt;ul>
+&lt;li>Les services accessibles depuis l’extérieur sont strictement contrôlés,&lt;/li>
+&lt;li>Les flux internes sont cloisonnés selon les principes de sécurité réseau,&lt;/li>
+&lt;li>Les échanges sont gérés via des règles explicites configurées dans pfSense.&lt;/li>
+&lt;/ul>
+&lt;p>Cette structure permet de simuler un environnement professionnel conforme aux bonnes pratiques de déploiement sécurisé d’applications en ligne.&lt;/p>
+&lt;h2 id="architecture-technique">Architecture technique
+&lt;/h2>&lt;p>L’infrastructure repose sur trois réseaux distincts :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>WAN (10.10.10.0/24)&lt;/strong> : simule l’accès Internet.&lt;/li>
+&lt;li>&lt;strong>MNGMT (192.168.100.0/24)&lt;/strong> : réseau d’administration depuis la machine hôte vers pfSense.&lt;/li>
+&lt;li>&lt;strong>DMZ (192.168.200.0/24)&lt;/strong> : réseau isolé hébergeant deux machines virtuelles :
+&lt;ul>
+&lt;li>&lt;strong>Serveur Apache&lt;/strong> (Web) : accessible en HTTP depuis Internet.&lt;/li>
+&lt;li>&lt;strong>Serveur MariaDB&lt;/strong> (Base de données) : uniquement accessible depuis le serveur web.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Ces composants sont virtualisés dans &lt;strong>Proxmox VE&lt;/strong>, avec gestion des ponts réseau (&lt;code>vmbr0&lt;/code> pour WAN, &lt;code>vmbr1&lt;/code> pour DMZ/MNGMT), et administrés via une interface dédiée.&lt;/p>
+&lt;h2 id="règles-de-filtrage-configurées-dans-pfsense">Règles de filtrage configurées dans pfSense
+&lt;/h2>&lt;ul>
+&lt;li>Accès HTTPS autorisé uniquement entre l’administrateur et pfSense (port d’administration).&lt;/li>
+&lt;li>Accès HTTP public au serveur Apache, avec NAT redirigé depuis le WAN.&lt;/li>
+&lt;li>Blocage total des connexions entrantes vers le serveur SQL.&lt;/li>
+&lt;li>Autorisation stricte des requêtes SQL &lt;strong>uniquement depuis le serveur web vers MariaDB&lt;/strong>.&lt;/li>
+&lt;li>Isolation complète entre les réseaux WAN, MNGMT et DMZ.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-et-outils-utilisés">Technologies et outils utilisés
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Proxmox VE&lt;/strong> : hyperviseur de virtualisation pour l’orchestration des VMs.&lt;/li>
+&lt;li>&lt;strong>pfSense&lt;/strong> : pare-feu open source, pour la segmentation et la gestion des règles réseau.&lt;/li>
+&lt;li>&lt;strong>Apache&lt;/strong> : serveur HTTP simulant un service web public.&lt;/li>
+&lt;li>&lt;strong>MariaDB&lt;/strong> : système de gestion de base de données relationnelle.&lt;/li>
+&lt;li>&lt;strong>VMware Workstation&lt;/strong> : virtualisation de niveau hôte.&lt;/li>
+&lt;li>&lt;strong>Routage NAT, filtrage par zones, DMZ, ponts réseau Linux.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>L’environnement mis en place permet une séparation nette entre les zones publiques et internes. Le &lt;strong>contrôle précis des flux&lt;/strong>, la &lt;strong>restriction d’accès à la base de données&lt;/strong> et la &lt;strong>cloisonnement réseau via pfSense&lt;/strong> démontrent l’intérêt de ce type de configuration pour le déploiement de services exposés de manière sécurisée.&lt;/p>
+&lt;p>Le projet a également permis de valider le fonctionnement des services, les règles de sécurité appliquées, ainsi que la communication contrôlée entre les composants du datacenter.&lt;/p>
+&lt;h2 id="schéma-de-larchitecture">Schéma de l’architecture
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/arch.png"
+width="677"
+height="502"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/arch_hu_32b138bc83269dd9.png 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/arch_hu_14d4b269d33311af.png 1024w"
+loading="lazy"
+alt="Architecture système du projet"
+class="gallery-image"
+data-flex-grow="134"
+data-flex-basis="323px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/arch_cloud.png"
+width="454"
+height="713"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/arch_cloud_hu_4e6faae5543993d.png 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dune-dmz-virtuelle-avec-proxmox/arch_cloud_hu_eb393c71ab44c8f8.png 1024w"
+loading="lazy"
+alt="Architecture réseau simulée"
+class="gallery-image"
+data-flex-grow="63"
+data-flex-basis="152px"
+>&lt;/p></description></item><item><title>Système de contrôle de sécurité pour la conduite autonome sur autoroute</title><link>https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/</link><pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/schema.png" alt="Featured image of post Système de contrôle de sécurité pour la conduite autonome sur autoroute" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a été réalisé dans le cadre du module de Spécification et Vérification Formelle. Il s’agit d’un &lt;strong>cas d’étude proposé lors de la conférence internationale ABZ 2025&lt;/strong>, visant à modéliser un &lt;strong>contrôleur de sécurité embarqué&lt;/strong> pour la conduite autonome sur autoroute, en environnement multi-voies.&lt;/p>
+&lt;p>Le système développé intervient comme une &lt;strong>surcouche de supervision&lt;/strong> indépendante, capable de valider, corriger ou bloquer les décisions prises par une intelligence artificielle de pilotage. L’objectif est d’éviter toute situation de collision ou de non-respect des règles de conduite, tout en assurant un comportement globalement sûr du véhicule.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;ul>
+&lt;li>Modéliser un système capable d’assurer une &lt;strong>conduite autonome sans collision&lt;/strong> dans un environnement autoroutier dynamique.&lt;/li>
+&lt;li>Intégrer un &lt;strong>mécanisme de contrôle vérifiable&lt;/strong> qui réagit aux événements du trafic (accélération, freinage, changement de voie).&lt;/li>
+&lt;li>Garantir la &lt;strong>sécurité formelle&lt;/strong> du système à chaque cycle de perception-décision-action.&lt;/li>
+&lt;li>Utiliser des outils dédiés pour &lt;strong>prouver l’absence d’erreurs&lt;/strong> par model checking.&lt;/li>
+&lt;/ul>
+&lt;h2 id="méthodologie">Méthodologie
+&lt;/h2>&lt;p>Le modèle a été spécifié en langage &lt;strong>Event-B&lt;/strong>, un formalisme mathématique orienté sécurité, puis vérifié automatiquement à l’aide de l’outil &lt;strong>ProB&lt;/strong>.&lt;/p>
+&lt;p>Le système simule deux véhicules évoluant sur deux voies, avec des actions limitées :&lt;/p>
+&lt;ul>
+&lt;li>Accélérer&lt;/li>
+&lt;li>Freiner&lt;/li>
+&lt;li>Maintenir la vitesse&lt;/li>
+&lt;li>Changer de voie à gauche ou à droite&lt;/li>
+&lt;/ul>
+&lt;p>Les contraintes de sécurité incluent :&lt;/p>
+&lt;ul>
+&lt;li>Le respect d’une &lt;strong>distance minimale&lt;/strong> de sécurité entre véhicules&lt;/li>
+&lt;li>L’interdiction du chevauchement latéral lors des changements de voie&lt;/li>
+&lt;li>Un modèle de réaction en cas d’urgence (freinage immédiat, blocage des actions dangereuses)&lt;/li>
+&lt;/ul>
+&lt;h2 id="aspects-techniques-clés">Aspects techniques clés
+&lt;/h2>&lt;ul>
+&lt;li>Utilisation d’&lt;strong>invariants de sécurité&lt;/strong> pour garantir la non-collision&lt;/li>
+&lt;li>Mise en œuvre d’une &lt;strong>formule simplifiée inspirée du modèle RSS&lt;/strong> pour calculer dynamiquement les distances de sécurité&lt;/li>
+&lt;li>Modèle structuré par &lt;strong>cycles de décision de 1 seconde&lt;/strong>, simulant un comportement temps réel&lt;/li>
+&lt;li>Validation de plus de &lt;strong>3,2 millions d’états simulés sans erreur détectée&lt;/strong> grâce à ProB&lt;/li>
+&lt;li>Contrôleur organisé autour d’un &lt;strong>ensemble d’événements discrets sécurisés&lt;/strong>, incluant un système de détection de collision, de changement de voie contrôlé, et de cycle d’observation planifié&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-et-outils-utilisés">Technologies et outils utilisés
+&lt;/h2>&lt;ul>
+&lt;li>Event-B (modélisation formelle)&lt;/li>
+&lt;li>ProB (vérification automatique, animation, model checking)&lt;/li>
+&lt;li>Rodin Platform (IDE Event-B)&lt;/li>
+&lt;li>Méthodologie de conception orientée sûreté (modèle déterministe, invariants, règles conditionnelles)&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>Le système spécifié garantit un &lt;strong>comportement sans collision&lt;/strong> dans tous les scénarios testés. L’analyse exhaustive avec ProB confirme que &lt;strong>toutes les propriétés de sûreté sont respectées&lt;/strong>, et que &lt;strong>les événements critiques sont toujours contrôlés par des garde-fous formels&lt;/strong>. L’absence de déclenchement de l’événement &lt;code>Detecter_collision&lt;/code> prouve que le système empêche les situations dangereuses avant même qu’elles ne puissent survenir.&lt;/p>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>Ce projet montre comment une &lt;strong>approche formelle rigoureuse&lt;/strong> peut permettre de modéliser et vérifier des systèmes critiques à haute exigence de sécurité. Il illustre la possibilité de concevoir des modules de supervision robustes pour la conduite autonome, capables d’intervenir de manière déterministe et vérifiable sur les décisions prises par une IA embarquée.&lt;/p>
+&lt;p>Le modèle constitue une base fiable pour étendre cette logique à des scénarios plus complexes : davantage de véhicules, événements aléatoires, ou pannes simulées.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/schema.png"
+width="1536"
+height="1024"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/schema_hu_49d2f7dcc75e100d.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/schema_hu_cbdf285e6a136b3c.png 1024w"
+loading="lazy"
+alt="Architecture logique"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/svf.png"
+width="302"
+height="486"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/svf_hu_2d6442bdbef900e6.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-de-contr%C3%B4le-de-s%C3%A9curit%C3%A9-pour-la-conduite-autonome-sur-autoroute/svf_hu_2723a75a6e9d685e.png 1024w"
+loading="lazy"
+alt="Simulation ProB"
+class="gallery-image"
+data-flex-grow="62"
+data-flex-basis="149px"
+>&lt;/p></description></item><item><title>Participation au SIEL 2025 – Salon du Livre</title><link>https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/</link><pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel4.jpg" alt="Featured image of post Participation au SIEL 2025 – Salon du Livre" />&lt;h2 id="présentation-de-lévénement">Présentation de l&amp;rsquo;événement
+&lt;/h2>&lt;p>Le 18 avril 2025, la Faculté des Sciences de Rabat a pris part au &lt;strong>Salon International de l’Édition et du Livre (SIEL)&lt;/strong>, en représentant l’Université Mohammed V au sein du &lt;strong>stand officiel UM5&lt;/strong>. En tant que membre actif du &lt;strong>Club de Réalité Virtuelle&lt;/strong>, j’ai eu la chance de contribuer à cet événement enrichissant en participant à des démonstrations immersives et en échangeant avec un public diversifié.&lt;/p>
+&lt;h2 id="mon-rôle-et-les-activités-menées">Mon rôle et les activités menées
+&lt;/h2>&lt;p>Notre club a animé un &lt;strong>atelier autour du gaming et de la création 3D&lt;/strong>, attirant l’attention de nombreux visiteurs, professionnels et passionnés. En parallèle, j’ai assisté à plusieurs &lt;strong>conférences et tables rondes&lt;/strong> axées sur des thématiques variées telles que l’intelligence artificielle, l’inclusion, l’éducation et l’entrepreneuriat.&lt;/p>
+&lt;p>J’ai eu l’opportunité d’échanger avec des &lt;strong>experts issus de différents domaines&lt;/strong>, ce qui a stimulé ma curiosité intellectuelle et nourri ma vision multidisciplinaire des technologies émergentes.&lt;/p>
+&lt;h2 id="compétences-développées">Compétences développées
+&lt;/h2>&lt;p>Cette expérience m’a permis de renforcer plusieurs compétences :&lt;/p>
+&lt;ul>
+&lt;li>🔹 &lt;strong>Communication professionnelle&lt;/strong> : j’ai pu développer ma capacité à présenter un projet technique à un public hétérogène, en adaptant mon discours selon les profils.&lt;/li>
+&lt;li>🔹 &lt;strong>Travail d’équipe et coordination&lt;/strong> : intégrer un événement de cette ampleur a nécessité une collaboration fluide avec les autres membres du club et les organisateurs.&lt;/li>
+&lt;li>🔹 &lt;strong>Esprit critique et curiosité sectorielle&lt;/strong> : les interventions variées auxquelles j’ai assisté m’ont permis de mieux comprendre l’impact des innovations numériques sur des enjeux sociétaux.&lt;/li>
+&lt;li>🔹 &lt;strong>Capacité d’adaptation&lt;/strong> : gérer les imprévus techniques, accueillir des visiteurs variés et rester réactive ont renforcé ma capacité à évoluer dans des environnements dynamiques et exigeants.&lt;/li>
+&lt;li>🔹 &lt;strong>Sens de l&amp;rsquo;engagement&lt;/strong> : représenter son université dans un événement national m’a donné le goût de l’implication institutionnelle et de la responsabilité collective.&lt;/li>
+&lt;/ul>
+&lt;h2 id="galerie">Galerie
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel1.jpg"
+width="904"
+height="1280"
+srcset="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel1_hu_a2746705b9e18d14.jpg 480w, https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel1_hu_55db1c65b4b42457.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+>&lt;img src="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel2.jpg"
+width="4032"
+height="3024"
+srcset="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel2_hu_394581a2f5620094.jpg 480w, https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel2_hu_cf9fa503d3e996c7.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel3.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel3_hu_df63519f2dabed96.jpg 480w, https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel3_hu_4f93c3dc129cff6.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;img src="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel4.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel4_hu_3ba94fb29d33dcb7.jpg 480w, https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel4_hu_19225245ce671561.jpg 1024w"
+loading="lazy"
+alt="Image 4"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;img src="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel5.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel5_hu_339d629e2481bf8c.jpg 480w, https://Rania218.github.io/portfolio/p/participation-au-siel-2025-salon-du-livre/siel5_hu_1f171e8d60aff23e.jpg 1024w"
+loading="lazy"
+alt="Image 5"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p></description></item><item><title>Analyse des performances des réseaux 5G</title><link>https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/</link><pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/5g4netanim.png" alt="Featured image of post Analyse des performances des réseaux 5G" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a été réalisé dans le cadre du module Réseaux Sans Fil. Il a consisté à étudier les performances des réseaux 5G à travers une approche théorique et pratique, tout en explorant les perspectives d’évolution vers la prochaine génération de réseaux mobiles.&lt;/p>
+&lt;h2 id="partie-théorique">Partie théorique
+&lt;/h2>&lt;p>L’étude a porté sur les principales caractéristiques techniques de la 5G, notamment le &lt;strong>network slicing&lt;/strong>, le &lt;strong>massive MIMO&lt;/strong> et le &lt;strong>beamforming&lt;/strong>. Ces technologies permettent d’augmenter significativement le débit, de réduire la latence et de supporter une densité plus importante de terminaux connectés.&lt;/p>
+&lt;p>Une analyse prospective a également été menée sur les innovations envisagées pour la 6G, incluant la communication en &lt;strong>térahertz (THz)&lt;/strong>, l’intégration de l’&lt;strong>intelligence artificielle&lt;/strong> dans la gestion dynamique des ressources, ainsi que l’apport des &lt;strong>réseaux satellitaires&lt;/strong> pour l’extension de la couverture.&lt;/p>
+&lt;h2 id="partie-pratique">Partie pratique
+&lt;/h2>&lt;p>Le volet expérimental s’est appuyé sur le simulateur &lt;strong>NS-3&lt;/strong> afin de modéliser et observer le comportement d’un réseau 5G dans différents scénarios. En ajustant les durées de simulation (1s, 1,5s et 2s), les effets sur le &lt;strong>débit des nœuds&lt;/strong> et les &lt;strong>performances globales du réseau&lt;/strong> ont pu être mesurés.&lt;/p>
+&lt;p>Pour enrichir l’analyse :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>NetAnim&lt;/strong> a permis de visualiser les flux d’échange entre les nœuds.&lt;/li>
+&lt;li>&lt;strong>TraceMetrics&lt;/strong> a extrait des indicateurs de performance détaillés.&lt;/li>
+&lt;li>&lt;strong>Gnuplot&lt;/strong> a été utilisé pour générer des représentations graphiques exploitables.&lt;/li>
+&lt;/ul>
+&lt;h2 id="observations">Observations
+&lt;/h2>&lt;ul>
+&lt;li>Le débit diminue progressivement à mesure que le nombre de nœuds augmente.&lt;/li>
+&lt;li>Le temps de simulation a une influence modérée sur les performances globales.&lt;/li>
+&lt;li>Une attention particulière doit être portée à l’optimisation des paramètres réseau pour éviter la saturation des nœuds les plus éloignés.&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>Ce projet met en évidence l’utilité des outils de simulation pour évaluer, anticiper et adapter les choix techniques dans le cadre de déploiements de réseaux mobiles avancés. Il constitue également un exercice formateur dans la maîtrise des technologies associées à la 5G et à son évolution future.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique.png"
+width="1055"
+height="687"
+srcset="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique_hu_4998b882acd36ed7.png 480w, https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/Graphique_hu_3a9469ff9adeb75a.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="153"
+data-flex-basis="368px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres.png"
+width="503"
+height="687"
+srcset="https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres_hu_94f611820e9c275a.png 480w, https://Rania218.github.io/portfolio/p/analyse-des-performances-des-r%C3%A9seaux-5g/projetres_hu_4f2ee91c9abd79a7.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="73"
+data-flex-basis="175px"
+>&lt;/p></description></item><item><title>Création d’un VPN OpenVPN Client-to-Site</title><link>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/shcema.png" alt="Featured image of post Création d’un VPN OpenVPN Client-to-Site" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet s’inscrit dans une démarche de sécurisation des accès distants aux ressources d’un réseau d’entreprise. Il consiste à déployer une solution VPN basée sur OpenVPN, intégrée à un pare-feu pfSense, afin de simuler un environnement dans lequel un utilisateur externe peut accéder de manière fiable et contrôlée à un réseau interne depuis Internet.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;p>L’objectif principal était de mettre en place une architecture fonctionnelle permettant à un poste distant d’accéder au réseau interne de manière sécurisée, tout en conservant un contrôle précis sur les flux autorisés. Le projet visait également à renforcer la compréhension des mécanismes de tunneling, de gestion d’adresses IP virtuelles, et de configuration d’un pare-feu dans un contexte de mobilité ou de télétravail.&lt;/p>
+&lt;h2 id="architecture-mise-en-place">Architecture mise en place
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Pare-feu pfSense&lt;/strong>, déployé sous VMware :
+&lt;ul>
+&lt;li>Interface WAN : &lt;code>192.168.1.1&lt;/code> sur le réseau public &lt;code>192.168.1.0/24&lt;/code>&lt;/li>
+&lt;li>Interface LAN : &lt;code>192.168.200.1&lt;/code>, réseau interne de l’entreprise (&lt;code>192.168.200.0/24&lt;/code>)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Machine Windows 11 (192.168.200.2)&lt;/strong>, représentant un poste de travail local.&lt;/li>
+&lt;li>&lt;strong>Client distant Windows 11&lt;/strong>, connecté via Internet, cherchant à accéder au réseau interne.&lt;/li>
+&lt;li>&lt;strong>Tunnel VPN OpenVPN&lt;/strong>, configuré sur le sous-réseau virtuel &lt;code>10.10.10.0/24&lt;/code>, utilisé pour établir la communication sécurisée entre le client et le réseau local.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-utilisées">Technologies utilisées
+&lt;/h2>&lt;ul>
+&lt;li>OpenVPN (protocole SSL/TLS)&lt;/li>
+&lt;li>pfSense (pare-feu open source)&lt;/li>
+&lt;li>VMware Workstation&lt;/li>
+&lt;li>Réseaux virtuels bridgés et isolés&lt;/li>
+&lt;/ul>
+&lt;h2 id="déroulement">Déroulement
+&lt;/h2>&lt;p>Une fois le serveur OpenVPN configuré sur pfSense, un client distant a été mis en place et authentifié à l’aide de certificats générés manuellement. La connexion établie a permis d’accéder aux services internes (ping, partage de fichiers, accès RDP), démontrant l’efficacité de l’architecture déployée. Des règles de filtrage ont été appliquées sur le pare-feu pour affiner les autorisations selon les cas d’usage simulés.&lt;/p>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>Le projet a permis de valider un cas d’usage réaliste d’accès à distance aux ressources internes d’une organisation. L’infrastructure mise en place assure la confidentialité et l’intégrité des échanges, tout en permettant un contrôle rigoureux sur les communications établies à travers le tunnel VPN.&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1.png"
+width="502"
+height="377"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1_hu_2f0dcc90820271ce.png 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1_hu_108beff89ab100e3.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="319px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2.png"
+width="488"
+height="178"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2_hu_db8071ff612421b.png 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2_hu_55834722e0f13c28.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="274"
+data-flex-basis="657px"
+>&lt;/p></description></item><item><title>Séminaire "Cybersecurity Trends &amp; Solutions Insight"</title><link>https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem7.jpg" alt="Featured image of post Séminaire "Cybersecurity Trends &amp; Solutions Insight"" />&lt;h2 id="contexte-de-lévénement">Contexte de l&amp;rsquo;événement
+&lt;/h2>&lt;p>Dans le cadre de mon programme de Master en cybersécurité, j’ai eu la chance d’assister au séminaire &lt;strong>&amp;ldquo;Cybersecurity Trends &amp;amp; Solutions Insight&amp;rdquo;&lt;/strong>, organisé en collaboration entre l’Université Mohammed V de Rabat et &lt;strong>Huawei&lt;/strong>. L&amp;rsquo;événement s’est tenu dans l’amphithéâtre Belmahi et a réuni plusieurs experts de la sécurité numérique.&lt;/p>
+&lt;h2 id="intervenants-et-thématiques">Intervenants et thématiques
+&lt;/h2>&lt;p>Parmi les intervenants phares :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>M. Jeff Wang&lt;/strong>, Directeur du département mondial de la cybersécurité et de la protection de la vie privée chez &lt;strong>Huawei Group&lt;/strong>, a partagé sa vision sur les enjeux de sécurité à l’ère du numérique.&lt;/li>
+&lt;li>&lt;strong>M. Youssef Ait Kaddour&lt;/strong>, Chief Cybersecurity Officer chez Huawei Maroc.&lt;/li>
+&lt;li>Le &lt;strong>Directeur Delivery &amp;amp; Service de Huawei Maroc&lt;/strong> est également intervenu pour discuter des défis opérationnels.&lt;/li>
+&lt;/ul>
+&lt;p>Les discussions ont porté sur :&lt;/p>
+&lt;ul>
+&lt;li>Les menaces émergentes en cybersécurité ;&lt;/li>
+&lt;li>La sécurisation des logiciels open-source ;&lt;/li>
+&lt;li>L’importance des &lt;strong>partenariats académiques-industrie&lt;/strong> ;&lt;/li>
+&lt;li>Les bonnes pratiques pour renforcer la protection des infrastructures critiques.&lt;/li>
+&lt;/ul>
+&lt;h2 id="ce-que-cette-expérience-ma-apporté">Ce que cette expérience m’a apporté
+&lt;/h2>&lt;p>Cette conférence m’a permis de :&lt;/p>
+&lt;ul>
+&lt;li>Mieux comprendre &lt;strong>les tendances actuelles en cybersécurité&lt;/strong> à l’échelle internationale ;&lt;/li>
+&lt;li>Appréhender l’importance stratégique de la &lt;strong>gestion des vulnérabilités logicielles&lt;/strong> ;&lt;/li>
+&lt;li>Élargir mes connaissances sur &lt;strong>la gouvernance de la sécurité&lt;/strong> au sein des grands groupes ;&lt;/li>
+&lt;li>Me sensibiliser aux &lt;strong>standards internationaux en matière de protection de la vie privée&lt;/strong> ;&lt;/li>
+&lt;li>Renforcer ma culture professionnelle en assistant à des échanges entre experts.&lt;/li>
+&lt;/ul>
+&lt;h2 id="impact-personnel-et-professionnel">Impact personnel et professionnel
+&lt;/h2>&lt;p>Participer à ce type d’événements me permet de rester connectée aux &lt;strong>enjeux concrets du secteur&lt;/strong>, tout en affinant ma capacité à m’aligner avec les attentes des entreprises. Cela nourrit également mon esprit critique, mon sens de l’analyse stratégique et ma curiosité pour les innovations technologiques.&lt;/p>
+&lt;h2 id="galerie">Galerie
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1.jpg"
+width="904"
+height="1280"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1_hu_1cd56093c764200e.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1_hu_45ebb2114e006453.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+>
+&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2_hu_340ca443806be4f.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2_hu_91176128c753b3a4.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3.jpg"
+width="750"
+height="500"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3_hu_79fb22506b2e9f87.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3_hu_c1928698b02ec158.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4_hu_ddb6f1c4000911c8.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4_hu_199e1562b8537141.jpg 1024w"
+loading="lazy"
+alt="Image 4"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5.jpg"
+width="2750"
+height="3666"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5_hu_2b9a50cd0acb48a8.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5_hu_591d060c65ca6ce5.jpg 1024w"
+loading="lazy"
+alt="Image 5"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p></description></item><item><title>Huawei HCIA – Security (en préparation)</title><link>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/hcia.png" alt="Featured image of post Huawei HCIA – Security (en préparation)" />&lt;h2 id="huawei-hcia--security-en-préparation">Huawei HCIA – Security (en préparation)
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Organisme :&lt;/strong> Huawei – Huawei Certified ICT Associate&lt;/li>
+&lt;li>&lt;strong>Certification :&lt;/strong> HCIA – Security&lt;/li>
+&lt;li>&lt;strong>Prévue pour :&lt;/strong> Octobre 2025&lt;/li>
+&lt;li>&lt;strong>Intégrée dans le programme :&lt;/strong> Master en Ingénierie Informatique et Sécurité des Systèmes (2I2S), Université Mohammed V – en partenariat avec Huawei Technologies&lt;/li>
+&lt;/ul>
+&lt;p>Cette certification constitue une composante intégrée à mon cursus de Master. Elle vise à renforcer les compétences techniques et conceptuelles en sécurité des réseaux, en mettant l’accent sur la configuration de firewalls, la prévention des intrusions, la cryptographie et les mécanismes de protection des communications.&lt;/p>
+&lt;h3 id="objectifs-de-la-certification">Objectifs de la certification
+&lt;/h3>&lt;ul>
+&lt;li>Comprendre les concepts fondamentaux de la sécurité des réseaux.&lt;/li>
+&lt;li>Identifier les menaces fréquentes pesant sur les réseaux d’entreprise.&lt;/li>
+&lt;li>Déployer et configurer les technologies de firewall, de NAT et de haute disponibilité.&lt;/li>
+&lt;li>Mettre en œuvre des politiques d’authentification des utilisateurs.&lt;/li>
+&lt;li>Appliquer les techniques de prévention des intrusions (IPS) et d’antivirus réseau.&lt;/li>
+&lt;li>Maîtriser les principes de chiffrement/déchiffrement, la cryptographie appliquée, les certificats PKI et les VPN.&lt;/li>
+&lt;/ul>
+&lt;h3 id="contenu-couvert">Contenu couvert
+&lt;/h3>&lt;p>&lt;strong>1. Introduction à la sécurité :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Définitions, enjeux actuels, normes (ISO, RFC, etc.)&lt;/li>
+&lt;li>Menaces réseau et mesures de prévention (zone, équipements, systèmes)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>2. Sécurité des réseaux :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Firewalls : inspection avec état, politiques de sécurité, zones&lt;/li>
+&lt;li>NAT : SNAT, DNAT, NAT bidirectionnel, ALG, scénarios réels&lt;/li>
+&lt;li>Haute disponibilité : principes, configuration de redondance (HRP, VRRP, VGMP)&lt;/li>
+&lt;li>Gestion des utilisateurs : AAA, authentification et accès&lt;/li>
+&lt;li>IPS/Antivirus : détection, prévention, déploiement de politiques&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>3. Chiffrement et sécurité des communications :&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Cryptographie : symétrique, asymétrique, hachage, algorithmes usuels&lt;/li>
+&lt;li>Certificats : architecture PKI, fonctionnement, authentification&lt;/li>
+&lt;li>VPN : principes, types (IPSec, SSL…), configuration de base&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>Cette certification est essentielle pour maîtriser les architectures de sécurité avancées et les bonnes pratiques de défense réseau. Elle complète mes acquis en audit, GRC et cybersécurité technique.&lt;/p></description></item><item><title>Système Domotique Intelligent</title><link>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/iotrap2CIRCUIT.png" alt="Featured image of post Système Domotique Intelligent" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a pour objectif la conception et la simulation d’un système domotique capable de surveiller et de contrôler à distance différents paramètres environnementaux. Il repose sur un microcontrôleur &lt;strong>ESP32&lt;/strong>, qui centralise les données issues de capteurs et les transmet à des plateformes d’analyse en ligne via les protocoles &lt;strong>MQTT&lt;/strong> et &lt;strong>HTTP&lt;/strong>.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;p>L’architecture vise à associer la mesure en temps réel (température, humidité, luminosité, détection de mouvement) à des actions automatiques ou pilotées à distance (activation d’un ventilateur, éclairage, pompe à eau, etc.). L’intégration de plusieurs protocoles permet une meilleure fiabilité de la communication et une centralisation des données à des fins de visualisation ou d’archivage.&lt;/p>
+&lt;h2 id="simulation-avec-wokwi">Simulation avec Wokwi
+&lt;/h2>&lt;p>La plateforme &lt;strong>Wokwi&lt;/strong> a été utilisée pour simuler l’environnement physique du système, incluant les composants suivants :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Capteur DHT22&lt;/strong> : mesure température et humidité.&lt;/p>
+&lt;ul>
+&lt;li>Activation d’une LED bleue (ventilateur) si température &amp;gt; 30°C&lt;/li>
+&lt;li>Déclenchement d’un buzzer si température &amp;gt; 45°C&lt;/li>
+&lt;li>Activation d’une LED verte (déshumidificateur) si humidité &amp;gt; 70%&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Capteur PIR&lt;/strong> : détection de présence, avec affichage sur écran &lt;strong>LCD I2C&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Capteur LDR&lt;/strong> : mesure de luminosité.&lt;/p>
+&lt;ul>
+&lt;li>Allumage automatique d’une LED si l’éclairement est &amp;lt; 500 lux.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Servomoteur&lt;/strong> : simulation d’un système d’arrosage (pompe à eau), pilotable via un &lt;strong>slider Node-RED&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>LED Neopixel RGB&lt;/strong> : système d’éclairage coloré contrôlable à distance via une interface graphique.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="interface-node-red">Interface Node-RED
+&lt;/h2>&lt;p>La plateforme &lt;strong>Node-RED&lt;/strong> est utilisée pour le traitement des données envoyées via &lt;strong>MQTT&lt;/strong> (serveur HiveMQ) et leur visualisation :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Affichage en temps réel :&lt;/p>
+&lt;ul>
+&lt;li>Température, humidité, luminosité (jauges et graphiques)&lt;/li>
+&lt;li>Notification de détection de mouvement (alertes)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Contrôle à distance :&lt;/p>
+&lt;ul>
+&lt;li>Activation/désactivation d’une LED via interrupteur&lt;/li>
+&lt;li>Contrôle du servomoteur via curseur&lt;/li>
+&lt;li>Sélection de couleur pour la LED Neopixel via &amp;ldquo;color picker&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Archivage :&lt;/p>
+&lt;ul>
+&lt;li>Enregistrement local des données (timestamp, valeurs) dans un fichier &lt;code>dataiot.txt&lt;/code> via un nœud de type &lt;code>write file&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="intégration-avec-thingspeak">Intégration avec ThingSpeak
+&lt;/h2>&lt;p>Les données environnementales sont également envoyées vers la plateforme &lt;strong>ThingSpeak&lt;/strong> via &lt;strong>HTTP&lt;/strong>. Un canal dédié a été configuré avec 4 champs pour stocker :&lt;/p>
+&lt;ul>
+&lt;li>Température&lt;/li>
+&lt;li>Humidité&lt;/li>
+&lt;li>Présence détectée&lt;/li>
+&lt;li>Éclairage&lt;/li>
+&lt;/ul>
+&lt;p>Les courbes de suivi sont mises à jour en temps réel, offrant un aperçu global du comportement du système dans le temps.&lt;/p>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>Le système permet une surveillance continue et un contrôle précis à distance des composants simulés. La double transmission des données (MQTT + HTTP), associée à une interface graphique interactive, permet de valider une architecture complète, robuste et facilement extensible.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot.png"
+width="542"
+height="568"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_816cdd32f06763c1.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_4c171c0b3162fa94.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="95"
+data-flex-basis="229px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1.png"
+width="647"
+height="915"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_507bfdd70917ce4c.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_e6d09e591c63dc2f.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+>&lt;/p></description></item><item><title>Système Distribué Intelligent pour l’Agriculture de la Betterave</title><link>https://Rania218.github.io/portfolio/p/syst%C3%A8me-distribu%C3%A9-intelligent-pour-lagriculture-de-la-betterave/</link><pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/syst%C3%A8me-distribu%C3%A9-intelligent-pour-lagriculture-de-la-betterave/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-distribu%C3%A9-intelligent-pour-lagriculture-de-la-betterave/sds.png" alt="Featured image of post Système Distribué Intelligent pour l’Agriculture de la Betterave" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a été réalisé dans le cadre du module &amp;ldquo;Systèmes Distribués et Services&amp;rdquo;, avec pour objectif de concevoir une solution technologique permettant la surveillance en temps réel des paramètres environnementaux d’une culture de betteraves. Il s’inscrit dans une approche d’agriculture connectée, visant à améliorer la gestion des cultures par la collecte, le traitement et la visualisation intelligente des données issues du terrain.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;p>Le système développé permet de suivre des indicateurs clés comme la température, l’humidité et le pH du sol, afin d’optimiser les pratiques agricoles (arrosage, apport d’intrants, prévention des anomalies). L’architecture repose sur une combinaison de &lt;strong>microservices Java&lt;/strong>, d’un &lt;strong>middleware de streaming Kafka&lt;/strong>, d’un &lt;strong>stockage cloud Firebase&lt;/strong> et d’une &lt;strong>interface de visualisation via Node-RED&lt;/strong>.&lt;/p>
+&lt;h2 id="architecture-technique">Architecture technique
+&lt;/h2>&lt;p>L’infrastructure du système est organisée comme suit :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Trois microservices spécialisés&lt;/strong> dans la collecte de données simulées :&lt;/p>
+&lt;ul>
+&lt;li>Température (via Sockets TCP)&lt;/li>
+&lt;li>pH du sol (via JAX-WS)&lt;/li>
+&lt;li>Humidité (via Spring Boot)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Kafka&lt;/strong> assure la transmission asynchrone et fluide des données entre producteurs (microservices) et consommateurs (Firebase + Tableau de bord).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Firebase Realtime Database&lt;/strong> stocke les données de manière structurée, facilitant leur exploitation et leur mise à jour instantanée.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Node-RED&lt;/strong> récupère les données depuis Firebase pour créer un &lt;strong>tableau de bord interactif&lt;/strong>, accessible en local via navigateur.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="fonctionnalités-développées">Fonctionnalités développées
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Génération automatique de données simulées&lt;/strong> pour température, pH et humidité, avec fréquence ajustée par programmation.&lt;/li>
+&lt;li>&lt;strong>Stockage structuré dans Firebase&lt;/strong>, avec timestamp.&lt;/li>
+&lt;li>&lt;strong>Traitement des flux&lt;/strong> dans Node-RED :
+&lt;ul>
+&lt;li>Extraction des données depuis Firebase&lt;/li>
+&lt;li>Détection des dépassements de seuils&lt;/li>
+&lt;li>Génération d’alertes en cas de conditions défavorables&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Affichage des indicateurs&lt;/strong> sous forme de jauges, graphiques dynamiques et notifications contextuelles dans un tableau de bord appelé &lt;em>Betterave’s Dashboard&lt;/em>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-utilisées">Technologies utilisées
+&lt;/h2>&lt;ul>
+&lt;li>Java / Spring Boot&lt;/li>
+&lt;li>Sockets TCP / JAX-WS (Web Services SOAP)&lt;/li>
+&lt;li>Apache Kafka&lt;/li>
+&lt;li>Firebase Realtime Database&lt;/li>
+&lt;li>Node-RED&lt;/li>
+&lt;li>Eclipse (IDE)&lt;/li>
+&lt;li>Maven&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>Le système fonctionne de manière distribuée et asynchrone, permettant une supervision continue de la culture. Les agriculteurs peuvent ainsi :&lt;/p>
+&lt;ul>
+&lt;li>Consulter les mesures environnementales à distance&lt;/li>
+&lt;li>Recevoir des alertes en cas de dépassement de seuils critiques (ex. température hors plage optimale)&lt;/li>
+&lt;li>Appuyer leurs décisions sur des données fiables, accessibles en temps réel&lt;/li>
+&lt;/ul>
+&lt;p>Ce projet ouvre des perspectives vers une agriculture plus connectée et pilotée par les données, avec la possibilité d’intégrer des modules supplémentaires (recommandations automatiques, autres capteurs, machine learning).&lt;/p></description></item><item><title>Atelier Innovation Virtuelle – Initiation à la création de jeux</title><link>https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/</link><pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.0.jpg" alt="Featured image of post Atelier Innovation Virtuelle – Initiation à la création de jeux" />&lt;h2 id="contexte-de-lévénement">Contexte de l&amp;rsquo;événement
+&lt;/h2>&lt;p>Le 14 décembre 2024, le club GoVirtual a organisé son &lt;strong>deuxième événement&lt;/strong> intitulé &lt;em>&amp;ldquo;Atelier Innovation Virtuelle : Initiation à la création de jeux&amp;rdquo;&lt;/em>. Cet atelier s’adressait à un public plus ciblé, motivé par l’envie de comprendre les fondements techniques nécessaires à la conception de contenus immersifs.&lt;/p>
+&lt;p>J&amp;rsquo;ai eu l&amp;rsquo;opportunité d&amp;rsquo;animer cet atelier en introduisant les participants aux &lt;strong>bases indispensables de la création de jeux en réalité virtuelle&lt;/strong> : configuration de l’environnement de travail (Unity, XR plugins, Interaction Toolkit), structure d’un projet immersif, gestion des interactions utilisateur, etc. Pour appuyer mes explications, j’ai mené des démonstrations concrètes à l’aide de &lt;strong>casques Meta Quest&lt;/strong>, dont le contenu était projeté en direct via &lt;strong>datashow&lt;/strong>, favorisant ainsi une compréhension collective.&lt;/p>
+&lt;h2 id="une-expérience-formatrice-à-plusieurs-niveaux">Une expérience formatrice à plusieurs niveaux
+&lt;/h2>&lt;p>Prendre la parole devant un groupe d’étudiants passionnés a renforcé ma capacité à &lt;strong>structurer et transmettre des connaissances techniques&lt;/strong>, tout en m’adaptant à des profils hétérogènes. J’ai aussi appris à gérer le rythme d’une session pédagogique, à anticiper les points de blocage et à maintenir un climat bienveillant favorisant l’échange.&lt;/p>
+&lt;p>Cette expérience m’a permis de développer plusieurs compétences, notamment :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Pédagogie et vulgarisation technique&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Esprit de leadership et gestion d’atelier&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Clarté dans la communication orale&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Capacité à inspirer et motiver un groupe&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Enfin, la rencontre et l’échange avec notre professeur mentor à la fin de l’événement ont été l’occasion d’évaluer l’impact de nos actions et de préparer les prochaines initiatives du club.&lt;/p>
+&lt;h2 id="galerie">Galerie
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.0.jpg"
+width="1080"
+height="1080"
+srcset="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.0_hu_bec78f81a3742991.jpg 480w, https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.0_hu_b326661d5620ee16.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.7.jpg"
+width="4160"
+height="4052"
+srcset="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.7_hu_e0df16a7bc046021.jpg 480w, https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.7_hu_9787a010fe69c77b.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="102"
+data-flex-basis="246px"
+>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.2.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.2_hu_b547d7b97bdd756e.jpg 480w, https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.2_hu_601f0649ba5d066f.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.3.jpg"
+width="3120"
+height="4160"
+srcset="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.3_hu_3415207330315709.jpg 480w, https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.3_hu_7f5d21b986778da5.jpg 1024w"
+loading="lazy"
+alt="Image 4"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.4.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.4_hu_88b03b8d383a7bc4.jpg 480w, https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.4_hu_b6a2f0247a876bc3.jpg 1024w"
+loading="lazy"
+alt="Image 5"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.5.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.5_hu_79b6e3b3a2d3372.jpg 480w, https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.5_hu_49e27e07b2f21897.jpg 1024w"
+loading="lazy"
+alt="Image 6"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.6.jpg"
+width="3120"
+height="4160"
+srcset="https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.6_hu_a68fe0a5197cb4c9.jpg 480w, https://Rania218.github.io/portfolio/p/atelier-innovation-virtuelle-initiation-%C3%A0-la-cr%C3%A9ation-de-jeux/gv3.6_hu_936df67d16518a24.jpg 1024w"
+loading="lazy"
+alt="Image 7"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p></description></item><item><title>Cisco – Introduction to Cybersecurity</title><link>https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/</link><pubDate>Mon, 11 Nov 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/cisco1.png" alt="Featured image of post Cisco – Introduction to Cybersecurity" />&lt;h2 id="cisco-networking-academy--introduction-to-cybersecurity">Cisco Networking Academy – Introduction to Cybersecurity
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Organisme :&lt;/strong> Cisco Networking Academy&lt;/li>
+&lt;li>&lt;strong>Niveau :&lt;/strong> Student-level credential&lt;/li>
+&lt;li>&lt;strong>Date d’obtention :&lt;/strong> 11 novembre 2024&lt;/li>
+&lt;li>&lt;strong>Badge vérifié :&lt;/strong> ✅ Introduction to Cybersecurity – Verified by Cisco&lt;/li>
+&lt;/ul>
+&lt;p>J’ai suivi cette certification &lt;strong>au début de mon Master en cybersécurité&lt;/strong>, avec l’objectif de &lt;strong>prendre de l’avance sur les fondamentaux&lt;/strong> du domaine et de développer une vision claire des enjeux avant d’aborder les modules avancés du programme.&lt;/p>
+&lt;p>Cette certification m’a permis de :&lt;/p>
+&lt;ul>
+&lt;li>Comprendre ce qu’est la cybersécurité et pourquoi elle est aujourd’hui stratégique dans tous les secteurs.&lt;/li>
+&lt;li>Identifier les principales &lt;strong>menaces, attaques, vulnérabilités&lt;/strong> et mécanismes de défense.&lt;/li>
+&lt;li>Apprendre les bonnes pratiques de &lt;strong>protection individuelle et organisationnelle&lt;/strong> en ligne.&lt;/li>
+&lt;li>Mieux cerner les &lt;strong>opportunités professionnelles&lt;/strong> et les certifications reconnues dans le domaine.&lt;/li>
+&lt;/ul>
+&lt;p>Ce cours a constitué un &lt;strong>point d’entrée solide&lt;/strong> pour structurer ma montée en compétences, tout en renforçant ma motivation à m’orienter vers les métiers de l’audit, de la GRC et de la cybersécurité technique.&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>Certificat vérifié et délivré par Cisco – Networking Academy (ID : 11/11/2024).&lt;/em>
+&lt;img src="https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/cisco1.png"
+width="1317"
+height="888"
+srcset="https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/cisco1_hu_412cad7c522c6efe.png 480w, https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/cisco1_hu_319862bf9f345ef0.png 1024w"
+loading="lazy"
+alt="Certificat 1"
+class="gallery-image"
+data-flex-grow="148"
+data-flex-basis="355px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/cisco2.png"
+width="1167"
+height="887"
+srcset="https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/cisco2_hu_c73371f3b9e43709.png 480w, https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/cisco2_hu_828e55cc5e462cec.png 1024w"
+loading="lazy"
+alt="Certificat 2"
+class="gallery-image"
+data-flex-grow="131"
+data-flex-basis="315px"
+>
+&lt;img src="https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/badge.png"
+width="600"
+height="600"
+srcset="https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/badge_hu_7ce5a5380d9de8d9.png 480w, https://Rania218.github.io/portfolio/p/cisco-introduction-to-cybersecurity/badge_hu_21a99169eeab46bf.png 1024w"
+loading="lazy"
+alt="Badge"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+>&lt;/p></description></item><item><title>Événement inaugural – Découverte de la Réalité Virtuelle</title><link>https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/</link><pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.0.jpg" alt="Featured image of post Événement inaugural – Découverte de la Réalité Virtuelle" />&lt;h2 id="une-première-rencontre-marquante">Une première rencontre marquante
+&lt;/h2>&lt;p>Le 2 novembre 2024, nous avons organisé le tout premier événement du club &lt;strong>GoVirtual&lt;/strong> à la Faculté des Sciences de Rabat, intitulé &lt;em>Découverte de la Réalité Virtuelle : Initiez-vous à la création&lt;/em>. Ce moment a marqué le lancement officiel de notre initiative, avec pour objectif de faire découvrir aux étudiants les possibilités fascinantes offertes par la réalité virtuelle et les outils de création immersive.&lt;/p>
+&lt;p>Après une présentation de notre mission, de notre vision et des projets à venir, les participants ont pu s’initier concrètement à &lt;strong>Unity&lt;/strong> et &lt;strong>Blender&lt;/strong> à travers un atelier interactif. Les échanges ont été nombreux, curieux, dynamiques.&lt;/p>
+&lt;h2 id="une-expérience-humaine-et-formatrice">Une expérience humaine et formatrice
+&lt;/h2>&lt;p>En tant que &lt;strong>trésorière du club et co-organisatrice de l’événement&lt;/strong>, j’ai eu la chance de prendre la parole pour présenter notre démarche devant un &lt;strong>amphithéâtre rempli d’étudiants&lt;/strong>, mais aussi en présence du &lt;strong>Doyen&lt;/strong> et de plusieurs &lt;strong>enseignants de la faculté&lt;/strong>. Ce moment m’a beaucoup apporté, tant sur le plan personnel que relationnel.&lt;/p>
+&lt;p>Préparer et mener à bien cet événement m’a permis de :&lt;/p>
+&lt;ul>
+&lt;li>M’exprimer avec clarté et assurance devant un public diversifié,&lt;/li>
+&lt;li>Renforcer ma capacité à travailler en équipe autour d’un objectif commun,&lt;/li>
+&lt;li>Structurer un événement pédagogique de A à Z,&lt;/li>
+&lt;li>Créer du lien avec des étudiants issus de différentes filières,&lt;/li>
+&lt;li>Et surtout, porter un projet auquel je crois avec conviction.&lt;/li>
+&lt;/ul>
+&lt;h2 id="une-porte-ouverte-vers-linnovation">Une porte ouverte vers l’innovation
+&lt;/h2>&lt;p>Ce premier événement nous a permis de poser les bases d’une communauté autour de la réalité virtuelle, et d’inspirer de nouveaux membres à nous rejoindre. Il a aussi confirmé mon envie de m’investir dans des projets concrets à la croisée de la &lt;strong>tech&lt;/strong>, de la &lt;strong>création&lt;/strong> et de la &lt;strong>transmission&lt;/strong>.&lt;/p>
+&lt;h2 id="galerie">Galerie
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.3.jpg"
+width="4032"
+height="3024"
+srcset="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.3_hu_74371b7ddadcc174.jpg 480w, https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.3_hu_31b28221076a1dc.jpg 1024w"
+loading="lazy"
+alt="Photo de groupe avec le Doyen"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;br>
+&lt;img src="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.1.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.1_hu_d8c7c7da00fa5f99.jpg 480w, https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.1_hu_e613505db98ccce5.jpg 1024w"
+loading="lazy"
+alt="image 2"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.4.jpg"
+width="750"
+height="1334"
+srcset="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.4_hu_2d7068d03a26e70d.jpg 480w, https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.4_hu_7dbecb22c01bb5e.jpg 1024w"
+loading="lazy"
+alt="image 3"
+class="gallery-image"
+data-flex-grow="56"
+data-flex-basis="134px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.2.jpg"
+width="3120"
+height="4160"
+srcset="https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.2_hu_97cfe27f600481bc.jpg 480w, https://Rania218.github.io/portfolio/p/%C3%A9v%C3%A9nement-inaugural-d%C3%A9couverte-de-la-r%C3%A9alit%C3%A9-virtuelle/gv2.2_hu_cbda230e96768a7c.jpg 1024w"
+loading="lazy"
+alt="image 4"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+>&lt;/p></description></item><item><title>Création du club GoVirtual – Réalité virtuelle et technologies immersives</title><link>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/</link><pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.1.jpg" alt="Featured image of post Création du club GoVirtual – Réalité virtuelle et technologies immersives" />&lt;h2 id="contexte-de-linitiative">Contexte de l’initiative
+&lt;/h2>&lt;p>GoVirtual est le &lt;strong>premier club universitaire de réalité virtuelle&lt;/strong> fondé à la Faculté des Sciences de Rabat. Il a été créé dans le but de &lt;strong>démocratiser les technologies immersives&lt;/strong>, d’explorer des usages innovants de la réalité virtuelle (RV) dans divers domaines (enseignement, santé, divertissement, etc.), et de développer un espace collaboratif pour les étudiant·e·s passionné·e·s de technologies émergentes.&lt;/p>
+&lt;p>En tant que &lt;strong>membre fondatrice&lt;/strong> du club, j’ai intégré le &lt;strong>bureau exécutif&lt;/strong> composé de cinq personnes, où j’ai occupé le rôle de &lt;strong>trésorière&lt;/strong>.&lt;/p>
+&lt;h2 id="mon-rôle-de-trésorière">Mon rôle de trésorière
+&lt;/h2>&lt;p>Ce poste m’a permis de :&lt;/p>
+&lt;ul>
+&lt;li>Gérer les ressources financières du club avec rigueur.&lt;/li>
+&lt;li>Participer à la rédaction des demandes de financement.&lt;/li>
+&lt;li>Organiser les dépenses liées aux événements (matériel, communication, logistique).&lt;/li>
+&lt;li>Développer un &lt;strong>sens des responsabilités&lt;/strong>, de la &lt;strong>transparence&lt;/strong>, et une gestion proactive des priorités.&lt;/li>
+&lt;/ul>
+&lt;p>Ce rôle a aussi renforcé mes capacités à collaborer avec des profils variés dans un cadre associatif structuré.&lt;/p>
+&lt;h2 id="semaine-dintégration--animation-et-immersion">Semaine d’intégration : animation et immersion
+&lt;/h2>&lt;p>Lors de la &lt;strong>semaine d’intégration universitaire&lt;/strong>, nous avons animé un stand interactif pour faire connaître GoVirtual et attirer de nouveaux membres. Nous avons permis aux étudiant·e·s de vivre une &lt;strong>expérience immersive avec des casques VR&lt;/strong>, ce qui a suscité beaucoup d’intérêt et d’échanges.&lt;/p>
+&lt;p>J’ai ainsi eu l’opportunité de :&lt;/p>
+&lt;ul>
+&lt;li>Interagir avec un large public, ce qui a &lt;strong>développé mes compétences relationnelles&lt;/strong>.&lt;/li>
+&lt;li>Représenter le club auprès de figures importantes de l’établissement, dont le &lt;strong>Doyen&lt;/strong> et la &lt;strong>Vice-Doyenne&lt;/strong> de la faculté.&lt;/li>
+&lt;li>Adapter mon discours en fonction des profils rencontrés (étudiants, enseignants, administratifs).&lt;/li>
+&lt;/ul>
+&lt;p>Cette expérience m’a permis de &lt;strong>gagner en aisance à l’oral&lt;/strong>, de renforcer ma &lt;strong>confiance en moi&lt;/strong> et de pratiquer une &lt;strong>communication positive et fédératrice&lt;/strong>, autant d’atouts précieux dans un environnement professionnel.&lt;/p>
+&lt;h2 id="impact-et-perspectives">Impact et perspectives
+&lt;/h2>&lt;p>Participer à la création de GoVirtual a été une expérience marquante. Elle m’a permis de :&lt;/p>
+&lt;ul>
+&lt;li>M’investir dans un projet collectif porteur de sens.&lt;/li>
+&lt;li>Me positionner en tant qu’actrice de l’innovation au sein de mon université.&lt;/li>
+&lt;li>M’ouvrir à une &lt;strong>veille technologique constante&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="galerie">Galerie
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.1.jpg"
+width="4032"
+height="3024"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.1_hu_e718b09fc55350d8.jpg 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.1_hu_b2058f4094a8fa67.jpg 1024w"
+loading="lazy"
+alt="Image bureau exécutif et doyens"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>&lt;br>
+&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.2.jpg"
+width="750"
+height="1334"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.2_hu_f57c7bfa12313c3.jpg 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.2_hu_1f8b673b988521ed.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="56"
+data-flex-basis="134px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.3.jpg"
+width="2160"
+height="3840"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.3_hu_2899fdc3f81e0464.jpg 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-du-club-govirtual-r%C3%A9alit%C3%A9-virtuelle-et-technologies-immersives/gv1.3_hu_d43c1d0e715bfc1a.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="56"
+data-flex-basis="135px"
+>&lt;/p></description></item><item><title>Projet de fin d'études de licence:Watches &amp; Glasses</title><link>https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/</link><pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/watchesglasses.jpg" alt="Featured image of post Projet de fin d'études de licence:Watches &amp; Glasses" />&lt;h2 id="contexte-du-projet">Contexte du projet
+&lt;/h2>&lt;p>Ce projet a été réalisé en 2024 dans le cadre de mon &lt;strong>projet de fin d’études de licence en Sciences Mathématiques et Informatiques&lt;/strong>, à la Faculté des Sciences de Rabat. Il s’inscrit dans la thématique du &lt;strong>commerce mobile (M-commerce)&lt;/strong>, avec une orientation forte vers l’innovation technologique par l’usage de la &lt;strong>réalité augmentée (AR)&lt;/strong>.&lt;/p>
+&lt;p>L’application mobile développée, intitulée &lt;em>Watches &amp;amp; Glasses&lt;/em>, permet aux utilisateurs d’essayer virtuellement des montres et des lunettes avant de les acheter en ligne. L’objectif était de &lt;strong>renforcer la confiance des clients&lt;/strong> dans l’achat de produits à distance, tout en &lt;strong>réduisant le taux de retour&lt;/strong> grâce à une visualisation précise et personnalisée des articles.&lt;/p>
+&lt;h2 id="objectifs">Objectifs
+&lt;/h2>&lt;ul>
+&lt;li>Concevoir une application mobile intuitive dédiée à la vente de montres et de lunettes.&lt;/li>
+&lt;li>Intégrer une couche de réalité augmentée pour simuler l’essayage virtuel des produits.&lt;/li>
+&lt;li>Mettre en place une &lt;strong>infrastructure de données sécurisée et réactive&lt;/strong> via Firebase.&lt;/li>
+&lt;li>Améliorer l’expérience utilisateur et la fiabilité du parcours d’achat.&lt;/li>
+&lt;/ul>
+&lt;h2 id="technologies-utilisées">Technologies utilisées
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Blender&lt;/strong> : conception et optimisation des modèles 3D des montres et lunettes.&lt;/li>
+&lt;li>&lt;strong>Unity&lt;/strong> + &lt;strong>Vuforia&lt;/strong> : intégration de la réalité augmentée pour permettre l’affichage en temps réel des produits sur l’utilisateur via caméra.&lt;/li>
+&lt;li>&lt;strong>Android Studio&lt;/strong> (Java, XML) : développement de l’interface mobile et des fonctionnalités natives.&lt;/li>
+&lt;li>&lt;strong>Firebase&lt;/strong> : gestion de la base de données en temps réel, &lt;strong>authentification des utilisateurs&lt;/strong> et suivi analytique.&lt;/li>
+&lt;li>&lt;strong>JSON&lt;/strong> : format d’échange des données entre l’application et le back-end.&lt;/li>
+&lt;/ul>
+&lt;h2 id="fonctionnalités-développées">Fonctionnalités développées
+&lt;/h2>&lt;ul>
+&lt;li>Catalogue d’articles (montres, lunettes) avec images et informations détaillées.&lt;/li>
+&lt;li>Essayage en réalité augmentée via caméra frontale (overlay dynamique des modèles 3D).&lt;/li>
+&lt;li>Authentification et création de compte utilisateur avec Firebase Auth.&lt;/li>
+&lt;li>Système de panier et simulation de commande.&lt;/li>
+&lt;li>Enregistrement et suivi des actions utilisateur via Firebase Analytics.&lt;/li>
+&lt;/ul>
+&lt;h2 id="résultat">Résultat
+&lt;/h2>&lt;p>L’application &lt;em>Watches &amp;amp; Glasses&lt;/em> offre une interface fluide et moderne, combinant &lt;strong>visualisation immersive&lt;/strong> et &lt;strong>fonctionnalités de commerce en ligne classiques&lt;/strong>. Le rendu AR est stable et précis, et les tests ont montré une forte appréciation de l’expérience utilisateur en conditions réelles. Ce projet a été une &lt;strong>expérience fondatrice&lt;/strong> dans ma formation, à la croisée de l’expérience utilisateur, du développement mobile et des technologies interactives.&lt;/p>
+&lt;h2 id="visualisation">Visualisation
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2_hu_70a16b27ddb2c225.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2_hu_aaf5dfab296b473d.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3_hu_17995ec61a95cc5a.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3_hu_8f37a00d3fc18593.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1.jpg"
+width="359"
+height="720"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1_hu_d63edd0670008372.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1_hu_36edb6474f31bee9.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="49"
+data-flex-basis="119px"
+>&lt;/p></description></item><item><title>Diplôme d’Études en Langue Française</title><link>https://Rania218.github.io/portfolio/p/dipl%C3%B4me-d%C3%A9tudes-en-langue-fran%C3%A7aise/</link><pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/dipl%C3%B4me-d%C3%A9tudes-en-langue-fran%C3%A7aise/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/dipl%C3%B4me-d%C3%A9tudes-en-langue-fran%C3%A7aise/delf.png" alt="Featured image of post Diplôme d’Études en Langue Française" />&lt;h2 id="diplôme-détudes-en-langue-française-delf-b2">Diplôme d’Études en Langue Française (DELF B2)
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Organisme :&lt;/strong> Ministère de l’Éducation nationale et de la Jeunesse (France) – CIEP&lt;/li>
+&lt;li>&lt;strong>Niveau validé :&lt;/strong> B2 (Cadre Européen Commun de Référence pour les Langues)&lt;/li>
+&lt;li>&lt;strong>Date d’obtention :&lt;/strong> Janvier 2020&lt;/li>
+&lt;li>&lt;strong>Lieu d’examen :&lt;/strong> Rabat (Maroc)&lt;/li>
+&lt;li>&lt;strong>Numéro de candidat :&lt;/strong> 212007-018006&lt;/li>
+&lt;/ul>
+&lt;p>Le DELF B2 atteste d’un niveau avancé en compréhension et expression de la langue française, tant à l’oral qu’à l’écrit. Cette certification est reconnue à l’international dans les milieux académiques et professionnels francophones.&lt;/p>
+&lt;p>Mon niveau de français s’est encore affiné depuis cette certification, notamment à travers mes études universitaires, mes projets rédigés en français et mes interactions en contexte professionnel.&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/dipl%C3%B4me-d%C3%A9tudes-en-langue-fran%C3%A7aise/delf.png"
+width="1038"
+height="735"
+srcset="https://Rania218.github.io/portfolio/p/dipl%C3%B4me-d%C3%A9tudes-en-langue-fran%C3%A7aise/delf_hu_21339cefd8ccdd33.png 480w, https://Rania218.github.io/portfolio/p/dipl%C3%B4me-d%C3%A9tudes-en-langue-fran%C3%A7aise/delf_hu_3b11f43235eb8a9a.png 1024w"
+loading="lazy"
+alt="Diplome"
+class="gallery-image"
+data-flex-grow="141"
+data-flex-basis="338px"
+>&lt;/p></description></item><item><title>Diplôme de langue Anglaise</title><link>https://Rania218.github.io/portfolio/p/dipl%C3%B4me-de-langue-anglaise/</link><pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/dipl%C3%B4me-de-langue-anglaise/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/dipl%C3%B4me-de-langue-anglaise/cambridge.png" alt="Featured image of post Diplôme de langue Anglaise" />&lt;h2 id="cambridge-english-level-1-certificate-preliminary-english-test--b2">Cambridge English Level 1 Certificate (Preliminary English Test – B2)
+&lt;/h2>&lt;ul>
+&lt;li>&lt;strong>Organisme :&lt;/strong> Cambridge Assessment English (UK)&lt;/li>
+&lt;li>&lt;strong>Niveau validé :&lt;/strong> Level 1* (équivalent &lt;strong>B2&lt;/strong> – CECRL)&lt;/li>
+&lt;li>&lt;strong>Mention obtenue :&lt;/strong> &lt;em>Pass With Distinction&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Date d&amp;rsquo;obtention :&lt;/strong> Août 2019&lt;/li>
+&lt;li>&lt;strong>Lieu d&amp;rsquo;examen :&lt;/strong> Casablanca&lt;/li>
+&lt;li>&lt;strong>Score global :&lt;/strong> 163 / 170
+&lt;ul>
+&lt;li>Reading : 170&lt;/li>
+&lt;li>Writing : 159&lt;/li>
+&lt;li>Listening : 153&lt;/li>
+&lt;li>Speaking : 168&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Référence certificat :&lt;/strong> B0067585&lt;/li>
+&lt;/ul>
+&lt;p>Ce certificat atteste d’un très bon niveau en anglais général (niveau B2) acquis dès 2019, avec une mention &lt;em>Pass With Distinction&lt;/em>. Il est reconnu internationalement comme preuve de compétence linguistique, tant à l’écrit qu’à l’oral.&lt;/p>
+&lt;p>Depuis, &lt;strong>mon niveau a nettement évolué&lt;/strong>, notamment parce que &lt;strong>je lis souvent en anglais&lt;/strong>, aussi bien des &lt;strong>romans&lt;/strong> que des &lt;strong>articles techniques&lt;/strong>, ce qui m’a permis d’enrichir mon vocabulaire et de gagner en aisance, à l’écrit comme à l’oral.&lt;/p>
+&lt;p>&lt;em>Correspond au niveau B2 du Cadre Européen Commun de Référence pour les Langues (CECRL).&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/dipl%C3%B4me-de-langue-anglaise/cambridge.png"
+width="542"
+height="832"
+srcset="https://Rania218.github.io/portfolio/p/dipl%C3%B4me-de-langue-anglaise/cambridge_hu_85768321355ec300.png 480w, https://Rania218.github.io/portfolio/p/dipl%C3%B4me-de-langue-anglaise/cambridge_hu_e530dd3954a976b1.png 1024w"
+loading="lazy"
+alt="Diplome"
+class="gallery-image"
+data-flex-grow="65"
+data-flex-basis="156px"
+>&lt;/p></description></item><item><title>Tae Kwon Do – Ceinture noire</title><link>https://Rania218.github.io/portfolio/p/tae-kwon-do/</link><pubDate>Thu, 20 Mar 2014 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/tae-kwon-do/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/tae-kwon-do/card2.png" alt="Featured image of post Tae Kwon Do – Ceinture noire" />&lt;h2 id="contexte">Contexte
+&lt;/h2>&lt;p>Parallèlement à mon parcours académique, j’ai également pratiqué le &lt;strong>Tae Kwon Do&lt;/strong>, une discipline martiale coréenne exigeante, dans laquelle j’ai obtenu ma &lt;strong>ceinture noire en 2014&lt;/strong>, reconnue par le Kukkiwon (World Taekwondo Headquarters). Cette certification atteste d’un long processus d’apprentissage basé sur la rigueur, la technique et l’endurance.&lt;/p>
+&lt;h2 id="ce-que-cette-pratique-ma-apporté">Ce que cette pratique m’a apporté
+&lt;/h2>&lt;p>La pratique du Tae Kwon Do a fortement contribué à structurer ma personnalité et m’a permis de développer de solides compétences personnelles alignées avec les qualités attendues dans le domaine de la cybersécurité :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Discipline&lt;/strong> : capacité à suivre une méthodologie stricte et à respecter les règles dans des contextes exigeants.&lt;/li>
+&lt;li>&lt;strong>Maîtrise de soi&lt;/strong> : gestion du stress et prise de décision réfléchie, y compris sous pression.&lt;/li>
+&lt;li>&lt;strong>Persévérance&lt;/strong> : volonté d’atteindre ses objectifs même face aux difficultés, qualité essentielle dans les environnements techniques.&lt;/li>
+&lt;li>&lt;strong>Éthique et rigueur&lt;/strong> : respect des engagements, esprit de justice, sens du devoir.&lt;/li>
+&lt;/ul>
+&lt;h2 id="reconnaissance-morale">Reconnaissance morale
+&lt;/h2>&lt;p>En 2011, j’ai reçu une &lt;strong>distinction d’exemplarité&lt;/strong> de la part de mon centre d&amp;rsquo;entraînement, délivrée par la Fédération coréenne de Taekwondo. Ce certificat souligne mon comportement exemplaire, mon respect constant des valeurs morales et mon engagement au sein du groupe. Cette reconnaissance, bien que délivrée à un jeune âge, témoigne d’une éthique personnelle construite très tôt et toujours présente aujourd’hui dans mes démarches professionnelles.&lt;/p>
+&lt;hr>
+&lt;h2 id="attestations">Attestations
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/tae-kwon-do/tae2.png"
+width="583"
+height="837"
+srcset="https://Rania218.github.io/portfolio/p/tae-kwon-do/tae2_hu_efebd1e602b52ef5.png 480w, https://Rania218.github.io/portfolio/p/tae-kwon-do/tae2_hu_d2e42d8370c5cf.png 1024w"
+loading="lazy"
+alt="Certificat officiel du Kukkiwon (2014)"
+class="gallery-image"
+data-flex-grow="69"
+data-flex-basis="167px"
+>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/tae-kwon-do/card1.png"
+width="1040"
+height="658"
+srcset="https://Rania218.github.io/portfolio/p/tae-kwon-do/card1_hu_f1e7b44df54f2d8f.png 480w, https://Rania218.github.io/portfolio/p/tae-kwon-do/card1_hu_a289e90a4297e0db.png 1024w"
+loading="lazy"
+alt="Carte d’identification Tae Kwon Do – 1er Poom"
+class="gallery-image"
+data-flex-grow="158"
+data-flex-basis="379px"
+>&lt;img src="https://Rania218.github.io/portfolio/p/tae-kwon-do/card2.png"
+width="1026"
+height="642"
+srcset="https://Rania218.github.io/portfolio/p/tae-kwon-do/card2_hu_ecb23d3541fe09b7.png 480w, https://Rania218.github.io/portfolio/p/tae-kwon-do/card2_hu_77c4a7df4dddd7c4.png 1024w"
+loading="lazy"
+alt="Carte d’identification Tae Kwon Do – 1er Poom (2ème face)"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="383px"
+>&lt;/p>
+&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/tae-kwon-do/tai1.png"
+width="560"
+height="835"
+srcset="https://Rania218.github.io/portfolio/p/tae-kwon-do/tai1_hu_dbee1b82ce5e4f5f.png 480w, https://Rania218.github.io/portfolio/p/tae-kwon-do/tai1_hu_8c44e6919bc3bc90.png 1024w"
+loading="lazy"
+alt="Certificat d’exemplarité – 2011"
+class="gallery-image"
+data-flex-grow="67"
+data-flex-basis="160px"
+>&lt;/p></description></item><item><title>Activités artistiques et passions de jeunesse</title><link>https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/</link><pubDate>Wed, 07 Aug 2013 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/musique.png" alt="Featured image of post Activités artistiques et passions de jeunesse" />&lt;h2 id="un-parcours-enrichi-par-la-pratique-artistique">Un parcours enrichi par la pratique artistique
+&lt;/h2>&lt;p>Depuis mon plus jeune âge, les activités artistiques ont occupé une place essentielle dans ma vie, au-delà du cadre scolaire. Elles m&amp;rsquo;ont permis d&amp;rsquo;acquérir des qualités humaines précieuses, en cohérence avec les attentes du monde professionnel.&lt;/p>
+&lt;h2 id="musique--entre-discipline-et-sensibilité">Musique : entre discipline et sensibilité
+&lt;/h2>&lt;p>J’ai eu la chance d’intégrer, dès l’école primaire, un club de musique où j’ai pratiqué le &lt;strong>violon&lt;/strong> de manière régulière, tout en découvrant également le &lt;strong>piano&lt;/strong> et la &lt;strong>flûte&lt;/strong>. Ces instruments m’ont appris la rigueur, l’écoute et la coordination, des compétences transférables aujourd’hui dans des environnements de travail collaboratifs et techniques.&lt;/p>
+&lt;h2 id="théâtre--confiance-et-expression-en-français-comme-en-anglais">Théâtre : confiance et expression en français comme en anglais
+&lt;/h2>&lt;p>Parallèlement, j’ai participé à plusieurs &lt;strong>clubs de théâtre&lt;/strong>, aussi bien en français qu’en anglais. Ces expériences scéniques m’ont aidée à prendre la parole avec assurance, à améliorer mon expression orale, mais surtout à travailler l’empathie, l’adaptation et la présence – autant d’atouts recherchés dans les métiers du conseil et de la gestion des relations humaines en cybersécurité.&lt;/p>
+&lt;h2 id="lecture-écriture-et-curiosité-intellectuelle">Lecture, écriture, et curiosité intellectuelle
+&lt;/h2>&lt;p>La &lt;strong>lecture&lt;/strong> régulière – tant de romans que d’essais – nourrit mon sens de l’analyse, mon vocabulaire, mais aussi ma capacité à synthétiser des idées complexes. L’&lt;strong>écriture&lt;/strong> me permet de structurer mes réflexions et d’exprimer ma créativité, notamment dans les rapports de projet ou les restitutions orales.&lt;/p>
+&lt;h2 id="football--esprit-déquipe-et-inspiration">Football : esprit d’équipe et inspiration
+&lt;/h2>&lt;p>Passionnée de football, je suis avec enthousiasme les grands championnats européens et particulièrement le parcours du &lt;strong>Liverpool Football Club&lt;/strong>, dont les valeurs de combativité, d’unité et de résilience m’inspirent. Même si je le pratique peu, ce sport m’enseigne la &lt;strong>stratégie collective&lt;/strong>, la &lt;strong>gestion des efforts dans la durée&lt;/strong> et la &lt;strong>capacité à garder la motivation face à l’adversité&lt;/strong> – des leçons applicables autant dans les projets que dans le monde professionnel.&lt;/p>
+&lt;h2 id="conclusion">Conclusion
+&lt;/h2>&lt;p>Ces loisirs m’ont permis, dès l’adolescence, de développer une personnalité équilibrée entre rigueur, créativité, aisance relationnelle et capacité d’engagement. Ils complètent mon profil technique et renforcent ma candidature pour des stages dans les domaines de l’&lt;strong>audit&lt;/strong>, de la &lt;strong>gouvernance des SI&lt;/strong> ou de la &lt;strong>conformité&lt;/strong>.&lt;/p>
+&lt;h2 id="attestations">Attestations
+&lt;/h2>&lt;p>&lt;img src="https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/theatre.png"
+width="1032"
+height="746"
+srcset="https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/theatre_hu_4ce931678ac449fd.png 480w, https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/theatre_hu_29ff9a51af85634f.png 1024w"
+loading="lazy"
+alt="Théâtre"
+class="gallery-image"
+data-flex-grow="138"
+data-flex-basis="332px"
+> &lt;img src="https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/musique.png"
+width="1030"
+height="743"
+srcset="https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/musique_hu_eb8818814f78c767.png 480w, https://Rania218.github.io/portfolio/p/activit%C3%A9s-artistiques-et-passions-de-jeunesse/musique_hu_c20028c919eaaea2.png 1024w"
+loading="lazy"
+alt="Musique"
+class="gallery-image"
+data-flex-grow="138"
+data-flex-basis="332px"
+>&lt;/p></description></item></channel></rss>
