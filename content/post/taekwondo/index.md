@@ -1,9 +1,9 @@
 ---
-title: Tae Kwon Do
-description: Ceinture noire obtenue en 2014 – Discipline, persévérance et maîtrise de soi
+title: Tae Kwon Do – Ceinture noire
+description: Pratique des arts martiaux et développement des qualités fondamentales pour mon domaine d'études
 slug: tae-kwon-do
 date: 2014-03-20 00:00:00+0000
-image: card1.png
+image: card2.png
 categories:
   - Loisirs
 ---
