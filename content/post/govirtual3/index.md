@@ -33,7 +33,7 @@ Enfin, la rencontre et l’échange avec notre professeur mentor à la fin de l�
 
 ## Galerie
 
-![Image 1](gv3.0.jpg) ![Image 2](gv3.1.jpg)
+![Image 1](gv3.0.jpg) ![Image 2](gv3.7.jpg)
 
 ![Image 3](gv3.2.jpg) ![Image 4](gv3.3.jpg)
 
