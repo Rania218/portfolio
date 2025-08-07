@@ -24,5 +24,7 @@ En 2011, j’ai également été distinguée pour mon comportement exemplaire en
 ### Attestations
 
 ![Certificat officiel du Kukkiwon (2014)](tae2.png)
+
 ![Carte d'identification Tae Kwon Do – 1er Poom](card1.png)![Carte d'identification Tae Kwon Do – 1er Poom (2ème face)](card2.png)
+
 ![Certificat d’exemplarité – 2011](tai1.png)
