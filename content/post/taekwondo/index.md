@@ -2,7 +2,7 @@
 title: Tae Kwon Do
 description: Ceinture noire obtenue en 2014 – Discipline, persévérance et maîtrise de soi
 slug: tae-kwon-do
-date: 2025-08-07 00:00:00+0000
+date: 2014-03-20 00:00:00+0000
 image: tae2.png
 categories:
   - Loisirs
