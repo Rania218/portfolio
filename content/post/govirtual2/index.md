@@ -21,7 +21,7 @@ Après une présentation de notre mission, de notre vision et des projets à ven
 
 ## Une expérience humaine et formatrice
 
-En tant que **trésorière du club et co-organisatrice de l’événement**, j’ai eu la chance de prendre la parole pour présenter notre démarche devant un **amphithéâtre rempli d’étudiants**, mais aussi en présence du **Doyen**, de la **Vice-Doyenne** et de plusieurs **enseignants de la faculté**. Ce moment m’a beaucoup apporté, tant sur le plan personnel que relationnel.
+En tant que **trésorière du club et co-organisatrice de l’événement**, j’ai eu la chance de prendre la parole pour présenter notre démarche devant un **amphithéâtre rempli d’étudiants**, mais aussi en présence du **Doyen** et de plusieurs **enseignants de la faculté**. Ce moment m’a beaucoup apporté, tant sur le plan personnel que relationnel.
 
 Préparer et mener à bien cet événement m’a permis de :
 
@@ -37,4 +37,4 @@ Ce premier événement nous a permis de poser les bases d’une communauté auto
 
 ## Galerie
 ![Photo de groupe avec le Doyen](gv2.3.jpg)  
-![image 2](gv2.1.jpg)  ![image 3](gv2.4.jpg) ![image 4](gv2.1.jpg)  
+![image 2](gv2.1.jpg)  ![image 3](gv2.4.jpg) ![image 4](gv2.2.jpg)  
