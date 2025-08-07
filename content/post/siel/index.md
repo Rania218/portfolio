@@ -1,6 +1,6 @@
 ---
 title: Participation au SIEL 2025 – Salon du Livre
-description: Présence du Club de Réalité Virtuelle de la FSR au Salon International de l’Édition et du Livre (SIEL 2025)
+description: Participation du Club de Réalité Virtuelle de la FSR au Salon International de l’Édition et du Livre (SIEL 2025)
 date: 2025-04-18 00:00:00+0000
 image: siel4.jpg
 categories: 
