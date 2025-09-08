@@ -61,4 +61,3 @@ Ce mini-audit a permis de formaliser un **état des lieux de maturité SSI**, en
 
 Ce projet a renforcé mes compétences en **audit, GRC, évaluation des risques**, et m’a permis de démontrer ma capacité à transposer une norme complexe à un contexte opérationnel concret.
 
-## Visualisation

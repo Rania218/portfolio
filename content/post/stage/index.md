@@ -1,6 +1,6 @@
 ---
-title: Assistant de documentation pour campagnes de pentest, GRC et audit ISO 27001
-description: Stage de fin d'année (en cours)
+title: Assistant de Pentest propulsé par LLM & Audit du contenu généré selon ISO/IEC 27001 et OWASP
+description: Stage de fin d'année 2025 de Master 1
 date: 2025-07-01
 image: yuften.png
 tags: 
@@ -10,7 +10,6 @@ tags:
   - ISO27001
   - Conformité
   - Java
-  - PowerBI
   - LLM
   - Cybersécurité
   - DocumentationAutomatisée
@@ -19,48 +18,88 @@ categories:
 ---
 ## Contexte du projet
 
-Dans le cadre de mon stage de Master 1 en cybersécurité chez **Yuften Services**, je développe un **assistant logiciel de génération de rapports d’audit et de pentest**, destiné à automatiser la documentation technique tout en intégrant une évaluation de conformité selon **ISO/IEC 27001**. Ce projet s’inscrit dans une logique GRC (Gouvernance, Risques et Conformité), en soutenant les processus d’audit, de traçabilité et de suivi des mesures de sécurité.
+Dans le cadre de mon stage de Master 1 en cybersécurité chez **Yuften Services**, j’ai conçu un **assistant automatisé de génération de rapports de pentest**, reposant sur un modèle de langage (LLM) fonctionnant en local avec **Ollama**.  
+
+L’objectif global est donc de **réduire le temps de production documentaire** tout en assurant une **conformité avec les standards reconnus** (PTES, ISO/IEC 27001, OWASP).
+
+---
 
 ## Objectifs
 
-- Concevoir un assistant automatisé capable de générer des rapports complets et structurés à chaque étape d’une campagne de test d’intrusion.
-- Intégrer une **cartographie des exigences ISO/IEC 27001** en lien avec les constats techniques observés lors des audits.
-- Fournir une **visualisation des écarts et niveaux de conformité** via un tableau de bord Power BI.
-- Renforcer les capacités internes de Yuften Services en matière de GRC, en particulier dans la formalisation des livrables d’audit.
+- Réduire significativement le temps nécessaire à la production des rapports.  
+- Générer automatiquement des livrables structurés : charte, planning, résumé exécutif, fiches de vulnérabilités.  
+- Garantir une **conformité avec ISO/IEC 27001 et OWASP**.  
+- Démontrer la faisabilité d’une telle solution dans un environnement limité (ressources locales).  
+
+---
 
 ## Architecture du projet
 
-L’assistant repose sur les composants suivants :
+L’application repose sur une architecture en **trois couches** :  
 
-- **Un moteur Java connecté à un LLM** (via OpenRouter API), chargé de générer automatiquement le contenu des rapports de pentest.
-- Un **module d’évaluation ISO 27001**, basé sur un tableau de correspondance entre les vulnérabilités et les contrôles de la norme (Annexe A).
-- Un **formulaire interactif**, utilisé par les auditeurs pour alimenter les résultats techniques.
-- Un tableau de bord **Power BI**, centralisant :
-  - La couverture des contrôles ISO
-  - Le suivi des vulnérabilités identifiées
-  - L’état d’avancement des recommandations
-  - L’exposition aux risques organisationnels
+1. **Frontend (React + Vite)**  
+   - Formulaire interactif pour la saisie des données (objectifs, vulnérabilités, constats).  
+   - Visualisation en **Markdown** (résumé, fiches, rapport global).  
+   - Authentification via Firebase.  
+
+2. **Backend (Java / Spring Boot)**  
+   - API REST exposant les endpoints de génération (`/api/pentest/generate/all`).  
+   - Services internes : `PentestGeneratorService`, `OllamaService`.  
+   - Sérialisation JSON avec Jackson.  
+
+3. **Moteur LLM (Ollama + llama3.2:1b)**  
+   - Fonctionnement local pour éviter toute fuite de données sensibles.  
+   - Génération de contenu textuel à partir des prompts construits par le backend.  
+
+---
 
 ## Technologies utilisées
 
-- **Java** (Spring Boot) : logique d’assistant, traitement des données.
-- **OpenRouter API / LLM** : génération intelligente de contenu technique.
-- **ISO/IEC 27001** : structure de conformité et axes d’analyse.
-- **Power BI** : visualisation des indicateurs de conformité et de risque.
-- **Excel/JSON** : support structuré des données (vulnérabilités, contrôles, plans d’action).
+- **Java / Spring Boot** : logique métier et API REST.  
+- **React + Vite** : interface utilisateur et rendu dynamique.  
+- **Ollama (llama3.2:1b)** : génération automatique de contenu.  
+- **Postman** : test des endpoints.  
+- **Firebase** : authentification.  
+- **Git, IntelliJ IDEA, VS Code** : environnement de développement.  
 
-## Avancement actuel
+---
 
-- Le moteur Java est fonctionnel pour générer automatiquement les sections de rapport (introduction, méthodes, vulnérabilités, recommandations).
-- La cartographie avec les exigences ISO est en cours d’intégration, avec plusieurs contrôles déjà couverts (A.5, A.6, A.8...).
-- Le tableau de bord Power BI est opérationnel pour afficher les niveaux de conformité et l’état des actions.
+## Résultats obtenus
 
-## Résultat attendu
+- **API de génération** opérationnelle, produisant résumé exécutif, planning, rapport global et fiches vulnérabilités.  
+- **Frontend fonctionnel** avec rendu Markdown clair et formulaires dynamiques.  
+- **Audit du contenu généré** :  
+  - Pertinence et lisibilité élevées (notes supérieures à 4/5).  
+  - Points faibles : manque de scores CVSS, références normatives et preuves concrètes.  
+  - Score global d’environ **66 %** (3,31/5).  
 
-Ce projet permet à Yuften Services de :
-- **Améliorer la productivité et la qualité des audits techniques**.
-- **Standardiser les livrables**, en s’alignant sur les exigences normatives.
-- **Valoriser une approche GRC** auprès des clients professionnels.
-- **Appuyer les décisions de sécurité** grâce à une visualisation claire des écarts et des priorités.
+---
 
-C’est un projet à fort impact qui me permet de croiser les domaines de la **cybersécurité offensive, de la gouvernance et de l’audit**, tout en appliquant mes compétences techniques dans un contexte réel.
+## Audit et conformité
+
+- **ISO/IEC 27001** : plusieurs contrôles partiellement couverts (A.9, A.12, A.14), mais lacunes sur la gestion des incidents (A.16) et la traçabilité (A.18).  
+- **OWASP** : couverture des vulnérabilités Injection, Broken Access Control et Misconfigurations, mais lacunes sur d’autres familles ASVS.  
+- **Recommandations** :  
+  - Forcer l’intégration de CVSS, CWE, références ISO.  
+  - Ajouter un validateur backend.  
+  - Prévoir un système de téléversement de preuves.  
+
+---
+
+## Bilan et perspectives
+
+- **Objectif atteint** : un prototype fonctionnel validant la faisabilité d’un assistant de génération de rapports de pentest basé sur un LLM local.  
+- **Perspectives** :  
+  - Ajout de post-traitements automatiques (scores CVSS, CWE, ISO).  
+  - Intégration d’outils de scan (ZAP, Nmap).  
+  - Export standardisé en PDF/DOCX.  
+  - Téléversement et gestion de preuves.  
+
+---
+
+## Illustrations
+ 
+
+```markdown
+![Stage](stg.png) ![Formulaire](form.png)   
+![Exemple de rapport généré](res/rapport.png)  
