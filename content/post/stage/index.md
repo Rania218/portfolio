@@ -100,4 +100,4 @@ L’application repose sur une architecture en **trois couches** :
 ## Illustrations
 
 ![Stage](stg.png) ![Formulaire](form.png)   
-![Exemple de rapport généré](res/rapport.png)  
+![Exemple de rapport généré](res.png)  
