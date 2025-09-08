@@ -98,8 +98,6 @@ L’application repose sur une architecture en **trois couches** :
 ---
 
 ## Illustrations
- 
 
-```markdown
 ![Stage](stg.png) ![Formulaire](form.png)   
 ![Exemple de rapport généré](res/rapport.png)  
