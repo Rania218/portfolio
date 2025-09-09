@@ -2,7 +2,7 @@
 title: Cas pratique:Opération Cloud Hopper (APT10) et enjeux du cyberespionnage économique
 description: Projet du module de Cybersécurité et Intelligence Économique 
 date: 2025-05-29
-image: cie.png
+image: cie1.png
 tags: 
   - Cybersécurité
   - IntelligenceÉconomique
@@ -105,3 +105,4 @@ Elle montre que le cyberespace est devenu un champ de conflictualité géoécono
 - Intégrer la cybersécurité dans la gestion des risques économiques.  
 - Développer une coopération interétatique et des sanctions dissuasives.  
 
+![Page de garde du rapport](cie.png)
