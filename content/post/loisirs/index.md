@@ -33,7 +33,7 @@ Passionnée de football, je suis avec enthousiasme les grands championnats europ
 
 ## Conclusion
 
-Ces loisirs m’ont permis, dès l’adolescence, de développer une personnalité équilibrée entre rigueur, créativité, aisance relationnelle et capacité d’engagement. Ils complètent mon profil technique et renforcent ma candidature pour des stages dans les domaines de l’**audit**, de la **gouvernance des SI** ou de la **conformité**.
+Ces loisirs m’ont permis, dès l’adolescence, de développer une personnalité équilibrée entre rigueur, créativité, aisance relationnelle et capacité d’engagement. Ils complètent mon profil technique et renforcent ma candidature pour des stages dans les domaines de **Cybersécurité**.
 
 ## Attestations
 
