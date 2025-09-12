@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Watches&amp;Glasses on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/watchesglasses/</link><description>Recent content in Watches&amp;Glasses on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 24 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/watchesglasses/index.xml" rel="self" type="application/rss+xml"/><item><title>Projet de fin d'études de licence:Watches &amp; Glasses</title><link>https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/</link><pubDate>Wed, 24 Jul 2024 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/watchesglasses.jpg" alt="Featured image of post Projet de fin d'études de licence:Watches &amp; Glasses" /&gt;&lt;h2 id="contexte-du-projet"&gt;Contexte du projet
+&lt;/h2&gt;&lt;p&gt;Ce projet a été réalisé en 2024 dans le cadre de mon &lt;strong&gt;projet de fin d’études de licence en Sciences Mathématiques et Informatiques&lt;/strong&gt;, à la Faculté des Sciences de Rabat. Il s’inscrit dans la thématique du &lt;strong&gt;commerce mobile (M-commerce)&lt;/strong&gt;, avec une orientation forte vers l’innovation technologique par l’usage de la &lt;strong&gt;réalité augmentée (AR)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;L’application mobile développée, intitulée &lt;em&gt;Watches &amp;amp; Glasses&lt;/em&gt;, permet aux utilisateurs d’essayer virtuellement des montres et des lunettes avant de les acheter en ligne. L’objectif était de &lt;strong&gt;renforcer la confiance des clients&lt;/strong&gt; dans l’achat de produits à distance, tout en &lt;strong&gt;réduisant le taux de retour&lt;/strong&gt; grâce à une visualisation précise et personnalisée des articles.&lt;/p&gt;
+&lt;h2 id="objectifs"&gt;Objectifs
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Concevoir une application mobile intuitive dédiée à la vente de montres et de lunettes.&lt;/li&gt;
+&lt;li&gt;Intégrer une couche de réalité augmentée pour simuler l’essayage virtuel des produits.&lt;/li&gt;
+&lt;li&gt;Mettre en place une &lt;strong&gt;infrastructure de données sécurisée et réactive&lt;/strong&gt; via Firebase.&lt;/li&gt;
+&lt;li&gt;Améliorer l’expérience utilisateur et la fiabilité du parcours d’achat.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technologies-utilisées"&gt;Technologies utilisées
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blender&lt;/strong&gt; : conception et optimisation des modèles 3D des montres et lunettes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unity&lt;/strong&gt; + &lt;strong&gt;Vuforia&lt;/strong&gt; : intégration de la réalité augmentée pour permettre l’affichage en temps réel des produits sur l’utilisateur via caméra.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android Studio&lt;/strong&gt; (Java, XML) : développement de l’interface mobile et des fonctionnalités natives.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firebase&lt;/strong&gt; : gestion de la base de données en temps réel, &lt;strong&gt;authentification des utilisateurs&lt;/strong&gt; et suivi analytique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JSON&lt;/strong&gt; : format d’échange des données entre l’application et le back-end.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="fonctionnalités-développées"&gt;Fonctionnalités développées
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Catalogue d’articles (montres, lunettes) avec images et informations détaillées.&lt;/li&gt;
+&lt;li&gt;Essayage en réalité augmentée via caméra frontale (overlay dynamique des modèles 3D).&lt;/li&gt;
+&lt;li&gt;Authentification et création de compte utilisateur avec Firebase Auth.&lt;/li&gt;
+&lt;li&gt;Système de panier et simulation de commande.&lt;/li&gt;
+&lt;li&gt;Enregistrement et suivi des actions utilisateur via Firebase Analytics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="résultat"&gt;Résultat
+&lt;/h2&gt;&lt;p&gt;L’application &lt;em&gt;Watches &amp;amp; Glasses&lt;/em&gt; offre une interface fluide et moderne, combinant &lt;strong&gt;visualisation immersive&lt;/strong&gt; et &lt;strong&gt;fonctionnalités de commerce en ligne classiques&lt;/strong&gt;. Le rendu AR est stable et précis, et les tests ont montré une forte appréciation de l’expérience utilisateur en conditions réelles. Ce projet a été une &lt;strong&gt;expérience fondatrice&lt;/strong&gt; dans ma formation, à la croisée de l’expérience utilisateur, du développement mobile et des technologies interactives.&lt;/p&gt;
+&lt;h2 id="visualisation"&gt;Visualisation
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2_hu_70a16b27ddb2c225.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg2_hu_aaf5dfab296b473d.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+&gt; &lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3.jpg"
+width="1280"
+height="719"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3_hu_17995ec61a95cc5a.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg3_hu_8f37a00d3fc18593.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+&gt; &lt;img src="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1.jpg"
+width="359"
+height="720"
+srcset="https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1_hu_d63edd0670008372.jpg 480w, https://Rania218.github.io/portfolio/p/projet-de-fin-d%C3%A9tudes-de-licencewatches-glasses/wg1_hu_36edb6474f31bee9.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="49"
+data-flex-basis="119px"
+&gt;&lt;/p&gt;</description></item></channel></rss>

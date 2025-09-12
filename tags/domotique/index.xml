@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Domotique on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/domotique/</link><description>Recent content in Domotique on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/domotique/index.xml" rel="self" type="application/rss+xml"/><item><title>Système Domotique Intelligent</title><link>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/iotrap2CIRCUIT.png" alt="Featured image of post Système Domotique Intelligent" /&gt;&lt;h2 id="contexte-du-projet"&gt;Contexte du projet
+&lt;/h2&gt;&lt;p&gt;Ce projet a pour objectif la conception et la simulation d’un système domotique capable de surveiller et de contrôler à distance différents paramètres environnementaux. Il repose sur un microcontrôleur &lt;strong&gt;ESP32&lt;/strong&gt;, qui centralise les données issues de capteurs et les transmet à des plateformes d’analyse en ligne via les protocoles &lt;strong&gt;MQTT&lt;/strong&gt; et &lt;strong&gt;HTTP&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="objectifs"&gt;Objectifs
+&lt;/h2&gt;&lt;p&gt;L’architecture vise à associer la mesure en temps réel (température, humidité, luminosité, détection de mouvement) à des actions automatiques ou pilotées à distance (activation d’un ventilateur, éclairage, pompe à eau, etc.). L’intégration de plusieurs protocoles permet une meilleure fiabilité de la communication et une centralisation des données à des fins de visualisation ou d’archivage.&lt;/p&gt;
+&lt;h2 id="simulation-avec-wokwi"&gt;Simulation avec Wokwi
+&lt;/h2&gt;&lt;p&gt;La plateforme &lt;strong&gt;Wokwi&lt;/strong&gt; a été utilisée pour simuler l’environnement physique du système, incluant les composants suivants :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Capteur DHT22&lt;/strong&gt; : mesure température et humidité.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Activation d’une LED bleue (ventilateur) si température &amp;gt; 30°C&lt;/li&gt;
+&lt;li&gt;Déclenchement d’un buzzer si température &amp;gt; 45°C&lt;/li&gt;
+&lt;li&gt;Activation d’une LED verte (déshumidificateur) si humidité &amp;gt; 70%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Capteur PIR&lt;/strong&gt; : détection de présence, avec affichage sur écran &lt;strong&gt;LCD I2C&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Capteur LDR&lt;/strong&gt; : mesure de luminosité.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Allumage automatique d’une LED si l’éclairement est &amp;lt; 500 lux.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Servomoteur&lt;/strong&gt; : simulation d’un système d’arrosage (pompe à eau), pilotable via un &lt;strong&gt;slider Node-RED&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;LED Neopixel RGB&lt;/strong&gt; : système d’éclairage coloré contrôlable à distance via une interface graphique.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="interface-node-red"&gt;Interface Node-RED
+&lt;/h2&gt;&lt;p&gt;La plateforme &lt;strong&gt;Node-RED&lt;/strong&gt; est utilisée pour le traitement des données envoyées via &lt;strong&gt;MQTT&lt;/strong&gt; (serveur HiveMQ) et leur visualisation :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Affichage en temps réel :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Température, humidité, luminosité (jauges et graphiques)&lt;/li&gt;
+&lt;li&gt;Notification de détection de mouvement (alertes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Contrôle à distance :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Activation/désactivation d’une LED via interrupteur&lt;/li&gt;
+&lt;li&gt;Contrôle du servomoteur via curseur&lt;/li&gt;
+&lt;li&gt;Sélection de couleur pour la LED Neopixel via &amp;ldquo;color picker&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Archivage :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Enregistrement local des données (timestamp, valeurs) dans un fichier &lt;code&gt;dataiot.txt&lt;/code&gt; via un nœud de type &lt;code&gt;write file&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="intégration-avec-thingspeak"&gt;Intégration avec ThingSpeak
+&lt;/h2&gt;&lt;p&gt;Les données environnementales sont également envoyées vers la plateforme &lt;strong&gt;ThingSpeak&lt;/strong&gt; via &lt;strong&gt;HTTP&lt;/strong&gt;. Un canal dédié a été configuré avec 4 champs pour stocker :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Température&lt;/li&gt;
+&lt;li&gt;Humidité&lt;/li&gt;
+&lt;li&gt;Présence détectée&lt;/li&gt;
+&lt;li&gt;Éclairage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les courbes de suivi sont mises à jour en temps réel, offrant un aperçu global du comportement du système dans le temps.&lt;/p&gt;
+&lt;h2 id="résultat"&gt;Résultat
+&lt;/h2&gt;&lt;p&gt;Le système permet une surveillance continue et un contrôle précis à distance des composants simulés. La double transmission des données (MQTT + HTTP), associée à une interface graphique interactive, permet de valider une architecture complète, robuste et facilement extensible.&lt;/p&gt;
+&lt;h2 id="visualisation"&gt;Visualisation
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot.png"
+width="542"
+height="568"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_816cdd32f06763c1.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot_hu_4c171c0b3162fa94.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="95"
+data-flex-basis="229px"
+&gt; &lt;img src="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1.png"
+width="647"
+height="915"
+srcset="https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_507bfdd70917ce4c.png 480w, https://Rania218.github.io/portfolio/p/syst%C3%A8me-domotique-intelligent/resiot1_hu_e6d09e591c63dc2f.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+&gt;&lt;/p&gt;</description></item></channel></rss>

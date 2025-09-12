@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/llm/</link><description>Recent content in LLM on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>Assistant de Pentest propulsé par LLM &amp; Audit du contenu généré selon ISO/IEC 27001 et OWASP</title><link>https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/yuften.png" alt="Featured image of post Assistant de Pentest propulsé par LLM &amp; Audit du contenu généré selon ISO/IEC 27001 et OWASP" /&gt;&lt;h2 id="contexte-du-projet"&gt;Contexte du projet
+&lt;/h2&gt;&lt;p&gt;Dans le cadre de mon stage de Master 1 en cybersécurité chez &lt;strong&gt;Yuften Services&lt;/strong&gt;, j’ai conçu un &lt;strong&gt;assistant automatisé de génération de rapports de pentest&lt;/strong&gt;, reposant sur un modèle de langage (LLM) fonctionnant en local avec &lt;strong&gt;Ollama&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;L’objectif global est donc de &lt;strong&gt;réduire le temps de production documentaire&lt;/strong&gt; tout en assurant une &lt;strong&gt;conformité avec les standards reconnus&lt;/strong&gt; (PTES, ISO/IEC 27001, OWASP).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="objectifs"&gt;Objectifs
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Réduire significativement le temps nécessaire à la production des rapports.&lt;/li&gt;
+&lt;li&gt;Générer automatiquement des livrables structurés : charte, planning, résumé exécutif, fiches de vulnérabilités.&lt;/li&gt;
+&lt;li&gt;Garantir une &lt;strong&gt;conformité avec ISO/IEC 27001 et OWASP&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Démontrer la faisabilité d’une telle solution dans un environnement limité (ressources locales).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="architecture-du-projet"&gt;Architecture du projet
+&lt;/h2&gt;&lt;p&gt;L’application repose sur une architecture en &lt;strong&gt;trois couches&lt;/strong&gt; :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Frontend (React + Vite)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Formulaire interactif pour la saisie des données (objectifs, vulnérabilités, constats).&lt;/li&gt;
+&lt;li&gt;Visualisation en &lt;strong&gt;Markdown&lt;/strong&gt; (résumé, fiches, rapport global).&lt;/li&gt;
+&lt;li&gt;Authentification via Firebase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Backend (Java / Spring Boot)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;API REST exposant les endpoints de génération (&lt;code&gt;/api/pentest/generate/all&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Services internes : &lt;code&gt;PentestGeneratorService&lt;/code&gt;, &lt;code&gt;OllamaService&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Sérialisation JSON avec Jackson.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Moteur LLM (Ollama + llama3.2:1b)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fonctionnement local pour éviter toute fuite de données sensibles.&lt;/li&gt;
+&lt;li&gt;Génération de contenu textuel à partir des prompts construits par le backend.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="technologies-utilisées"&gt;Technologies utilisées
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Java / Spring Boot&lt;/strong&gt; : logique métier et API REST.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;React + Vite&lt;/strong&gt; : interface utilisateur et rendu dynamique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ollama (llama3.2:1b)&lt;/strong&gt; : génération automatique de contenu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Postman&lt;/strong&gt; : test des endpoints.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firebase&lt;/strong&gt; : authentification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git, IntelliJ IDEA, VS Code&lt;/strong&gt; : environnement de développement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="résultats-obtenus"&gt;Résultats obtenus
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;API de génération&lt;/strong&gt; opérationnelle, produisant résumé exécutif, planning, rapport global et fiches vulnérabilités.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend fonctionnel&lt;/strong&gt; avec rendu Markdown clair et formulaires dynamiques.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audit du contenu généré&lt;/strong&gt; :
+&lt;ul&gt;
+&lt;li&gt;Pertinence et lisibilité élevées (notes supérieures à 4/5).&lt;/li&gt;
+&lt;li&gt;Points faibles : manque de scores CVSS, références normatives et preuves concrètes.&lt;/li&gt;
+&lt;li&gt;Score global d’environ &lt;strong&gt;66 %&lt;/strong&gt; (3,31/5).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="audit-et-conformité"&gt;Audit et conformité
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ISO/IEC 27001&lt;/strong&gt; : plusieurs contrôles partiellement couverts (A.9, A.12, A.14), mais lacunes sur la gestion des incidents (A.16) et la traçabilité (A.18).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OWASP&lt;/strong&gt; : couverture des vulnérabilités Injection, Broken Access Control et Misconfigurations, mais lacunes sur d’autres familles ASVS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recommandations&lt;/strong&gt; :
+&lt;ul&gt;
+&lt;li&gt;Forcer l’intégration de CVSS, CWE, références ISO.&lt;/li&gt;
+&lt;li&gt;Ajouter un validateur backend.&lt;/li&gt;
+&lt;li&gt;Prévoir un système de téléversement de preuves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="bilan-et-perspectives"&gt;Bilan et perspectives
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objectif atteint&lt;/strong&gt; : un prototype fonctionnel validant la faisabilité d’un assistant de génération de rapports de pentest basé sur un LLM local.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perspectives&lt;/strong&gt; :
+&lt;ul&gt;
+&lt;li&gt;Ajout de post-traitements automatiques (scores CVSS, CWE, ISO).&lt;/li&gt;
+&lt;li&gt;Intégration d’outils de scan (ZAP, Nmap).&lt;/li&gt;
+&lt;li&gt;Export standardisé en PDF/DOCX.&lt;/li&gt;
+&lt;li&gt;Téléversement et gestion de preuves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="illustrations"&gt;Illustrations
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/stg.png"
+width="607"
+height="802"
+srcset="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/stg_hu_3e147e5b30cfe38.png 480w, https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/stg_hu_ef39953cb7d451ee.png 1024w"
+loading="lazy"
+alt="Stage"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="181px"
+&gt; &lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/form.png"
+width="1561"
+height="795"
+srcset="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/form_hu_65c1790b81c5a232.png 480w, https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/form_hu_f27172c4232a0a10.png 1024w"
+loading="lazy"
+alt="Formulaire"
+class="gallery-image"
+data-flex-grow="196"
+data-flex-basis="471px"
+&gt;&lt;br&gt;
+&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/res.png"
+width="1581"
+height="633"
+srcset="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/res_hu_3fd02fde51900ab6.png 480w, https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/res_hu_80635d8eaefe0846.png 1024w"
+loading="lazy"
+alt="Exemple de rapport généré"
+class="gallery-image"
+data-flex-grow="249"
+data-flex-basis="599px"
+&gt;&lt;/p&gt;</description></item></channel></rss>

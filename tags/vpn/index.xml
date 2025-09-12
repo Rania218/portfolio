@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VPN on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/vpn/</link><description>Recent content in VPN on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/vpn/index.xml" rel="self" type="application/rss+xml"/><item><title>Création d’un VPN OpenVPN Client-to-Site</title><link>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/shcema.png" alt="Featured image of post Création d’un VPN OpenVPN Client-to-Site" /&gt;&lt;h2 id="contexte-du-projet"&gt;Contexte du projet
+&lt;/h2&gt;&lt;p&gt;Ce projet s’inscrit dans une démarche de sécurisation des accès distants aux ressources d’un réseau d’entreprise. Il consiste à déployer une solution VPN basée sur OpenVPN, intégrée à un pare-feu pfSense, afin de simuler un environnement dans lequel un utilisateur externe peut accéder de manière fiable et contrôlée à un réseau interne depuis Internet.&lt;/p&gt;
+&lt;h2 id="objectifs"&gt;Objectifs
+&lt;/h2&gt;&lt;p&gt;L’objectif principal était de mettre en place une architecture fonctionnelle permettant à un poste distant d’accéder au réseau interne de manière sécurisée, tout en conservant un contrôle précis sur les flux autorisés. Le projet visait également à renforcer la compréhension des mécanismes de tunneling, de gestion d’adresses IP virtuelles, et de configuration d’un pare-feu dans un contexte de mobilité ou de télétravail.&lt;/p&gt;
+&lt;h2 id="architecture-mise-en-place"&gt;Architecture mise en place
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pare-feu pfSense&lt;/strong&gt;, déployé sous VMware :
+&lt;ul&gt;
+&lt;li&gt;Interface WAN : &lt;code&gt;192.168.1.1&lt;/code&gt; sur le réseau public &lt;code&gt;192.168.1.0/24&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Interface LAN : &lt;code&gt;192.168.200.1&lt;/code&gt;, réseau interne de l’entreprise (&lt;code&gt;192.168.200.0/24&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Machine Windows 11 (192.168.200.2)&lt;/strong&gt;, représentant un poste de travail local.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Client distant Windows 11&lt;/strong&gt;, connecté via Internet, cherchant à accéder au réseau interne.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tunnel VPN OpenVPN&lt;/strong&gt;, configuré sur le sous-réseau virtuel &lt;code&gt;10.10.10.0/24&lt;/code&gt;, utilisé pour établir la communication sécurisée entre le client et le réseau local.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technologies-utilisées"&gt;Technologies utilisées
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;OpenVPN (protocole SSL/TLS)&lt;/li&gt;
+&lt;li&gt;pfSense (pare-feu open source)&lt;/li&gt;
+&lt;li&gt;VMware Workstation&lt;/li&gt;
+&lt;li&gt;Réseaux virtuels bridgés et isolés&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="déroulement"&gt;Déroulement
+&lt;/h2&gt;&lt;p&gt;Une fois le serveur OpenVPN configuré sur pfSense, un client distant a été mis en place et authentifié à l’aide de certificats générés manuellement. La connexion établie a permis d’accéder aux services internes (ping, partage de fichiers, accès RDP), démontrant l’efficacité de l’architecture déployée. Des règles de filtrage ont été appliquées sur le pare-feu pour affiner les autorisations selon les cas d’usage simulés.&lt;/p&gt;
+&lt;h2 id="résultat"&gt;Résultat
+&lt;/h2&gt;&lt;p&gt;Le projet a permis de valider un cas d’usage réaliste d’accès à distance aux ressources internes d’une organisation. L’infrastructure mise en place assure la confidentialité et l’intégrité des échanges, tout en permettant un contrôle rigoureux sur les communications établies à travers le tunnel VPN.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1.png"
+width="502"
+height="377"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1_hu_2f0dcc90820271ce.png 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn1_hu_108beff89ab100e3.png 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="319px"
+&gt; &lt;img src="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2.png"
+width="488"
+height="178"
+srcset="https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2_hu_db8071ff612421b.png 480w, https://Rania218.github.io/portfolio/p/cr%C3%A9ation-dun-vpn-openvpn-client-to-site/vpn2_hu_55834722e0f13c28.png 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="274"
+data-flex-basis="657px"
+&gt;&lt;/p&gt;</description></item><item><title>Huawei HCIA – Security (en préparation)</title><link>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/hcia.png" alt="Featured image of post Huawei HCIA – Security (en préparation)" /&gt;&lt;h2 id="huawei-hcia--security-en-préparation"&gt;Huawei HCIA – Security (en préparation)
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Organisme :&lt;/strong&gt; Huawei – Huawei Certified ICT Associate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Certification :&lt;/strong&gt; HCIA – Security&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prévue pour :&lt;/strong&gt; Octobre 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intégrée dans le programme :&lt;/strong&gt; Master en Ingénierie Informatique et Sécurité des Systèmes (2I2S), Université Mohammed V – en partenariat avec Huawei Technologies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cette certification constitue une composante intégrée à mon cursus de Master. Elle vise à renforcer les compétences techniques et conceptuelles en sécurité des réseaux, en mettant l’accent sur la configuration de firewalls, la prévention des intrusions, la cryptographie et les mécanismes de protection des communications.&lt;/p&gt;
+&lt;h3 id="objectifs-de-la-certification"&gt;Objectifs de la certification
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Comprendre les concepts fondamentaux de la sécurité des réseaux.&lt;/li&gt;
+&lt;li&gt;Identifier les menaces fréquentes pesant sur les réseaux d’entreprise.&lt;/li&gt;
+&lt;li&gt;Déployer et configurer les technologies de firewall, de NAT et de haute disponibilité.&lt;/li&gt;
+&lt;li&gt;Mettre en œuvre des politiques d’authentification des utilisateurs.&lt;/li&gt;
+&lt;li&gt;Appliquer les techniques de prévention des intrusions (IPS) et d’antivirus réseau.&lt;/li&gt;
+&lt;li&gt;Maîtriser les principes de chiffrement/déchiffrement, la cryptographie appliquée, les certificats PKI et les VPN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="contenu-couvert"&gt;Contenu couvert
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1. Introduction à la sécurité :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Définitions, enjeux actuels, normes (ISO, RFC, etc.)&lt;/li&gt;
+&lt;li&gt;Menaces réseau et mesures de prévention (zone, équipements, systèmes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Sécurité des réseaux :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Firewalls : inspection avec état, politiques de sécurité, zones&lt;/li&gt;
+&lt;li&gt;NAT : SNAT, DNAT, NAT bidirectionnel, ALG, scénarios réels&lt;/li&gt;
+&lt;li&gt;Haute disponibilité : principes, configuration de redondance (HRP, VRRP, VGMP)&lt;/li&gt;
+&lt;li&gt;Gestion des utilisateurs : AAA, authentification et accès&lt;/li&gt;
+&lt;li&gt;IPS/Antivirus : détection, prévention, déploiement de politiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3. Chiffrement et sécurité des communications :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cryptographie : symétrique, asymétrique, hachage, algorithmes usuels&lt;/li&gt;
+&lt;li&gt;Certificats : architecture PKI, fonctionnement, authentification&lt;/li&gt;
+&lt;li&gt;VPN : principes, types (IPSec, SSL…), configuration de base&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Cette certification est essentielle pour maîtriser les architectures de sécurité avancées et les bonnes pratiques de défense réseau. Elle complète mes acquis en audit, GRC et cybersécurité technique.&lt;/p&gt;</description></item></channel></rss>
