@@ -1,7 +1,7 @@
 ---
 title: Test de connaissance du français - tout public
 date: 2025-11-19
-image: tcf.png
+image: tcf.png.png
 tags: 
   - Français
 categories:
@@ -37,4 +37,4 @@ categories:
 
 Le TCF atteste d’un excellent niveau de maîtrise du français, avec des compétences avancées en compréhension écrite, en expression écrite et une très forte maîtrise des structures linguistiques. Cette certification, reconnue à l’international, renforce la crédibilité linguistique dans les contextes universitaires, administratifs ou professionnels.
 
-![Attestation TCF](tcf.png)
+![Attestation TCF](tcf.png.png)
