@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AnalyseDesRisques on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/analysedesrisques/</link><description>Recent content in AnalyseDesRisques on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/analysedesrisques/index.xml" rel="self" type="application/rss+xml"/><item><title>Mini-audit ISO/IEC 27001 dans une PME fictive:Creativ’Com</title><link>https://Rania218.github.io/portfolio/p/mini-audit-iso/iec-27001-dans-une-pme-fictivecreativcom/</link><pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/mini-audit-iso/iec-27001-dans-une-pme-fictivecreativcom/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/mini-audit-iso/iec-27001-dans-une-pme-fictivecreativcom/miniaudit.png" alt="Featured image of post Mini-audit ISO/IEC 27001 dans une PME fictive:Creativ’Com" /&gt;&lt;h2 id="contexte-du-projet"&gt;Contexte du projet
+&lt;/h2&gt;&lt;p&gt;Dans le cadre de ma formation en cybersécurité, ce projet a consisté à réaliser un &lt;strong&gt;mini-audit ISO/IEC 27001&lt;/strong&gt; dans une &lt;strong&gt;PME fictive nommée Creativ’Com&lt;/strong&gt;, spécialisée dans la communication digitale. Ce travail m’a permis d’appliquer une démarche complète d’évaluation des risques et de conformité en sécurité de l’information, adaptée aux réalités d’une petite structure, souvent dépourvue de moyens techniques avancés.&lt;/p&gt;
+&lt;h2 id="objectifs"&gt;Objectifs
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Évaluer la maturité cybersécurité d’une PME dans une logique d’audit simplifié.&lt;/li&gt;
+&lt;li&gt;Identifier les écarts de conformité avec la norme ISO/IEC 27001.&lt;/li&gt;
+&lt;li&gt;Proposer des recommandations concrètes et hiérarchisées.&lt;/li&gt;
+&lt;li&gt;Construire un plan d’action progressif, réaliste et adapté à un contexte PME.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="démarche-adoptée"&gt;Démarche adoptée
+&lt;/h2&gt;&lt;p&gt;L’audit a été structuré autour des étapes suivantes :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Définition du périmètre, analyse du contexte organisationnel.&lt;/li&gt;
+&lt;li&gt;Identification des actifs critiques (données, équipements, utilisateurs).&lt;/li&gt;
+&lt;li&gt;Évaluation des menaces et des vulnérabilités.&lt;/li&gt;
+&lt;li&gt;Analyse des pratiques existantes selon des contrôles ISO 27001 ciblés.&lt;/li&gt;
+&lt;li&gt;Formulation de recommandations et construction d’un plan d’action priorisé.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="focus-entreprise--creativcom"&gt;Focus entreprise : Creativ’Com
+&lt;/h2&gt;&lt;p&gt;Creativ’Com est une PME fictive de 25 salariés basée à Rabat. Son infrastructure informatique est hybride : serveur NAS local, services cloud (Google Workspace, CRM SaaS), VPN pour les télétravailleurs. Elle gère des données sensibles (clients, RH, finances), sans politique de sécurité formalisée.&lt;/p&gt;
+&lt;h2 id="constats-principaux"&gt;Constats principaux
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Aucune charte de sécurité ni sensibilisation du personnel.&lt;/li&gt;
+&lt;li&gt;Accès VPN sans MFA, postes mal supervisés, mots de passe faibles.&lt;/li&gt;
+&lt;li&gt;Sauvegardes présentes mais non testées ; pas de PRA.&lt;/li&gt;
+&lt;li&gt;Aucune gestion formelle des incidents ou des tiers.&lt;/li&gt;
+&lt;li&gt;Non-conformité RGPD (pas de registre ni référent).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="recommandations-clés"&gt;Recommandations clés
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Définir une politique de sécurité formelle.&lt;/li&gt;
+&lt;li&gt;Activer l’authentification multifactorielle sur les services critiques.&lt;/li&gt;
+&lt;li&gt;Organiser des sessions de sensibilisation à la cybersécurité.&lt;/li&gt;
+&lt;li&gt;Documenter et tester régulièrement les sauvegardes.&lt;/li&gt;
+&lt;li&gt;Mettre en place un registre RGPD et désigner un référent interne.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="résultat"&gt;Résultat
+&lt;/h2&gt;&lt;p&gt;Ce mini-audit a permis de formaliser un &lt;strong&gt;état des lieux de maturité SSI&lt;/strong&gt;, en s’appuyant sur des extraits ciblés de l’annexe A de la norme ISO/IEC 27001. Un tableau de bord synthétique (Excel + version Power BI) a été conçu pour visualiser les écarts, prioriser les actions et guider la PME dans une démarche d’amélioration continue réaliste et structurée.&lt;/p&gt;
+&lt;p&gt;Ce projet a renforcé mes compétences en &lt;strong&gt;audit, GRC, évaluation des risques&lt;/strong&gt;, et m’a permis de démontrer ma capacité à transposer une norme complexe à un contexte opérationnel concret.&lt;/p&gt;</description></item></channel></rss>

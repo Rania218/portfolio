@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cybersécurité on Rania Moutee</title><link>https://Rania218.github.io/portfolio/tags/cybers%C3%A9curit%C3%A9/</link><description>Recent content in Cybersécurité on Rania Moutee</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Rania218.github.io/portfolio/tags/cybers%C3%A9curit%C3%A9/index.xml" rel="self" type="application/rss+xml"/><item><title>Rania Moutee</title><link>https://Rania218.github.io/portfolio/p/hello-world/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/hello-world/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/hello-world/coverr.png" alt="Featured image of post Rania Moutee" /&gt;&lt;h2 id="à-propos"&gt;À propos
+&lt;/h2&gt;&lt;p&gt;Étudiante de 22 ans en Master en Ingénierie Informatique et Sécurité des Systèmes à l’Université Mohammed V de Rabat, en partenariat avec Huawei Technologies.&lt;/p&gt;
+&lt;p&gt;Curieuse et passionnée par les technologies sécurisées et innovantes, je m’oriente vers la cybersécurité, avec un intérêt particulier pour les problématiques d’&lt;strong&gt;audit, de conformité, de sécurité réseau, de systèmes critiques, d’innovation et de conseil&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;J’ai obtenu une licence en sciences Mathématiques et Informatique à la Faculté des Sciences de Rabat, où j’ai également participé à la création de &lt;strong&gt;GoVirtual&lt;/strong&gt;, le premier club universitaire de réalité virtuelle — une expérience qui m’a permis de développer un esprit collaboratif et une sensibilité aux technologies émergentes.&lt;/p&gt;
+&lt;p&gt;En fin d&amp;rsquo;année master 1, j’ai réalisé un &lt;strong&gt;stage en cybersécurité chez Yuften Services&lt;/strong&gt;, où j’ai développé un &lt;strong&gt;assistant logiciel (Java + LLM)&lt;/strong&gt; pour l’automatisation de la documentation des campagnes de pentest et contribué à l’&lt;strong&gt;audit de conformité ISO/IEC 27001 et OWASP&lt;/strong&gt; des documents générés.&lt;/p&gt;</description></item><item><title>Assistant de Pentest propulsé par LLM &amp; Audit du contenu généré selon ISO/IEC 27001 et OWASP</title><link>https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/yuften.png" alt="Featured image of post Assistant de Pentest propulsé par LLM &amp; Audit du contenu généré selon ISO/IEC 27001 et OWASP" /&gt;&lt;h2 id="contexte-du-projet"&gt;Contexte du projet
+&lt;/h2&gt;&lt;p&gt;Dans le cadre de mon stage de Master 1 en cybersécurité chez &lt;strong&gt;Yuften Services&lt;/strong&gt;, j’ai conçu un &lt;strong&gt;assistant automatisé de génération de rapports de pentest&lt;/strong&gt;, reposant sur un modèle de langage (LLM) fonctionnant en local avec &lt;strong&gt;Ollama&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;L’objectif global est donc de &lt;strong&gt;réduire le temps de production documentaire&lt;/strong&gt; tout en assurant une &lt;strong&gt;conformité avec les standards reconnus&lt;/strong&gt; (PTES, ISO/IEC 27001, OWASP).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="objectifs"&gt;Objectifs
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Réduire significativement le temps nécessaire à la production des rapports.&lt;/li&gt;
+&lt;li&gt;Générer automatiquement des livrables structurés : charte, planning, résumé exécutif, fiches de vulnérabilités.&lt;/li&gt;
+&lt;li&gt;Garantir une &lt;strong&gt;conformité avec ISO/IEC 27001 et OWASP&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Démontrer la faisabilité d’une telle solution dans un environnement limité (ressources locales).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="architecture-du-projet"&gt;Architecture du projet
+&lt;/h2&gt;&lt;p&gt;L’application repose sur une architecture en &lt;strong&gt;trois couches&lt;/strong&gt; :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Frontend (React + Vite)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Formulaire interactif pour la saisie des données (objectifs, vulnérabilités, constats).&lt;/li&gt;
+&lt;li&gt;Visualisation en &lt;strong&gt;Markdown&lt;/strong&gt; (résumé, fiches, rapport global).&lt;/li&gt;
+&lt;li&gt;Authentification via Firebase.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Backend (Java / Spring Boot)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;API REST exposant les endpoints de génération (&lt;code&gt;/api/pentest/generate/all&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Services internes : &lt;code&gt;PentestGeneratorService&lt;/code&gt;, &lt;code&gt;OllamaService&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Sérialisation JSON avec Jackson.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Moteur LLM (Ollama + llama3.2:1b)&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fonctionnement local pour éviter toute fuite de données sensibles.&lt;/li&gt;
+&lt;li&gt;Génération de contenu textuel à partir des prompts construits par le backend.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="technologies-utilisées"&gt;Technologies utilisées
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Java / Spring Boot&lt;/strong&gt; : logique métier et API REST.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;React + Vite&lt;/strong&gt; : interface utilisateur et rendu dynamique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ollama (llama3.2:1b)&lt;/strong&gt; : génération automatique de contenu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Postman&lt;/strong&gt; : test des endpoints.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Firebase&lt;/strong&gt; : authentification.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git, IntelliJ IDEA, VS Code&lt;/strong&gt; : environnement de développement.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="résultats-obtenus"&gt;Résultats obtenus
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;API de génération&lt;/strong&gt; opérationnelle, produisant résumé exécutif, planning, rapport global et fiches vulnérabilités.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frontend fonctionnel&lt;/strong&gt; avec rendu Markdown clair et formulaires dynamiques.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Audit du contenu généré&lt;/strong&gt; :
+&lt;ul&gt;
+&lt;li&gt;Pertinence et lisibilité élevées (notes supérieures à 4/5).&lt;/li&gt;
+&lt;li&gt;Points faibles : manque de scores CVSS, références normatives et preuves concrètes.&lt;/li&gt;
+&lt;li&gt;Score global d’environ &lt;strong&gt;66 %&lt;/strong&gt; (3,31/5).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="audit-et-conformité"&gt;Audit et conformité
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;ISO/IEC 27001&lt;/strong&gt; : plusieurs contrôles partiellement couverts (A.9, A.12, A.14), mais lacunes sur la gestion des incidents (A.16) et la traçabilité (A.18).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OWASP&lt;/strong&gt; : couverture des vulnérabilités Injection, Broken Access Control et Misconfigurations, mais lacunes sur d’autres familles ASVS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recommandations&lt;/strong&gt; :
+&lt;ul&gt;
+&lt;li&gt;Forcer l’intégration de CVSS, CWE, références ISO.&lt;/li&gt;
+&lt;li&gt;Ajouter un validateur backend.&lt;/li&gt;
+&lt;li&gt;Prévoir un système de téléversement de preuves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="bilan-et-perspectives"&gt;Bilan et perspectives
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Objectif atteint&lt;/strong&gt; : un prototype fonctionnel validant la faisabilité d’un assistant de génération de rapports de pentest basé sur un LLM local.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perspectives&lt;/strong&gt; :
+&lt;ul&gt;
+&lt;li&gt;Ajout de post-traitements automatiques (scores CVSS, CWE, ISO).&lt;/li&gt;
+&lt;li&gt;Intégration d’outils de scan (ZAP, Nmap).&lt;/li&gt;
+&lt;li&gt;Export standardisé en PDF/DOCX.&lt;/li&gt;
+&lt;li&gt;Téléversement et gestion de preuves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="illustrations"&gt;Illustrations
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/stg.png"
+width="607"
+height="802"
+srcset="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/stg_hu_3e147e5b30cfe38.png 480w, https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/stg_hu_ef39953cb7d451ee.png 1024w"
+loading="lazy"
+alt="Stage"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="181px"
+&gt; &lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/form.png"
+width="1561"
+height="795"
+srcset="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/form_hu_65c1790b81c5a232.png 480w, https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/form_hu_f27172c4232a0a10.png 1024w"
+loading="lazy"
+alt="Formulaire"
+class="gallery-image"
+data-flex-grow="196"
+data-flex-basis="471px"
+&gt;&lt;br&gt;
+&lt;img src="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/res.png"
+width="1581"
+height="633"
+srcset="https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/res_hu_3fd02fde51900ab6.png 480w, https://Rania218.github.io/portfolio/p/assistant-de-pentest-propuls%C3%A9-par-llm-audit-du-contenu-g%C3%A9n%C3%A9r%C3%A9-selon-iso/iec-27001-et-owasp/res_hu_80635d8eaefe0846.png 1024w"
+loading="lazy"
+alt="Exemple de rapport généré"
+class="gallery-image"
+data-flex-grow="249"
+data-flex-basis="599px"
+&gt;&lt;/p&gt;</description></item><item><title>Cas pratique:Opération Cloud Hopper (APT10) et enjeux du cyberespionnage économique</title><link>https://Rania218.github.io/portfolio/p/cas-pratiqueop%C3%A9ration-cloud-hopper-apt10-et-enjeux-du-cyberespionnage-%C3%A9conomique/</link><pubDate>Tue, 29 Apr 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/cas-pratiqueop%C3%A9ration-cloud-hopper-apt10-et-enjeux-du-cyberespionnage-%C3%A9conomique/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/cas-pratiqueop%C3%A9ration-cloud-hopper-apt10-et-enjeux-du-cyberespionnage-%C3%A9conomique/cie1.png" alt="Featured image of post Cas pratique:Opération Cloud Hopper (APT10) et enjeux du cyberespionnage économique" /&gt;&lt;h2 id="introduction"&gt;Introduction
+&lt;/h2&gt;&lt;p&gt;L’économie mondiale s’est profondément transformée sous l’effet de la révolution numérique.&lt;br&gt;
+Dans ce contexte, les données sont devenues un actif stratégique mais vulnérable, et le &lt;strong&gt;cyberespionnage économique&lt;/strong&gt; est désormais utilisé comme un instrument de compétition géoéconomique.&lt;/p&gt;
+&lt;p&gt;Le &lt;strong&gt;cas APT10 / Cloud Hopper&lt;/strong&gt; constitue un exemple emblématique, tant par son ampleur que par ses impacts sur les chaînes d’approvisionnement mondiales et la réaction diplomatique internationale.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="mise-en-contexte"&gt;Mise en contexte
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;L’économie numérique&lt;/strong&gt; favorise l’innovation mais crée de nouvelles vulnérabilités.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Le cyberespionnage économique&lt;/strong&gt; consiste à infiltrer les SI pour voler brevets, secrets industriels ou données sensibles.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Le choix de Cloud Hopper&lt;/strong&gt; : portée mondiale, attaques furtives et réponses diplomatiques inédites.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="présentation-du-groupe-apt10"&gt;Présentation du groupe APT10
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Alias : &lt;em&gt;Stone Panda&lt;/em&gt;, &lt;em&gt;MenuPass&lt;/em&gt;, &lt;em&gt;Red Apollo&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Affilié au &lt;strong&gt;Ministère chinois de la Sécurité d’État (MSS)&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Objectif : espionnage industriel et soutien aux ambitions technologiques chinoises.&lt;/li&gt;
+&lt;li&gt;Méthodes : spear-phishing ciblé, malwares (RedLeaves, PlugX, HTran), exploitation des MSP.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="opération-cloud-hopper-20142017"&gt;Opération Cloud Hopper (2014–2017)
+&lt;/h2&gt;&lt;h3 id="portée-géographique"&gt;Portée géographique
+&lt;/h3&gt;&lt;p&gt;Attaques sur plusieurs continents : USA, Europe, Asie, Australie. MSP infiltrés → accès indirect aux entreprises clientes.&lt;/p&gt;
+&lt;h3 id="chronologie"&gt;Chronologie
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;2014 : premières intrusions par spear-phishing.&lt;/li&gt;
+&lt;li&gt;2015–2016 : industrialisation des attaques, centaines de cibles.&lt;/li&gt;
+&lt;li&gt;2017 : révélations par PwC, BAE Systems et Trend Micro.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="méthodologie"&gt;Méthodologie
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Vecteurs d’intrusion : spear-phishing, exploitation des MSP, outils légitimes (RDP, VPN, PowerShell).&lt;/li&gt;
+&lt;li&gt;Exfiltration : &lt;strong&gt;Living off the Land&lt;/strong&gt;, transferts en heures creuses, chiffrement (HTTPS, DNS tunneling).&lt;/li&gt;
+&lt;li&gt;Données volées : CAO, brevets, bases clients, R&amp;amp;D, secrets industriels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="cibles-et-secteurs-visés"&gt;Cibles et secteurs visés
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Télécoms&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aéronautique et défense&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Énergie (nucléaire, pétrole, renouvelables)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Biotechnologies et pharmaceutique&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Services gouvernementaux&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Victimes notables : IBM, Hewlett Packard Enterprise (HPE), laboratoires pharmaceutiques.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="objectifs-stratégiques"&gt;Objectifs stratégiques
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Espionnage industriel à grande échelle&lt;/strong&gt; pour réduire la dépendance technologique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Appui au plan “Made in China 2025”&lt;/strong&gt; (robotique, IT, aéronautique, biotechnologie, équipements médicaux).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stratégie d’influence globale&lt;/strong&gt; par le cyber pour affirmer une supériorité technologique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Impacts économiques&lt;/strong&gt; : pertes de propriété intellectuelle, coûts de cybersécurité, détérioration de réputation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="réactions-internationales-et-contre-mesures"&gt;Réactions internationales et contre-mesures
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Découverte et attribution&lt;/strong&gt; : PwC, Trend Micro, BAE Systems → alertes en 2017.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Réactions internationales (2018)&lt;/strong&gt; : coalition USA, UK, Canada, Australie, Nouvelle-Zélande, UE.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chine&lt;/strong&gt; : dénégation officielle, aucune extradition.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secteur privé&lt;/strong&gt; : durcissement de la sécurité des MSP, segmentation et contrôles d’accès renforcés.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="enseignements-et-recommandations"&gt;Enseignements et recommandations
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Vulnérabilité des chaînes numériques mondiales (MSP comme “single point of failure”).&lt;/li&gt;
+&lt;li&gt;Cyberespionnage désormais &lt;strong&gt;instrument de politique industrielle&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Réponses internationales encore limitées (sanctions symboliques).&lt;/li&gt;
+&lt;li&gt;Failles de détection et de réaction (attaques furtives et persistantes).&lt;/li&gt;
+&lt;li&gt;Crise durable de confiance numérique (IBM, HPE affectés).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;L’opération &lt;strong&gt;Cloud Hopper&lt;/strong&gt; illustre la montée en puissance du cyberespionnage économique étatique.&lt;br&gt;
+Elle montre que le cyberespace est devenu un champ de conflictualité géoéconomique et stratégique.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Leçons clés&lt;/strong&gt; :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Repenser la gouvernance internationale du cyber.&lt;/li&gt;
+&lt;li&gt;Intégrer la cybersécurité dans la gestion des risques économiques.&lt;/li&gt;
+&lt;li&gt;Développer une coopération interétatique et des sanctions dissuasives.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://Rania218.github.io/portfolio/p/cas-pratiqueop%C3%A9ration-cloud-hopper-apt10-et-enjeux-du-cyberespionnage-%C3%A9conomique/cie.png"
+width="602"
+height="842"
+srcset="https://Rania218.github.io/portfolio/p/cas-pratiqueop%C3%A9ration-cloud-hopper-apt10-et-enjeux-du-cyberespionnage-%C3%A9conomique/cie_hu_e7a0784dd24367e.png 480w, https://Rania218.github.io/portfolio/p/cas-pratiqueop%C3%A9ration-cloud-hopper-apt10-et-enjeux-du-cyberespionnage-%C3%A9conomique/cie_hu_6c930be13ee392f0.png 1024w"
+loading="lazy"
+alt="Page de garde du rapport"
+class="gallery-image"
+data-flex-grow="71"
+data-flex-basis="171px"
+&gt;&lt;/p&gt;</description></item><item><title>Séminaire "Cybersecurity Trends &amp; Solutions Insight"</title><link>https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/</link><pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem7.jpg" alt="Featured image of post Séminaire "Cybersecurity Trends &amp; Solutions Insight"" /&gt;&lt;h2 id="contexte-de-lévénement"&gt;Contexte de l&amp;rsquo;événement
+&lt;/h2&gt;&lt;p&gt;Dans le cadre de mon programme de Master en cybersécurité, j’ai eu la chance d’assister au séminaire &lt;strong&gt;&amp;ldquo;Cybersecurity Trends &amp;amp; Solutions Insight&amp;rdquo;&lt;/strong&gt;, organisé en collaboration entre l’Université Mohammed V de Rabat et &lt;strong&gt;Huawei&lt;/strong&gt;. L&amp;rsquo;événement s’est tenu dans l’amphithéâtre Belmahi et a réuni plusieurs experts de la sécurité numérique.&lt;/p&gt;
+&lt;h2 id="intervenants-et-thématiques"&gt;Intervenants et thématiques
+&lt;/h2&gt;&lt;p&gt;Parmi les intervenants phares :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;M. Jeff Wang&lt;/strong&gt;, Directeur du département mondial de la cybersécurité et de la protection de la vie privée chez &lt;strong&gt;Huawei Group&lt;/strong&gt;, a partagé sa vision sur les enjeux de sécurité à l’ère du numérique.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;M. Youssef Ait Kaddour&lt;/strong&gt;, Chief Cybersecurity Officer chez Huawei Maroc.&lt;/li&gt;
+&lt;li&gt;Le &lt;strong&gt;Directeur Delivery &amp;amp; Service de Huawei Maroc&lt;/strong&gt; est également intervenu pour discuter des défis opérationnels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Les discussions ont porté sur :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Les menaces émergentes en cybersécurité ;&lt;/li&gt;
+&lt;li&gt;La sécurisation des logiciels open-source ;&lt;/li&gt;
+&lt;li&gt;L’importance des &lt;strong&gt;partenariats académiques-industrie&lt;/strong&gt; ;&lt;/li&gt;
+&lt;li&gt;Les bonnes pratiques pour renforcer la protection des infrastructures critiques.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="ce-que-cette-expérience-ma-apporté"&gt;Ce que cette expérience m’a apporté
+&lt;/h2&gt;&lt;p&gt;Cette conférence m’a permis de :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mieux comprendre &lt;strong&gt;les tendances actuelles en cybersécurité&lt;/strong&gt; à l’échelle internationale ;&lt;/li&gt;
+&lt;li&gt;Appréhender l’importance stratégique de la &lt;strong&gt;gestion des vulnérabilités logicielles&lt;/strong&gt; ;&lt;/li&gt;
+&lt;li&gt;Élargir mes connaissances sur &lt;strong&gt;la gouvernance de la sécurité&lt;/strong&gt; au sein des grands groupes ;&lt;/li&gt;
+&lt;li&gt;Me sensibiliser aux &lt;strong&gt;standards internationaux en matière de protection de la vie privée&lt;/strong&gt; ;&lt;/li&gt;
+&lt;li&gt;Renforcer ma culture professionnelle en assistant à des échanges entre experts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="impact-personnel-et-professionnel"&gt;Impact personnel et professionnel
+&lt;/h2&gt;&lt;p&gt;Participer à ce type d’événements me permet de rester connectée aux &lt;strong&gt;enjeux concrets du secteur&lt;/strong&gt;, tout en affinant ma capacité à m’aligner avec les attentes des entreprises. Cela nourrit également mon esprit critique, mon sens de l’analyse stratégique et ma curiosité pour les innovations technologiques.&lt;/p&gt;
+&lt;h2 id="galerie"&gt;Galerie
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1.jpg"
+width="904"
+height="1280"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1_hu_1cd56093c764200e.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem1_hu_45ebb2114e006453.jpg 1024w"
+loading="lazy"
+alt="Image 1"
+class="gallery-image"
+data-flex-grow="70"
+data-flex-basis="169px"
+&gt;
+&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2_hu_340ca443806be4f.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem2_hu_91176128c753b3a4.jpg 1024w"
+loading="lazy"
+alt="Image 2"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3.jpg"
+width="750"
+height="500"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3_hu_79fb22506b2e9f87.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem3_hu_c1928698b02ec158.jpg 1024w"
+loading="lazy"
+alt="Image 3"
+class="gallery-image"
+data-flex-grow="150"
+data-flex-basis="360px"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4.jpg"
+width="3024"
+height="4032"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4_hu_ddb6f1c4000911c8.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem4_hu_199e1562b8537141.jpg 1024w"
+loading="lazy"
+alt="Image 4"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;&lt;img src="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5.jpg"
+width="2750"
+height="3666"
+srcset="https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5_hu_2b9a50cd0acb48a8.jpg 480w, https://Rania218.github.io/portfolio/p/s%C3%A9minaire-cybersecurity-trends-solutions-insight/sem5_hu_591d060c65ca6ce5.jpg 1024w"
+loading="lazy"
+alt="Image 5"
+class="gallery-image"
+data-flex-grow="75"
+data-flex-basis="180px"
+&gt;&lt;/p&gt;</description></item><item><title>Huawei HCIA – Security (en préparation)</title><link>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/</guid><description>&lt;img src="https://Rania218.github.io/portfolio/p/huawei-hcia-security-en-pr%C3%A9paration/hcia.png" alt="Featured image of post Huawei HCIA – Security (en préparation)" /&gt;&lt;h2 id="huawei-hcia--security-en-préparation"&gt;Huawei HCIA – Security (en préparation)
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Organisme :&lt;/strong&gt; Huawei – Huawei Certified ICT Associate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Certification :&lt;/strong&gt; HCIA – Security&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prévue pour :&lt;/strong&gt; Octobre 2025&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intégrée dans le programme :&lt;/strong&gt; Master en Ingénierie Informatique et Sécurité des Systèmes (2I2S), Université Mohammed V – en partenariat avec Huawei Technologies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cette certification constitue une composante intégrée à mon cursus de Master. Elle vise à renforcer les compétences techniques et conceptuelles en sécurité des réseaux, en mettant l’accent sur la configuration de firewalls, la prévention des intrusions, la cryptographie et les mécanismes de protection des communications.&lt;/p&gt;
+&lt;h3 id="objectifs-de-la-certification"&gt;Objectifs de la certification
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Comprendre les concepts fondamentaux de la sécurité des réseaux.&lt;/li&gt;
+&lt;li&gt;Identifier les menaces fréquentes pesant sur les réseaux d’entreprise.&lt;/li&gt;
+&lt;li&gt;Déployer et configurer les technologies de firewall, de NAT et de haute disponibilité.&lt;/li&gt;
+&lt;li&gt;Mettre en œuvre des politiques d’authentification des utilisateurs.&lt;/li&gt;
+&lt;li&gt;Appliquer les techniques de prévention des intrusions (IPS) et d’antivirus réseau.&lt;/li&gt;
+&lt;li&gt;Maîtriser les principes de chiffrement/déchiffrement, la cryptographie appliquée, les certificats PKI et les VPN.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="contenu-couvert"&gt;Contenu couvert
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;1. Introduction à la sécurité :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Définitions, enjeux actuels, normes (ISO, RFC, etc.)&lt;/li&gt;
+&lt;li&gt;Menaces réseau et mesures de prévention (zone, équipements, systèmes)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2. Sécurité des réseaux :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Firewalls : inspection avec état, politiques de sécurité, zones&lt;/li&gt;
+&lt;li&gt;NAT : SNAT, DNAT, NAT bidirectionnel, ALG, scénarios réels&lt;/li&gt;
+&lt;li&gt;Haute disponibilité : principes, configuration de redondance (HRP, VRRP, VGMP)&lt;/li&gt;
+&lt;li&gt;Gestion des utilisateurs : AAA, authentification et accès&lt;/li&gt;
+&lt;li&gt;IPS/Antivirus : détection, prévention, déploiement de politiques&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;3. Chiffrement et sécurité des communications :&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cryptographie : symétrique, asymétrique, hachage, algorithmes usuels&lt;/li&gt;
+&lt;li&gt;Certificats : architecture PKI, fonctionnement, authentification&lt;/li&gt;
+&lt;li&gt;VPN : principes, types (IPSec, SSL…), configuration de base&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;Cette certification est essentielle pour maîtriser les architectures de sécurité avancées et les bonnes pratiques de défense réseau. Elle complète mes acquis en audit, GRC et cybersécurité technique.&lt;/p&gt;</description></item></channel></rss>
