@@ -29,5 +29,3 @@ J’ai obtenu une licence en sciences Mathématiques et Informatique à la Facul
 
 En fin d'année master 1, j’ai réalisé un **stage en cybersécurité chez Yuften Services**, où j’ai développé un **assistant logiciel (Java + LLM)** pour l’automatisation de la documentation des campagnes de pentest et contribué à l’**audit de conformité ISO/IEC 27001 et OWASP** des documents générés.  
 
-Je suis aujourd’hui à la recherche d’un **stage de fin d’études** dans le domaine de la cybersécurité, et plus particulièrement en **conseil, audit, gouvernance de la sécurité et innovation**. Mon objectif est d’évoluer dans un environnement exigeant, où je pourrai continuer à apprendre, contribuer et innover.  
-

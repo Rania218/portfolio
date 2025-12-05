@@ -1,7 +1,7 @@
 ---
 title: Cas pratique:Opération Cloud Hopper (APT10) et enjeux du cyberespionnage économique
 description: Projet du module de Cybersécurité et Intelligence Économique 
-date: 2025-05-29
+date: 2025-04-29
 image: cie1.png
 tags: 
   - Cybersécurité
